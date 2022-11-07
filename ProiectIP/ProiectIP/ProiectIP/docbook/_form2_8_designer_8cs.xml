@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__form2_8_designer_8cs" xml:lang="en-US">
+<title>Form2.Designer.cs File Reference</title>
+<indexterm><primary>Form2.Designer.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_form2">ProiectIP.Form2</link></para>
+
+<para>Aceasta clasa da functionalitatea lui <link linkend="_class_proiect_i_p_1_1_form2">Form2</link>, care reprezinta interfata afisata atunci cand un chestionar este in curs, care afiseaza intrebarile si variantele. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_proiect_i_p">ProiectIP</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_proiect_i_p_1_1_intrebare" kind="class"><name>ProiectIP::Intrebare</name>
+    <member refid="class_proiect_i_p_1_1_intrebare_1ab059805dd656d26afcb83e828b56abba" kind="variable"><name>_enunt</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a1312d6f4eb2815a1b967de3144c6abff" kind="variable"><name>_var1</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a6112c3aa64735982b1b8d11878b52619" kind="variable"><name>_var2</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a678dfe7ddf47a27cb085b09f5023611a" kind="variable"><name>_var3</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a77e04cd516de3db755100c81b295776c" kind="variable"><name>_var4</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a071fe12cacba9f47dcface502b79596f" kind="variable"><name>_varCorecta</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a3a05d2f801c5fc78aa3f0362bc080388" kind="variable"><name>_flag</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a6072b0ca220ccf20a88631caab0cfb53" kind="variable"><name>nr</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1addb5f6ca2380ea18af98cf0e461bb463" kind="property"><name>Enunt</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a5408f871d0027d4a15eeaacff5ef4f0e" kind="property"><name>Varianta1</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a5f342122c38071e4754f6ad860aaff67" kind="property"><name>Varianta2</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1aa184363223011a9d1d3e45ca88200498" kind="property"><name>Varianta3</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1acc84eec267248111fbd88578983681c3" kind="property"><name>Varianta4</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a0270026f2868340f95767269cd6cf947" kind="property"><name>VariantaCorecta</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a986b53acc83a881cfe310929450ca6a3" kind="property"><name>VerificaFlag</name></member>
+    <member refid="class_proiect_i_p_1_1_intrebare_1a7243e54948c97ca8e9a5a792ce1dcaa8" kind="function"><name>Intrebare</name></member>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_intrebare_8cs" kind="file"><name>Intrebare.cs</name>
+  </compound>
+</doxygenindex>

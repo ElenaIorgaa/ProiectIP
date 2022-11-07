@@ -1,0 +1,11 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\bin\Debug\ChestionarMuzica.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\bin\Debug\ChestionarMuzica.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\obj\Debug\ChestionarMuzica.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\obj\Debug\ChestionarMuzica.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\obj\Debug\ChestionarMuzica.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMuzica\obj\Debug\ChestionarMuzica.pdb

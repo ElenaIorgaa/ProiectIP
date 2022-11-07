@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_calculeaza_varsta" xml:lang="en-US">
+<title>ProiectIP.CalculeazaVarsta Class Reference</title>
+<indexterm><primary>ProiectIP.CalculeazaVarsta</primary></indexterm>
+<para>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_calculeaza_varsta">CalculeazaVarsta</link> se va folosi pentru a calcula varsta in functie de anul nasterii introdus de utilizator si de anul curent. Este nevoie de aceasta clasa pentru a sti daca persoana care se logheaza are intre 16 si 100 de ani sau daca a introdus o data valida. /summary&gt; </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1a4762ad6b8f9bde67903e2628bedb3053">CalculeazaVarsta</link> (int y)</para>
+
+<para>Constructorul care primeste ca parametru un an si va verifica daca acesta este unul valid. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1a415db5e4dc517ac6bc69ef25d4a15e20">Calcul</link> ()</para>
+
+<para>Calculeaza varsta in functie de an si verifica daca este o varsta acceptata in aplicatia noastra. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1aec4d6b5f2c314c04695dfa593d0b9529">Valid</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza daca argumentele date functiei sunt valide. </para>
+</listitem>
+            <listitem><para>int <link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1ac616ff0115a847d5b1298f0918b87d1b">Rezultat</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza rezultatul calculului. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_calculeaza_varsta">CalculeazaVarsta</link> se va folosi pentru a calcula varsta in functie de anul nasterii introdus de utilizator si de anul curent. Este nevoie de aceasta clasa pentru a sti daca persoana care se logheaza are intre 16 si 100 de ani sau daca a introdus o data valida. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__calculeaza_varsta_8cs_source_1l00030">30</link> of file <link linkend="__calculeaza_varsta_8cs_source">CalculeazaVarsta.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_varsta_1a4762ad6b8f9bde67903e2628bedb3053"/><section>
+    <title>CalculeazaVarsta()</title>
+<indexterm><primary>CalculeazaVarsta</primary><secondary>ProiectIP.CalculeazaVarsta</secondary></indexterm>
+<indexterm><primary>ProiectIP.CalculeazaVarsta</primary><secondary>CalculeazaVarsta</secondary></indexterm>
+<para><computeroutput>ProiectIP.CalculeazaVarsta.CalculeazaVarsta (int y)</computeroutput></para><para>
+
+<para>Constructorul care primeste ca parametru un an si va verifica daca acesta este unul valid. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>y</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__calculeaza_varsta_8cs_source_1l00040">40</link> of file <link linkend="__calculeaza_varsta_8cs_source">CalculeazaVarsta.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_varsta_1a415db5e4dc517ac6bc69ef25d4a15e20"/><section>
+    <title>Calcul()</title>
+<indexterm><primary>Calcul</primary><secondary>ProiectIP.CalculeazaVarsta</secondary></indexterm>
+<indexterm><primary>ProiectIP.CalculeazaVarsta</primary><secondary>Calcul</secondary></indexterm>
+<para><computeroutput>void ProiectIP.CalculeazaVarsta.Calcul ( )</computeroutput></para><para>
+
+<para>Calculeaza varsta in functie de an si verifica daca este o varsta acceptata in aplicatia noastra. </para>
+</para>
+<para>
+Definition at line <link linkend="__calculeaza_varsta_8cs_source_1l00054">54</link> of file <link linkend="__calculeaza_varsta_8cs_source">CalculeazaVarsta.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_varsta_1ac616ff0115a847d5b1298f0918b87d1b"/><section>
+    <title>Rezultat</title>
+<indexterm><primary>Rezultat</primary><secondary>ProiectIP.CalculeazaVarsta</secondary></indexterm>
+<indexterm><primary>ProiectIP.CalculeazaVarsta</primary><secondary>Rezultat</secondary></indexterm>
+<para><computeroutput>int ProiectIP.CalculeazaVarsta.Rezultat<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza rezultatul calculului. </para>
+</para>
+<para>
+Definition at line <link linkend="__calculeaza_varsta_8cs_source_1l00074">74</link> of file <link linkend="__calculeaza_varsta_8cs_source">CalculeazaVarsta.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_varsta_1aec4d6b5f2c314c04695dfa593d0b9529"/><section>
+    <title>Valid</title>
+<indexterm><primary>Valid</primary><secondary>ProiectIP.CalculeazaVarsta</secondary></indexterm>
+<indexterm><primary>ProiectIP.CalculeazaVarsta</primary><secondary>Valid</secondary></indexterm>
+<para><computeroutput>bool ProiectIP.CalculeazaVarsta.Valid<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza daca argumentele date functiei sunt valide. </para>
+</para>
+<para>
+Definition at line <link linkend="__calculeaza_varsta_8cs_source_1l00064">64</link> of file <link linkend="__calculeaza_varsta_8cs_source">CalculeazaVarsta.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__calculeaza_varsta_8cs">CalculeazaVarsta.cs</link></section>
+</section>

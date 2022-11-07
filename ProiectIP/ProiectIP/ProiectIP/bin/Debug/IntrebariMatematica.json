@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "Care este rezultatul operației 3452-112/2+2^7?", 
+        "var1": "3268",
+        "var2": "Da",
+        "var3": "3563",
+        "var4": "4324",
+        "varCorecta": 1
+    },
+  {
+    "enunt": "Care este rezultatul operației 1*1?", 
+    "var1": "1",
+    "var2": "Da",
+    "var3": "3563",
+    "var4": "0",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Câte laturi are un hexagon?", 
+    "var1": "2",
+    "var2": "6",
+    "var3": "Niciuna",
+    "var4": "4",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Care este al 50-lea număr din această secvență? 5, 11, 17, 23, 29, 35, 41, … ?", 
+    "var1": "Stai să scriu tot",
+    "var2": "34343",
+    "var3": "299",
+    "var4": "Ana",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Care este modulul numărului complex z = (2 + 3i)(2 - 3i ) - (9 - 3i)?",
+    "var1": "23",
+    "var2": "-23",
+    "var3": "5",
+    "var4": "PI",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "2 este ... ?", 
+    "var1": "prim",
+    "var2": "impar",
+    "var3": "frumos",
+    "var4": "pătrat perfect",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Rădăcina pătrată a lui 196 este ...", 
+    "var1": "38416",
+    "var2": "14",
+    "var3": "Nu are rădăcina pătrată",
+    "var4": "196",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Care este perimetrul unui pătrat cu latura de 8 cm?",
+    "var1": "32 dm",
+    "var2": "64 cm",
+    "var3": "32 cm",
+    "var4": "7 m",
+    "varCorecta": 3
+  }
+
+]

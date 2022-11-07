@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_arta" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarArta</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IChestionar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_arta_1ac43d6f1fd58106b9abafb4d9424ee43e" prot="private" static="no" mutable="no">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt;Intrebare&gt; ProiectIP.ChestionarArta._intrebari</definition>
+        <argsstring></argsstring>
+        <name>_intrebari</name>
+        <qualifiedname>ProiectIP.ChestionarArta._intrebari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="34" column="22" bodyfile="ChestionarArta.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1a61eced9edbf0a27f66f4bdc12e3a6bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarArta.ChestionarArta</definition>
+        <argsstring>()</argsstring>
+        <name>ChestionarArta</name>
+        <qualifiedname>ProiectIP.ChestionarArta.ChestionarArta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>daca nu se reuseste citirea din JSON, se creeaza prin simpla instantiere a unui obiect de tip intrebare</para>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="36" column="16" bodyfile="ChestionarArta.cs" bodystart="36" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1a3ab75e34e83784ee9e94fb6a065140b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarArta.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.ChestionarArta.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="63" column="23" bodyfile="ChestionarArta.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1a4eecff2f995b810a178690880c17f793" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarArta.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.ChestionarArta.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="68" column="23" bodyfile="ChestionarArta.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1ad0422b6e5427537b9ac740be7390ade6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarArta.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.ChestionarArta.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="72" column="23" bodyfile="ChestionarArta.cs" bodystart="72" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1acbd798f6b815258d52125723c7fdc202" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarArta.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.ChestionarArta.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="77" column="23" bodyfile="ChestionarArta.cs" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1a85884759c22ee12ea4eeb8e0ca5428ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarArta.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.ChestionarArta.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="82" column="23" bodyfile="ChestionarArta.cs" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1a412f4d2549592d489d0de073532d7672" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ChestionarArta.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.ChestionarArta.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="87" column="20" bodyfile="ChestionarArta.cs" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_arta_1af13316f9d8b2da1db455cfa2e28aa83e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarArta.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.ChestionarArta.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarArta.cs" line="91" column="23" bodyfile="ChestionarArta.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Arta. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarArta</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_arta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarArta</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_arta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ChestionarArta.cs" line="32" column="11" bodyfile="ChestionarArta.cs" bodystart="33" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1ac43d6f1fd58106b9abafb4d9424ee43e" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>_intrebari</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1a61eced9edbf0a27f66f4bdc12e3a6bf3" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>ChestionarArta</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1a3ab75e34e83784ee9e94fb6a065140b2" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>GetEnunt</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1a412f4d2549592d489d0de073532d7672" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>GetRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1a4eecff2f995b810a178690880c17f793" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>GetVar1</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1ad0422b6e5427537b9ac740be7390ade6" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>GetVar2</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1acbd798f6b815258d52125723c7fdc202" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>GetVar3</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1a85884759c22ee12ea4eeb8e0ca5428ee" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>GetVar4</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_arta_1af13316f9d8b2da1db455cfa2e28aa83e" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarArta</scope><name>Picture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

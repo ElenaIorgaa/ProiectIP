@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_istorie" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarIstorie</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IChestionar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_istorie_1ac71dc7962fcdae3a1d8015c1e7f271ea" prot="private" static="no" mutable="no">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt;Intrebare&gt; ProiectIP.ChestionarIstorie._intrebari</definition>
+        <argsstring></argsstring>
+        <name>_intrebari</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie._intrebari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="35" column="22" bodyfile="ChestionarIstorie.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1afa4faeacb4f1a0632a40db994a5e03d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarIstorie.ChestionarIstorie</definition>
+        <argsstring>()</argsstring>
+        <name>ChestionarIstorie</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.ChestionarIstorie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="36" column="16" bodyfile="ChestionarIstorie.cs" bodystart="36" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1a974ad91efdddba9e4e9a34f92644d6bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarIstorie.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="67" column="23" bodyfile="ChestionarIstorie.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1a75de7e369b3a599f346f00e5a999780c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarIstorie.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="73" column="23" bodyfile="ChestionarIstorie.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1a9d7b6c0e37caf499a9854a425d0fe1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarIstorie.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="79" column="23" bodyfile="ChestionarIstorie.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1ac0b6c1ca8041acccbc96c79ac1c2bd72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarIstorie.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="85" column="23" bodyfile="ChestionarIstorie.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1aa6ead149be21d8b7f8a2e9032d5bf673" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarIstorie.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="91" column="23" bodyfile="ChestionarIstorie.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1ae515f135c647621e300823b6a85d5351" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ChestionarIstorie.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="97" column="20" bodyfile="ChestionarIstorie.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_istorie_1a9f74bbf618046bad2130cf434765caf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarIstorie.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.ChestionarIstorie.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarIstorie.cs" line="103" column="23" bodyfile="ChestionarIstorie.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Istorie. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarIstorie</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_istorie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarIstorie</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_istorie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ChestionarIstorie.cs" line="33" column="11" bodyfile="ChestionarIstorie.cs" bodystart="34" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1ac71dc7962fcdae3a1d8015c1e7f271ea" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>_intrebari</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1afa4faeacb4f1a0632a40db994a5e03d8" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>ChestionarIstorie</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1a974ad91efdddba9e4e9a34f92644d6bd" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>GetEnunt</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1ae515f135c647621e300823b6a85d5351" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>GetRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1a75de7e369b3a599f346f00e5a999780c" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>GetVar1</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1a9d7b6c0e37caf499a9854a425d0fe1cf" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>GetVar2</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1ac0b6c1ca8041acccbc96c79ac1c2bd72" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>GetVar3</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1aa6ead149be21d8b7f8a2e9032d5bf673" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>GetVar4</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_istorie_1a9f74bbf618046bad2130cf434765caf5" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarIstorie</scope><name>Picture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

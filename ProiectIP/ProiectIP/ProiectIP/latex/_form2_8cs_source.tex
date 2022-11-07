@@ -1,0 +1,144 @@
+\doxysection{Form2.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00002 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00003 \textcolor{keyword}{using} System.ComponentModel;}
+\DoxyCodeLine{00004 \textcolor{keyword}{using} System.Data;}
+\DoxyCodeLine{00005 \textcolor{keyword}{using} System.Drawing;}
+\DoxyCodeLine{00006 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00007 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00008 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00009 \textcolor{keyword}{using} System.Windows.Forms;}
+\DoxyCodeLine{00010 }
+\DoxyCodeLine{00011 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00012 \{}
+\DoxyCodeLine{00017     \textcolor{keyword}{public} \textcolor{keyword}{partial class }Form2 : Form}
+\DoxyCodeLine{00018     \{}
+\DoxyCodeLine{00019         \textcolor{keyword}{private} \textcolor{keywordtype}{int} \_raspunsCorect;\textcolor{comment}{//variabila ce va retine care este raspunsul corect al intrebarii}}
+\DoxyCodeLine{00020         \textcolor{keyword}{private} \textcolor{keywordtype}{int} \_numarIntrebare = 1;\textcolor{comment}{//variabila ce retine la care intrebare se afla utilizatorul}}
+\DoxyCodeLine{00021         \textcolor{keyword}{private} ScorFinal \_scorFinal;\textcolor{comment}{//aceasta va crea o instanta a scorului final(singleton) la inceput si dupa o va retine pe aceeasi tot timpul programului}}
+\DoxyCodeLine{00022         \textcolor{keyword}{private} \textcolor{keywordtype}{int} \_nrIntrebariCorecte=0;\textcolor{comment}{//variabila ce inregistreaza cate intrebari corecte a dat utilizatorul}}
+\DoxyCodeLine{00023 }
+\DoxyCodeLine{00024         \textcolor{keyword}{private} \textcolor{keyword}{static} Lista l;\textcolor{comment}{//lista in care se vor adauga modulele parcurse pentru ca utilizatorul sa nu poata parcurge acelasi modul de mai multe ori}}
+\DoxyCodeLine{00025         }
+\DoxyCodeLine{00026         \textcolor{keyword}{public} Form2()}
+\DoxyCodeLine{00027         \{}
+\DoxyCodeLine{00028             InitializeComponent();}
+\DoxyCodeLine{00029             Question(\_numarIntrebare);}
+\DoxyCodeLine{00030             \_scorFinal=ScorFinal.Instance;}
+\DoxyCodeLine{00031             l = Lista.Instance;}
+\DoxyCodeLine{00032             labelSucces.Text = \$\textcolor{stringliteral}{"{}Succes, \{Form1.nume\}"{}};}
+\DoxyCodeLine{00033            }
+\DoxyCodeLine{00034         \}}
+\DoxyCodeLine{00035 }
+\DoxyCodeLine{00037         \textcolor{keyword}{private} \textcolor{keywordtype}{void} CheckAnswer(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00038         \{}
+\DoxyCodeLine{00039             var s = (Button)sender;}
+\DoxyCodeLine{00040             \textcolor{keywordtype}{int} tag = Convert.ToInt32(s.Tag);}
+\DoxyCodeLine{00046             \textcolor{keywordflow}{if} (tag == \_raspunsCorect \&\& \_numarIntrebare<=8)}
+\DoxyCodeLine{00047             \{}
+\DoxyCodeLine{00048                 \_numarIntrebare++;}
+\DoxyCodeLine{00049                 Question(\_numarIntrebare);}
+\DoxyCodeLine{00050                 \_scorFinal.Adauga(1);}
+\DoxyCodeLine{00051                 \_nrIntrebariCorecte++;}
+\DoxyCodeLine{00052                 \textcolor{comment}{//MessageBox.Show("{}Raspuns corect"{});}}
+\DoxyCodeLine{00053             \}}
+\DoxyCodeLine{00054             \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00055             \{}
+\DoxyCodeLine{00056                 \_numarIntrebare++;}
+\DoxyCodeLine{00057                 Question(\_numarIntrebare);}
+\DoxyCodeLine{00058             \}}
+\DoxyCodeLine{00061             \textcolor{keywordflow}{if} (\_numarIntrebare == 9)}
+\DoxyCodeLine{00062 }
+\DoxyCodeLine{00063             \{}
+\DoxyCodeLine{00064                 \textcolor{keywordflow}{if} (Lista.moduleParcurse == 10)}
+\DoxyCodeLine{00065                 \{}
+\DoxyCodeLine{00066                     this.Hide();}
+\DoxyCodeLine{00067                     Form f3 = \textcolor{keyword}{new} Form3(\_nrIntrebariCorecte,\textcolor{keyword}{true});}
+\DoxyCodeLine{00068                     f3.Show();}
+\DoxyCodeLine{00069                     \_numarIntrebare = 1;}
+\DoxyCodeLine{00070                 \}}
+\DoxyCodeLine{00071                 \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00072                 \{}
+\DoxyCodeLine{00073                     this.Hide();}
+\DoxyCodeLine{00074                     Form3 f3 = \textcolor{keyword}{new} Form3(\_nrIntrebariCorecte,\textcolor{keyword}{false});}
+\DoxyCodeLine{00075                     f3.Show();}
+\DoxyCodeLine{00076                     \_numarIntrebare = 1;}
+\DoxyCodeLine{00077                 \}}
+\DoxyCodeLine{00078             \}}
+\DoxyCodeLine{00079 }
+\DoxyCodeLine{00080         \}}
+\DoxyCodeLine{00082         \textcolor{keyword}{private} \textcolor{keywordtype}{void} Question(\textcolor{keywordtype}{int} nr)}
+\DoxyCodeLine{00083         \{}
+\DoxyCodeLine{00084 }
+\DoxyCodeLine{00085             \textcolor{keywordflow}{if} (nr <= 8)}
+\DoxyCodeLine{00086 }
+\DoxyCodeLine{00087             \{}
+\DoxyCodeLine{00088                 ChestionarFactory fact = \textcolor{keyword}{new} ChestionarFactory(Form1.domeniu);}
+\DoxyCodeLine{00089                 IChestionar cs = fact.GetChestionar();}
+\DoxyCodeLine{00090                 labelQuestion.Text = cs.GetEnunt(nr -\/ 1);}
+\DoxyCodeLine{00091                 var1.Text = cs.GetVar1(nr -\/ 1);}
+\DoxyCodeLine{00092                 var2.Text = cs.GetVar2(nr -\/ 1);}
+\DoxyCodeLine{00093                 var3.Text = cs.GetVar3(nr -\/ 1);}
+\DoxyCodeLine{00094                 var4.Text = cs.GetVar4(nr -\/ 1);}
+\DoxyCodeLine{00095                 \_raspunsCorect = cs.GetRaspuns(nr -\/ 1);}
+\DoxyCodeLine{00096                 \textcolor{keywordtype}{string} nume = cs.Picture();}
+\DoxyCodeLine{00098                 \textcolor{keywordflow}{if}(nume==\textcolor{stringliteral}{"{}math"{}})}
+\DoxyCodeLine{00099                 \{}
+\DoxyCodeLine{00100                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.math;}
+\DoxyCodeLine{00101                 \}}
+\DoxyCodeLine{00102                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(nume==\textcolor{stringliteral}{"{}geografie"{}})}
+\DoxyCodeLine{00103                 \{}
+\DoxyCodeLine{00104                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.geografie;}
+\DoxyCodeLine{00105                 \}}
+\DoxyCodeLine{00106                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(nume==\textcolor{stringliteral}{"{}muzica"{}})}
+\DoxyCodeLine{00107                 \{}
+\DoxyCodeLine{00108                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.muzica;}
+\DoxyCodeLine{00109                 \}}
+\DoxyCodeLine{00110                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (nume == \textcolor{stringliteral}{"{}arta"{}})}
+\DoxyCodeLine{00111                 \{}
+\DoxyCodeLine{00112                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.arta;}
+\DoxyCodeLine{00113                 \}}
+\DoxyCodeLine{00114                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (nume == \textcolor{stringliteral}{"{}chimie"{}})}
+\DoxyCodeLine{00115                 \{}
+\DoxyCodeLine{00116                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.chimie;}
+\DoxyCodeLine{00117                 \}}
+\DoxyCodeLine{00118                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (nume == \textcolor{stringliteral}{"{}sport"{}})}
+\DoxyCodeLine{00119                 \{}
+\DoxyCodeLine{00120                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.sport;}
+\DoxyCodeLine{00121                 \}}
+\DoxyCodeLine{00122                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (nume == \textcolor{stringliteral}{"{}romana"{}})}
+\DoxyCodeLine{00123                 \{}
+\DoxyCodeLine{00124                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.romana;}
+\DoxyCodeLine{00125                 \}}
+\DoxyCodeLine{00126                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (nume == \textcolor{stringliteral}{"{}istorie"{}})}
+\DoxyCodeLine{00127                 \{}
+\DoxyCodeLine{00128                     pictureBoxChestionar.Image = ProiectIP.Properties.Resources.istorie;}
+\DoxyCodeLine{00129                 \}}
+\DoxyCodeLine{00130             \}}
+\DoxyCodeLine{00131 }
+\DoxyCodeLine{00132         \}}
+\DoxyCodeLine{00133 }
+\DoxyCodeLine{00134         \textcolor{keyword}{private} \textcolor{keywordtype}{void} Form2\_Load(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00135         \{}
+\DoxyCodeLine{00136 }
+\DoxyCodeLine{00137         \}}
+\DoxyCodeLine{00138 }
+\DoxyCodeLine{00139         \textcolor{keyword}{private} \textcolor{keywordtype}{void} pictureBoxChestionar\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00140         \{}
+\DoxyCodeLine{00141 }
+\DoxyCodeLine{00142         \}}
+\DoxyCodeLine{00148         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonHelpChestionar\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00149         \{}
+\DoxyCodeLine{00150             Help.ShowHelp(\textcolor{keyword}{this}, \textcolor{stringliteral}{"{}Help-\/for-\/Project.chm"{}});}
+\DoxyCodeLine{00151         \}}
+\DoxyCodeLine{00152 }
+\DoxyCodeLine{00153         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelSucces\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00154         \{}
+\DoxyCodeLine{00155 }
+\DoxyCodeLine{00156         \}}
+\DoxyCodeLine{00157     \}}
+\DoxyCodeLine{00158 \}}
+
+\end{DoxyCode}

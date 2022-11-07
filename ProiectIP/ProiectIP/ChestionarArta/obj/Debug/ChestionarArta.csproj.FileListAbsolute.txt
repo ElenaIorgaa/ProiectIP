@@ -1,0 +1,11 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\bin\Debug\ChestionarArta.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\bin\Debug\ChestionarArta.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\obj\Debug\ChestionarArta.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\obj\Debug\ChestionarArta.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\obj\Debug\ChestionarArta.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarArta\obj\Debug\ChestionarArta.pdb

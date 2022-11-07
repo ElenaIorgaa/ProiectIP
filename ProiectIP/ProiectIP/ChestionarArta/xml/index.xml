@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_proiect_i_p_1_1_chestionar_arta" kind="class"><name>ProiectIP::ChestionarArta</name>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1ac43d6f1fd58106b9abafb4d9424ee43e" kind="variable"><name>_intrebari</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1a61eced9edbf0a27f66f4bdc12e3a6bf3" kind="function"><name>ChestionarArta</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1a3ab75e34e83784ee9e94fb6a065140b2" kind="function"><name>GetEnunt</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1a4eecff2f995b810a178690880c17f793" kind="function"><name>GetVar1</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1ad0422b6e5427537b9ac740be7390ade6" kind="function"><name>GetVar2</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1acbd798f6b815258d52125723c7fdc202" kind="function"><name>GetVar3</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1a85884759c22ee12ea4eeb8e0ca5428ee" kind="function"><name>GetVar4</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1a412f4d2549592d489d0de073532d7672" kind="function"><name>GetRaspuns</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_arta_1af13316f9d8b2da1db455cfa2e28aa83e" kind="function"><name>Picture</name></member>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_chestionar_arta_8cs" kind="file"><name>ChestionarArta.cs</name>
+  </compound>
+</doxygenindex>

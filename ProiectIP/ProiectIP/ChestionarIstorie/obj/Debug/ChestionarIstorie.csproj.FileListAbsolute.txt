@@ -1,0 +1,11 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\bin\Debug\ChestionarIstorie.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\bin\Debug\ChestionarIstorie.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\obj\Debug\ChestionarIstorie.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\obj\Debug\ChestionarIstorie.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\obj\Debug\ChestionarIstorie.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarIstorie\obj\Debug\ChestionarIstorie.pdb

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_proiect_i_p_1_1_calculeaza_varsta" kind="class"><name>ProiectIP::CalculeazaVarsta</name>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1a32fa27a4765576cb941026b861320928" kind="property"><name>_valid</name></member>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1aec4d6b5f2c314c04695dfa593d0b9529" kind="property"><name>Valid</name></member>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1ac616ff0115a847d5b1298f0918b87d1b" kind="property"><name>Rezultat</name></member>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1aae72c88d8a928693b2124a793760fb32" kind="variable"><name>_x</name></member>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1a3fcde4d1faa199a86404a253c8f9f430" kind="variable"><name>_y</name></member>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1a3facc97a7b134313f7f03f6b4b7200eb" kind="variable"><name>_rezultat</name></member>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1a4762ad6b8f9bde67903e2628bedb3053" kind="function"><name>CalculeazaVarsta</name></member>
+    <member refid="class_proiect_i_p_1_1_calculeaza_varsta_1a415db5e4dc517ac6bc69ef25d4a15e20" kind="function"><name>Calcul</name></member>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_calculeaza_varsta_8cs" kind="file"><name>CalculeazaVarsta.cs</name>
+  </compound>
+</doxygenindex>

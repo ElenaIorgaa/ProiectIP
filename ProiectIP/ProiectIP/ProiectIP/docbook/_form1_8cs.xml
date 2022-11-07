@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__form1_8cs" xml:lang="en-US">
+<title>Form1.cs File Reference</title>
+<indexterm><primary>Form1.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_form1">ProiectIP.Form1</link></para>
+
+<para>Clasa ce va lansa in executie interfata pentru meniul chestionarului care permite utilizatorului sa aleaga ce modul sa parcurga. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_invalid_name_exception">ProiectIP.InvalidNameException</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_proiect_i_p">ProiectIP</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

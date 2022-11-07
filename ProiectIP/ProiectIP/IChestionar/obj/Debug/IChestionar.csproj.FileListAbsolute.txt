@@ -1,0 +1,5 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\IChestionar\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\IChestionar\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\IChestionar\obj\Debug\IChestionar.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\IChestionar\obj\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\IChestionar\obj\Debug\IChestionar.pdb

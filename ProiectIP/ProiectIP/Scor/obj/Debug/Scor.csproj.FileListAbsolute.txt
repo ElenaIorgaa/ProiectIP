@@ -1,0 +1,5 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Scor\bin\Debug\Scor.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Scor\bin\Debug\Scor.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Scor\obj\Debug\Scor.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Scor\obj\Debug\Scor.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Scor\obj\Debug\Scor.pdb

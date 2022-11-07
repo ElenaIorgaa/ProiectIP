@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__form3_8cs_source" xml:lang="en-US">
+<title>Form3.cs</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__form3_8cs_source_1l00001"/>00001 <emphasis role="keyword">using</emphasis>&#32;System;
+<anchor xml:id="__form3_8cs_source_1l00002"/>00002 <emphasis role="keyword">using</emphasis>&#32;System.Collections.Generic;
+<anchor xml:id="__form3_8cs_source_1l00003"/>00003 <emphasis role="keyword">using</emphasis>&#32;System.ComponentModel;
+<anchor xml:id="__form3_8cs_source_1l00004"/>00004 <emphasis role="keyword">using</emphasis>&#32;System.Data;
+<anchor xml:id="__form3_8cs_source_1l00005"/>00005 <emphasis role="keyword">using</emphasis>&#32;System.Drawing;
+<anchor xml:id="__form3_8cs_source_1l00006"/>00006 <emphasis role="keyword">using</emphasis>&#32;System.Linq;
+<anchor xml:id="__form3_8cs_source_1l00007"/>00007 <emphasis role="keyword">using</emphasis>&#32;System.Text;
+<anchor xml:id="__form3_8cs_source_1l00008"/>00008 <emphasis role="keyword">using</emphasis>&#32;System.Threading.Tasks;
+<anchor xml:id="__form3_8cs_source_1l00009"/>00009 <emphasis role="keyword">using</emphasis>&#32;System.Windows.Forms;
+<anchor xml:id="__form3_8cs_source_1l00010"/>00010 
+<anchor xml:id="__form3_8cs_source_1l00011"/>00011 <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_proiect_i_p">ProiectIP</link>
+<anchor xml:id="__form3_8cs_source_1l00012"/>00012 {
+<anchor xml:id="__form3_8cs_source_1l00017"/><link linkend="_class_proiect_i_p_1_1_form3">00017</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">partial&#32;class&#32;</emphasis><link linkend="_class_proiect_i_p_1_1_form3">Form3</link>&#32;:&#32;Form
+<anchor xml:id="__form3_8cs_source_1l00018"/>00018 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00019"/>00019 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;_flag=<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__form3_8cs_source_1l00021"/><link linkend="_class_proiect_i_p_1_1_form3_1aaa8a72927cab3dc12cbda04de56dfccb">00021</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_form3_1aaa8a72927cab3dc12cbda04de56dfccb">Form3</link>(<emphasis role="keywordtype">int</emphasis>&#32;scor,&#32;<emphasis role="keywordtype">bool</emphasis>&#32;flag)
+<anchor xml:id="__form3_8cs_source_1l00022"/>00022 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00023"/>00023 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(flag&#32;==&#32;<emphasis role="keyword">false</emphasis>)<emphasis role="comment">//daca&#32;s-a&#32;primit&#32;un&#32;flag&#32;care&#32;e&#32;pe&#32;false,&#32;inseamna&#32;ca&#32;testul&#32;inca&#32;nu&#32;s-a&#32;terminat,&#32;ci&#32;utilizatorul&#32;a&#32;completat&#32;un&#32;singur&#32;modul</emphasis>
+<anchor xml:id="__form3_8cs_source_1l00024"/>00024 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00025"/>00025 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;InitializeComponent();
+<anchor xml:id="__form3_8cs_source_1l00026"/>00026 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;ScorPartial&#32;p&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;ScorPartial(scor);
+<anchor xml:id="__form3_8cs_source_1l00027"/>00027 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;labelPunctaj.Text&#32;=&#32;p.Rezultat().ToString();
+<anchor xml:id="__form3_8cs_source_1l00028"/>00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;labelFelicitari.Text&#32;=&#32;$<emphasis role="stringliteral">&quot;FELICITARI,&#32;{Form1.nume}!&quot;</emphasis>;
+<anchor xml:id="__form3_8cs_source_1l00029"/>00029 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00030"/>00030 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>&#32;<emphasis role="keywordflow">if</emphasis>(flag==<emphasis role="keyword">true</emphasis>)<emphasis role="comment">//daca&#32;s-a&#32;primit&#32;un&#32;flag&#32;care&#32;e&#32;pe&#32;true,&#32;inseamna&#32;ca&#32;utilizatorul&#32;a&#32;completat&#32;toate&#32;modulele&#32;si&#32;trebuie&#32;afisat&#32;scorul&#32;final.</emphasis>
+<anchor xml:id="__form3_8cs_source_1l00031"/>00031 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00032"/>00032 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;InitializeComponent();
+<anchor xml:id="__form3_8cs_source_1l00033"/>00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;ScorFinal&#32;p&#32;=&#32;ScorFinal.Instance;
+<anchor xml:id="__form3_8cs_source_1l00034"/>00034 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;labelPunctaj.Text&#32;=&#32;p.Rezultat().ToString();
+<anchor xml:id="__form3_8cs_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;labelFelicitari.Text&#32;=&#32;$<emphasis role="stringliteral">&quot;FELICITARI,&#32;{Form1.nume}!&#32;AI&#32;TERMINAT&quot;</emphasis>;
+<anchor xml:id="__form3_8cs_source_1l00036"/>00036 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonAlegeDomeniu.Text&#32;=&#32;<emphasis role="stringliteral">&quot;INCHIDE&#32;TESTUL&quot;</emphasis>;
+<anchor xml:id="__form3_8cs_source_1l00037"/>00037 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_flag&#32;=&#32;<emphasis role="keyword">true</emphasis>;<emphasis role="comment">//variabila&#32;_flag&#32;devine&#32;true&#32;instiintand&#32;programul&#32;ca&#32;a&#32;terminat&#32;si&#32;se&#32;poate&#32;inchide</emphasis>
+<anchor xml:id="__form3_8cs_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00040"/>00040 
+<anchor xml:id="__form3_8cs_source_1l00041"/>00041 
+<anchor xml:id="__form3_8cs_source_1l00042"/>00042 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonAlegeDomeniu_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form3_8cs_source_1l00043"/>00043 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00044"/>00044 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(_flag&#32;==&#32;<emphasis role="keyword">false</emphasis>)<emphasis role="comment">//daca&#32;_flag&#32;e&#32;false&#32;inseamna&#32;ca&#32;programul&#32;nu&#32;s-a&#32;terminat&#32;deci&#32;utilizatorul&#32;trebuie&#32;sa&#32;aiba&#32;optiunea&#32;de&#32;a&#32;alege&#32;un&#32;alt&#32;domeniu</emphasis>
+<anchor xml:id="__form3_8cs_source_1l00045"/>00045 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_proiect_i_p_1_1_form1">Form1</link>&#32;form&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_form1">Form1</link>();
+<anchor xml:id="__form3_8cs_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Hide();
+<anchor xml:id="__form3_8cs_source_1l00048"/>00048 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;form.ShowDialog();
+<anchor xml:id="__form3_8cs_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00050"/>00050 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis><emphasis role="comment">//daca&#32;_flag&#32;este&#32;true&#32;inseamna&#32;ca&#32;testul&#32;s-a&#32;terminat&#32;si&#32;programul&#32;poate&#32;fi&#32;inchis</emphasis>
+<anchor xml:id="__form3_8cs_source_1l00051"/>00051 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00052"/>00052 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Application.Exit();
+<anchor xml:id="__form3_8cs_source_1l00053"/>00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00054"/>00054 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form3_8cs_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00056"/>00056 
+<anchor xml:id="__form3_8cs_source_1l00057"/>00057 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelPunctaj_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form3_8cs_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00059"/>00059 
+<anchor xml:id="__form3_8cs_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00061"/>00061 
+<anchor xml:id="__form3_8cs_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelFelicitari_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form3_8cs_source_1l00063"/>00063 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00064"/>00064 
+<anchor xml:id="__form3_8cs_source_1l00065"/>00065 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00066"/>00066 
+<anchor xml:id="__form3_8cs_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelScorFinal_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form3_8cs_source_1l00068"/>00068 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00069"/>00069 
+<anchor xml:id="__form3_8cs_source_1l00070"/>00070 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00071"/>00071 
+<anchor xml:id="__form3_8cs_source_1l00072"/>00072 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelProcent_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form3_8cs_source_1l00073"/>00073 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00074"/>00074 
+<anchor xml:id="__form3_8cs_source_1l00075"/>00075 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00076"/>00076 
+<anchor xml:id="__form3_8cs_source_1l00077"/>00077 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Form3_Load(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form3_8cs_source_1l00078"/>00078 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form3_8cs_source_1l00079"/>00079 
+<anchor xml:id="__form3_8cs_source_1l00080"/>00080 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00081"/>00081 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__form3_8cs_source_1l00082"/>00082 }
+</programlisting></section>

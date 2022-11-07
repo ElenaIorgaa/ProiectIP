@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_text_box_exception" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::TextBoxException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_text_box_exception_1a4dc005e2b239e36b7e004c3ed38606ad" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ProiectIP.TextBoxException._message</definition>
+        <argsstring></argsstring>
+        <name>_message</name>
+        <qualifiedname>ProiectIP.TextBoxException._message</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TextBoxException.cs" line="32" column="16" bodyfile="TextBoxException.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_proiect_i_p_1_1_text_box_exception_1a45836a8559050f723701e4deef3feb34" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override String</type>
+        <definition>override String ProiectIP.TextBoxException.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <qualifiedname>ProiectIP.TextBoxException.Message</qualifiedname>
+        <briefdescription>
+<para>Returneaza mesajul exceptiei. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TextBoxException.cs" line="40" column="32" bodyfile="TextBoxException.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_text_box_exception_1a0b06a3c246d1c9b2c1ca59fc153c913a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.TextBoxException.TextBoxException</definition>
+        <argsstring>(String message)</argsstring>
+        <name>TextBoxException</name>
+        <qualifiedname>ProiectIP.TextBoxException.TextBoxException</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TextBoxException.cs" line="33" column="16" bodyfile="TextBoxException.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clasa ce reprezinta o exceptie de tip textbox. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.TextBoxException</label>
+        <link refid="class_proiect_i_p_1_1_text_box_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.TextBoxException</label>
+        <link refid="class_proiect_i_p_1_1_text_box_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TextBoxException.cs" line="30" column="11" bodyfile="TextBoxException.cs" bodystart="31" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_text_box_exception_1a4dc005e2b239e36b7e004c3ed38606ad" prot="private" virt="non-virtual"><scope>ProiectIP::TextBoxException</scope><name>_message</name></member>
+      <member refid="class_proiect_i_p_1_1_text_box_exception_1a45836a8559050f723701e4deef3feb34" prot="public" virt="non-virtual"><scope>ProiectIP::TextBoxException</scope><name>Message</name></member>
+      <member refid="class_proiect_i_p_1_1_text_box_exception_1a0b06a3c246d1c9b2c1ca59fc153c913a" prot="public" virt="non-virtual"><scope>ProiectIP::TextBoxException</scope><name>TextBoxException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

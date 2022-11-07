@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_chimie" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarChimie</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IChestionar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_chimie_1aa48c981decc7cca7d888281a435833a8" prot="private" static="no" mutable="no">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt;Intrebare&gt; ProiectIP.ChestionarChimie._intrebari</definition>
+        <argsstring></argsstring>
+        <name>_intrebari</name>
+        <qualifiedname>ProiectIP.ChestionarChimie._intrebari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="34" column="22" bodyfile="ChestionarChimie.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1a78917585cdb98bba2d8a2a9e29860132" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarChimie.ChestionarChimie</definition>
+        <argsstring>()</argsstring>
+        <name>ChestionarChimie</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.ChestionarChimie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="35" column="16" bodyfile="ChestionarChimie.cs" bodystart="35" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1a74c0b12b5fdee505853083070074b0ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarChimie.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="63" column="23" bodyfile="ChestionarChimie.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1a247e8fe6e9b244d5b33f9ad526a03121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarChimie.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="69" column="23" bodyfile="ChestionarChimie.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1afb8e5e41777e77b4df3fdb009dab790f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarChimie.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="75" column="23" bodyfile="ChestionarChimie.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1a8fb086e7f123870b901b3e0d3c10bbd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarChimie.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="81" column="23" bodyfile="ChestionarChimie.cs" bodystart="81" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1a23dfa161964f2d5ef6887c1d3f16d074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarChimie.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="87" column="23" bodyfile="ChestionarChimie.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1acdc0e2700e680ee7aa57e137953a7d06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ChestionarChimie.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="93" column="20" bodyfile="ChestionarChimie.cs" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_chimie_1af1c4df1805c4fa324eabb68b9cac0743" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarChimie.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.ChestionarChimie.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarChimie.cs" line="99" column="23" bodyfile="ChestionarChimie.cs" bodystart="99" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Chimie. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarChimie</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_chimie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarChimie</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_chimie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ChestionarChimie.cs" line="32" column="11" bodyfile="ChestionarChimie.cs" bodystart="33" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1aa48c981decc7cca7d888281a435833a8" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>_intrebari</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1a78917585cdb98bba2d8a2a9e29860132" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>ChestionarChimie</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1a74c0b12b5fdee505853083070074b0ef" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>GetEnunt</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1acdc0e2700e680ee7aa57e137953a7d06" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>GetRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1a247e8fe6e9b244d5b33f9ad526a03121" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>GetVar1</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1afb8e5e41777e77b4df3fdb009dab790f" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>GetVar2</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1a8fb086e7f123870b901b3e0d3c10bbd4" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>GetVar3</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1a23dfa161964f2d5ef6887c1d3f16d074" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>GetVar4</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_chimie_1af1c4df1805c4fa324eabb68b9cac0743" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarChimie</scope><name>Picture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

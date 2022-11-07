@@ -1,0 +1,11 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\bin\Debug\ChestionarSport.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\bin\Debug\ChestionarSport.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\obj\Debug\ChestionarSport.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\obj\Debug\ChestionarSport.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\obj\Debug\ChestionarSport.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarSport\obj\Debug\ChestionarSport.pdb

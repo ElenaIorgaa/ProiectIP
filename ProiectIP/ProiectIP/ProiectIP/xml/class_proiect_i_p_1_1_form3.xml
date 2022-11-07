@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_form3" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::Form3</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form3_1a32d47b7f71d1d84b49f320aa7db2f763" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ProiectIP.Form3._flag</definition>
+        <argsstring></argsstring>
+        <name>_flag</name>
+        <qualifiedname>ProiectIP.Form3._flag</qualifiedname>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="19" column="22" bodyfile="Form3.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form3_1a11f2edaceb10c2e0933f9f1f571cb25e" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ProiectIP.Form3.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>ProiectIP.Form3.components</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="9" column="48" bodyfile="Form3.Designer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form3_1a3d3053476735d2acede2d6d07ff8779e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form3.labelFelicitari</definition>
+        <argsstring></argsstring>
+        <name>labelFelicitari</name>
+        <qualifiedname>ProiectIP.Form3.labelFelicitari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="123" column="41" bodyfile="Form3.Designer.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form3_1a9dc235fff89b2cff135724211450b3a9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form3.labelScorFinal</definition>
+        <argsstring></argsstring>
+        <name>labelScorFinal</name>
+        <qualifiedname>ProiectIP.Form3.labelScorFinal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="124" column="41" bodyfile="Form3.Designer.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form3_1adb29203d6061cd0b104e0dbc04249161" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form3.labelPunctaj</definition>
+        <argsstring></argsstring>
+        <name>labelPunctaj</name>
+        <qualifiedname>ProiectIP.Form3.labelPunctaj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="125" column="41" bodyfile="Form3.Designer.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form3_1aebddbda005cd003cb644965960791dd8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form3.labelProcent</definition>
+        <argsstring></argsstring>
+        <name>labelProcent</name>
+        <qualifiedname>ProiectIP.Form3.labelProcent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="126" column="41" bodyfile="Form3.Designer.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form3_1ab68ceb119077dd7aa21bb13203632d83" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form3.buttonAlegeDomeniu</definition>
+        <argsstring></argsstring>
+        <name>buttonAlegeDomeniu</name>
+        <qualifiedname>ProiectIP.Form3.buttonAlegeDomeniu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="127" column="42" bodyfile="Form3.Designer.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1aaa8a72927cab3dc12cbda04de56dfccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.Form3.Form3</definition>
+        <argsstring>(int scor, bool flag)</argsstring>
+        <name>Form3</name>
+        <qualifiedname>ProiectIP.Form3.Form3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>constructorul public </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="21" column="16" bodyfile="Form3.cs" bodystart="21" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1aa4c31011d38b0140c59fd0987002d66e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form3.buttonAlegeDomeniu_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonAlegeDomeniu_Click</name>
+        <qualifiedname>ProiectIP.Form3.buttonAlegeDomeniu_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="42" column="22" bodyfile="Form3.cs" bodystart="42" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1a654f0b7c7790c366f65510f269d392ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form3.labelPunctaj_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelPunctaj_Click</name>
+        <qualifiedname>ProiectIP.Form3.labelPunctaj_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="57" column="22" bodyfile="Form3.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1a731cfd7dc6ddf24066528a73410c11aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form3.labelFelicitari_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelFelicitari_Click</name>
+        <qualifiedname>ProiectIP.Form3.labelFelicitari_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="62" column="22" bodyfile="Form3.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1aea066e8e61807b86ac341d4d0147e226" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form3.labelScorFinal_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelScorFinal_Click</name>
+        <qualifiedname>ProiectIP.Form3.labelScorFinal_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="67" column="22" bodyfile="Form3.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1a663f0b6d40768abd9bcc408d26a7cd97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form3.labelProcent_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelProcent_Click</name>
+        <qualifiedname>ProiectIP.Form3.labelProcent_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="72" column="22" bodyfile="Form3.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1a6948212c65beda83d7a7f7ed0c1b8a66" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form3.Form3_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form3_Load</name>
+        <qualifiedname>ProiectIP.Form3.Form3_Load</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.cs" line="77" column="22" bodyfile="Form3.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1ac8e216f3544e4aa16a75c245aa3fc677" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form3.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>ProiectIP.Form3.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="30" column="22" bodyfile="Form3.Designer.cs" bodystart="30" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form3_1aadb6eec30284d13a9c8366291938125f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ProiectIP.Form3.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>ProiectIP.Form3.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form3.Designer.cs" line="15" column="33" bodyfile="Form3.Designer.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clasa ce da functionalitatea lui <ref refid="class_proiect_i_p_1_1_form3" kindref="compound">Form3</ref>, <ref refid="class_proiect_i_p_1_1_form3" kindref="compound">Form3</ref> fiind interfata afisata atunci cand un modul este completat, sau cand tot testul este terminat. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.Form3</label>
+        <link refid="class_proiect_i_p_1_1_form3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.Form3</label>
+        <link refid="class_proiect_i_p_1_1_form3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Form3.cs" line="17" column="19" bodyfile="Form3.cs" bodystart="18" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_form3_1a32d47b7f71d1d84b49f320aa7db2f763" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>_flag</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1ab68ceb119077dd7aa21bb13203632d83" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>buttonAlegeDomeniu</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1aa4c31011d38b0140c59fd0987002d66e" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>buttonAlegeDomeniu_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1a11f2edaceb10c2e0933f9f1f571cb25e" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>components</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1aadb6eec30284d13a9c8366291938125f" prot="protected" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>Dispose</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1aaa8a72927cab3dc12cbda04de56dfccb" prot="public" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>Form3</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1a6948212c65beda83d7a7f7ed0c1b8a66" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>Form3_Load</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1ac8e216f3544e4aa16a75c245aa3fc677" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>InitializeComponent</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1a3d3053476735d2acede2d6d07ff8779e" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelFelicitari</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1a731cfd7dc6ddf24066528a73410c11aa" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelFelicitari_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1aebddbda005cd003cb644965960791dd8" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelProcent</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1a663f0b6d40768abd9bcc408d26a7cd97" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelProcent_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1adb29203d6061cd0b104e0dbc04249161" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelPunctaj</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1a654f0b7c7790c366f65510f269d392ea" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelPunctaj_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1a9dc235fff89b2cff135724211450b3a9" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelScorFinal</name></member>
+      <member refid="class_proiect_i_p_1_1_form3_1aea066e8e61807b86ac341d4d0147e226" prot="private" virt="non-virtual"><scope>ProiectIP::Form3</scope><name>labelScorFinal_Click</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

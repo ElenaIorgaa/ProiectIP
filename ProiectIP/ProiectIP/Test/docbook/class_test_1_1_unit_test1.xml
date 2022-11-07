@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_test_1_1_unit_test1" xml:lang="en-US">
+<title>Test.UnitTest1 Class Reference</title>
+<indexterm><primary>Test.UnitTest1</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a107d07e93cc94958f8c759fc24edcf17">TestScor_0</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a84437e306b29df020d8a87f8d197b3f5">TestScor_minus5</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1ab8d593862718ef092825889e144a20ed">TestScor_minusminus</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1af698b7bca0791c3b92529fcf178c54a9">TestScor_zero</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a9f93926ea593229990514cb81452a514">TestScor_calcul</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a9722cd073ca4ae4d1ffa4e0bd23aa9b2">TestCalculVarsta_varsta</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a0959171b508197ab0e9174cb56dafe8c">TestCalculVarsta_minus</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a95dbfcdd2880d8abd4b34cede4bbf2b5">TestCalculVarsta_maiMicCa16</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a01917cd29ebffcc19130065d69eeeab5">TestCalculVarsta_anViitor</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a2ea3d1d16a9d992e3580923c265c23a3">TestCalculVarsta_1922</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a7caf41a961eb849967d1b844be4fdeb2">TestCalculVarsta_1921</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a1297a0efb4f0cc35498631bcf8e380da">TestCalculVarsta_zero</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1aa2c68a24ae227dcbc4d12bf2dbbc00bf">TestVerificaNume_litere</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1ae959bd7c3fd45bc89941d39043942a4b">TestVerificaNume_litereCorect</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a715b3e53baa7e89c35753ddaa787b256">TestVerificaNume_semn</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a5e451944152d9d3f705e0a647f83d965">TestVerificaNume_spatiu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a0c48ea6b1e684aaa954269e45c0ea23a">TestVerificaNume_literaMare</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1adabda97a906ecc76b756608992051513">TestVerificaNume_AreLitereDiferite_1</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a7e547b8aa51e5ac49eab1e77e5b3582d">TestVerificaNume_AreLitereDiferite_2</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a2f2af164e232d580f4be5bcda0c4a80a">TestVerificaNume_AreLitereDiferite_3</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a865dee21a16a1c417e7d2a37c2f635a0">TestVerificaNume_AreLitereDiferite_4</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1af6919b22ef0fe45868b2d27368b696f9">TestVerificaNume_AreLitereDiferite_5</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a91c011998b321409e3ee6c98fe6c560d">TestVerificaNume_literaMica</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a0b54754c3d7caf0437711fc76e0ca917">TestVerificaNume_gol</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1ab3852f531bd8f943323c94c839f41863">TestVerificaIntrebare</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a6e897ef567ca06cb9a1bb1cb70561d2e">TestVerificaVariantaCorecta</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a8160eaf7eba24253aad6538900fabd68">TestVerificaFlagIntrebare</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_test_1_1_unit_test1_1a16971bd59f60dc78afe95f31a27e6ca0">TestVerificaFlagIntrebareValoareMare</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00025">25</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_test_1_1_unit_test1_1a7caf41a961eb849967d1b844be4fdeb2"/><section>
+    <title>TestCalculVarsta_1921()</title>
+<indexterm><primary>TestCalculVarsta_1921</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestCalculVarsta_1921</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestCalculVarsta_1921 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00096">96</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a2ea3d1d16a9d992e3580923c265c23a3"/><section>
+    <title>TestCalculVarsta_1922()</title>
+<indexterm><primary>TestCalculVarsta_1922</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestCalculVarsta_1922</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestCalculVarsta_1922 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00089">89</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a01917cd29ebffcc19130065d69eeeab5"/><section>
+    <title>TestCalculVarsta_anViitor()</title>
+<indexterm><primary>TestCalculVarsta_anViitor</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestCalculVarsta_anViitor</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestCalculVarsta_anViitor ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00083">83</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a95dbfcdd2880d8abd4b34cede4bbf2b5"/><section>
+    <title>TestCalculVarsta_maiMicCa16()</title>
+<indexterm><primary>TestCalculVarsta_maiMicCa16</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestCalculVarsta_maiMicCa16</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestCalculVarsta_maiMicCa16 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00077">77</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a0959171b508197ab0e9174cb56dafe8c"/><section>
+    <title>TestCalculVarsta_minus()</title>
+<indexterm><primary>TestCalculVarsta_minus</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestCalculVarsta_minus</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestCalculVarsta_minus ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00071">71</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a9722cd073ca4ae4d1ffa4e0bd23aa9b2"/><section>
+    <title>TestCalculVarsta_varsta()</title>
+<indexterm><primary>TestCalculVarsta_varsta</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestCalculVarsta_varsta</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestCalculVarsta_varsta ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00064">64</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a1297a0efb4f0cc35498631bcf8e380da"/><section>
+    <title>TestCalculVarsta_zero()</title>
+<indexterm><primary>TestCalculVarsta_zero</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestCalculVarsta_zero</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestCalculVarsta_zero ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00102">102</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a107d07e93cc94958f8c759fc24edcf17"/><section>
+    <title>TestScor_0()</title>
+<indexterm><primary>TestScor_0</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestScor_0</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestScor_0 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00028">28</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a9f93926ea593229990514cb81452a514"/><section>
+    <title>TestScor_calcul()</title>
+<indexterm><primary>TestScor_calcul</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestScor_calcul</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestScor_calcul ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00056">56</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a84437e306b29df020d8a87f8d197b3f5"/><section>
+    <title>TestScor_minus5()</title>
+<indexterm><primary>TestScor_minus5</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestScor_minus5</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestScor_minus5 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00036">36</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1ab8d593862718ef092825889e144a20ed"/><section>
+    <title>TestScor_minusminus()</title>
+<indexterm><primary>TestScor_minusminus</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestScor_minusminus</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestScor_minusminus ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00043">43</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1af698b7bca0791c3b92529fcf178c54a9"/><section>
+    <title>TestScor_zero()</title>
+<indexterm><primary>TestScor_zero</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestScor_zero</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestScor_zero ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00050">50</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a8160eaf7eba24253aad6538900fabd68"/><section>
+    <title>TestVerificaFlagIntrebare()</title>
+<indexterm><primary>TestVerificaFlagIntrebare</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaFlagIntrebare</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaFlagIntrebare ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00183">183</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a16971bd59f60dc78afe95f31a27e6ca0"/><section>
+    <title>TestVerificaFlagIntrebareValoareMare()</title>
+<indexterm><primary>TestVerificaFlagIntrebareValoareMare</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaFlagIntrebareValoareMare</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaFlagIntrebareValoareMare ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00189">189</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1ab3852f531bd8f943323c94c839f41863"/><section>
+    <title>TestVerificaIntrebare()</title>
+<indexterm><primary>TestVerificaIntrebare</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaIntrebare</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaIntrebare ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00171">171</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1adabda97a906ecc76b756608992051513"/><section>
+    <title>TestVerificaNume_AreLitereDiferite_1()</title>
+<indexterm><primary>TestVerificaNume_AreLitereDiferite_1</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_AreLitereDiferite_1</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_1 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00135">135</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a7e547b8aa51e5ac49eab1e77e5b3582d"/><section>
+    <title>TestVerificaNume_AreLitereDiferite_2()</title>
+<indexterm><primary>TestVerificaNume_AreLitereDiferite_2</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_AreLitereDiferite_2</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_2 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00141">141</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a2f2af164e232d580f4be5bcda0c4a80a"/><section>
+    <title>TestVerificaNume_AreLitereDiferite_3()</title>
+<indexterm><primary>TestVerificaNume_AreLitereDiferite_3</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_AreLitereDiferite_3</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_3 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00146">146</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a865dee21a16a1c417e7d2a37c2f635a0"/><section>
+    <title>TestVerificaNume_AreLitereDiferite_4()</title>
+<indexterm><primary>TestVerificaNume_AreLitereDiferite_4</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_AreLitereDiferite_4</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_4 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00151">151</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1af6919b22ef0fe45868b2d27368b696f9"/><section>
+    <title>TestVerificaNume_AreLitereDiferite_5()</title>
+<indexterm><primary>TestVerificaNume_AreLitereDiferite_5</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_AreLitereDiferite_5</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_5 ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00156">156</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a0b54754c3d7caf0437711fc76e0ca917"/><section>
+    <title>TestVerificaNume_gol()</title>
+<indexterm><primary>TestVerificaNume_gol</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_gol</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_gol ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00166">166</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a0c48ea6b1e684aaa954269e45c0ea23a"/><section>
+    <title>TestVerificaNume_literaMare()</title>
+<indexterm><primary>TestVerificaNume_literaMare</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_literaMare</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_literaMare ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00130">130</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a91c011998b321409e3ee6c98fe6c560d"/><section>
+    <title>TestVerificaNume_literaMica()</title>
+<indexterm><primary>TestVerificaNume_literaMica</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_literaMica</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_literaMica ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00161">161</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1aa2c68a24ae227dcbc4d12bf2dbbc00bf"/><section>
+    <title>TestVerificaNume_litere()</title>
+<indexterm><primary>TestVerificaNume_litere</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_litere</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_litere ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00109">109</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1ae959bd7c3fd45bc89941d39043942a4b"/><section>
+    <title>TestVerificaNume_litereCorect()</title>
+<indexterm><primary>TestVerificaNume_litereCorect</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_litereCorect</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_litereCorect ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00115">115</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a715b3e53baa7e89c35753ddaa787b256"/><section>
+    <title>TestVerificaNume_semn()</title>
+<indexterm><primary>TestVerificaNume_semn</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_semn</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_semn ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00120">120</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a5e451944152d9d3f705e0a647f83d965"/><section>
+    <title>TestVerificaNume_spatiu()</title>
+<indexterm><primary>TestVerificaNume_spatiu</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaNume_spatiu</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaNume_spatiu ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00125">125</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_test_1_1_unit_test1_1a6e897ef567ca06cb9a1bb1cb70561d2e"/><section>
+    <title>TestVerificaVariantaCorecta()</title>
+<indexterm><primary>TestVerificaVariantaCorecta</primary><secondary>Test.UnitTest1</secondary></indexterm>
+<indexterm><primary>Test.UnitTest1</primary><secondary>TestVerificaVariantaCorecta</secondary></indexterm>
+<para><computeroutput>void Test.UnitTest1.TestVerificaVariantaCorecta ( )</computeroutput></para><para>
+Definition at line <link linkend="__unit_test1_8cs_source_1l00177">177</link> of file <link linkend="__unit_test1_8cs_source">UnitTest1.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__unit_test1_8cs">UnitTest1.cs</link></section>
+</section>

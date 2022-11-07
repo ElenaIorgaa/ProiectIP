@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_geografie" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarGeografie</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IChestionar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_geografie_1aef81419c9abdc8ce9b0450294e1c8891" prot="private" static="no" mutable="no">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt;Intrebare&gt; ProiectIP.ChestionarGeografie._intrebari</definition>
+        <argsstring></argsstring>
+        <name>_intrebari</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie._intrebari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="34" column="22" bodyfile="ChestionarGeografie.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1a109776f2c7d3dd81c184b458cb4adfb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarGeografie.ChestionarGeografie</definition>
+        <argsstring>()</argsstring>
+        <name>ChestionarGeografie</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.ChestionarGeografie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="35" column="16" bodyfile="ChestionarGeografie.cs" bodystart="35" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1aada5777e43c5b84672653a2687a6a630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarGeografie.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="61" column="23" bodyfile="ChestionarGeografie.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1ab757142931e93a2e8f90f010b667e6c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarGeografie.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="67" column="23" bodyfile="ChestionarGeografie.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1acfe607f6b98a2046c1ce3eed3355277f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarGeografie.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="73" column="23" bodyfile="ChestionarGeografie.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1a8ab3cdae261a92655fdb11e0e0250a0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarGeografie.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="79" column="23" bodyfile="ChestionarGeografie.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1a323f44811035e76fc88b0c959758697b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarGeografie.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="85" column="23" bodyfile="ChestionarGeografie.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1af658d58db52b531b5319dfdd7f610fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ChestionarGeografie.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="91" column="20" bodyfile="ChestionarGeografie.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_geografie_1a9e1a935bda52fdd63f7e9aeee36b8651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarGeografie.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.ChestionarGeografie.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarGeografie.cs" line="97" column="23" bodyfile="ChestionarGeografie.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Chimie. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarGeografie</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_geografie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarGeografie</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_geografie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ChestionarGeografie.cs" line="32" column="11" bodyfile="ChestionarGeografie.cs" bodystart="33" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1aef81419c9abdc8ce9b0450294e1c8891" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>_intrebari</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1a109776f2c7d3dd81c184b458cb4adfb2" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>ChestionarGeografie</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1aada5777e43c5b84672653a2687a6a630" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>GetEnunt</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1af658d58db52b531b5319dfdd7f610fc2" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>GetRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1ab757142931e93a2e8f90f010b667e6c4" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>GetVar1</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1acfe607f6b98a2046c1ce3eed3355277f" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>GetVar2</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1a8ab3cdae261a92655fdb11e0e0250a0f" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>GetVar3</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1a323f44811035e76fc88b0c959758697b" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>GetVar4</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_geografie_1a9e1a935bda52fdd63f7e9aeee36b8651" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarGeografie</scope><name>Picture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

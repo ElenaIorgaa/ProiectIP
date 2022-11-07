@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "În ce an a devenit fotbalul sport olimpic?", 
+        "var1": "1900",
+        "var2": "1800",
+        "var3": "2000",
+        "var4": "2010",
+        "varCorecta": 1
+    },
+  {
+    "enunt": "În ce fază a ajuns România la Campionatul Mondial din 1994?", 
+    "var1": "Sferturi",
+    "var2": "Finale",
+    "var3": "Nu a ajuns",
+    "var4": "A câştigat",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Ce joc de ciclism a derivat din fotbal?", 
+    "var1": "Niciunul",
+    "var2": "Ciclobal",
+    "var3": "Rugby",
+    "var4": "Fotbalul american",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Cum se numește stadionul echipei Bayern Muchen?", 
+    "var1": "El Madrigal",
+    "var2": "Wembley",
+    "var3": "Rose Bowl",
+    "var4": "Soccer City",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Câte minute are pauza unui meci de fotbal?", 
+    "var1": "24",
+    "var2": "40",
+    "var3": "12",
+    "var4": "15",
+    "varCorecta": 4
+  },
+  {
+    "enunt": "Care este cel mai selecționat jucător din istoria naționalei de fotbal a României?", 
+    "var1": "Ianis Hagi",
+    "var2": "Dorinel Munteanu",
+    "var3": "Olimpiu Moruţan",
+    "var4": "Denis Alibec",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Care este cel mai mare teren de cricket din Anglia?", 
+    "var1": "FC",
+    "var2": "Lisabona",
+    "var3": "Domnului",
+    "var4": "Florel",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "În fotbalul american, câte puncte înscrii pentru un touchdown?", 
+    "var1": "3",
+    "var2": "4",
+    "var3": "6",
+    "var4": "23",
+    "varCorecta": 3
+  }
+
+]

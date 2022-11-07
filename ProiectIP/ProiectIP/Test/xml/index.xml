@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_test_1_1_unit_test1" kind="class"><name>Test::UnitTest1</name>
+    <member refid="class_test_1_1_unit_test1_1a107d07e93cc94958f8c759fc24edcf17" kind="function"><name>TestScor_0</name></member>
+    <member refid="class_test_1_1_unit_test1_1a84437e306b29df020d8a87f8d197b3f5" kind="function"><name>TestScor_minus5</name></member>
+    <member refid="class_test_1_1_unit_test1_1ab8d593862718ef092825889e144a20ed" kind="function"><name>TestScor_minusminus</name></member>
+    <member refid="class_test_1_1_unit_test1_1af698b7bca0791c3b92529fcf178c54a9" kind="function"><name>TestScor_zero</name></member>
+    <member refid="class_test_1_1_unit_test1_1a9f93926ea593229990514cb81452a514" kind="function"><name>TestScor_calcul</name></member>
+    <member refid="class_test_1_1_unit_test1_1a9722cd073ca4ae4d1ffa4e0bd23aa9b2" kind="function"><name>TestCalculVarsta_varsta</name></member>
+    <member refid="class_test_1_1_unit_test1_1a0959171b508197ab0e9174cb56dafe8c" kind="function"><name>TestCalculVarsta_minus</name></member>
+    <member refid="class_test_1_1_unit_test1_1a95dbfcdd2880d8abd4b34cede4bbf2b5" kind="function"><name>TestCalculVarsta_maiMicCa16</name></member>
+    <member refid="class_test_1_1_unit_test1_1a01917cd29ebffcc19130065d69eeeab5" kind="function"><name>TestCalculVarsta_anViitor</name></member>
+    <member refid="class_test_1_1_unit_test1_1a2ea3d1d16a9d992e3580923c265c23a3" kind="function"><name>TestCalculVarsta_1922</name></member>
+    <member refid="class_test_1_1_unit_test1_1a7caf41a961eb849967d1b844be4fdeb2" kind="function"><name>TestCalculVarsta_1921</name></member>
+    <member refid="class_test_1_1_unit_test1_1a1297a0efb4f0cc35498631bcf8e380da" kind="function"><name>TestCalculVarsta_zero</name></member>
+    <member refid="class_test_1_1_unit_test1_1aa2c68a24ae227dcbc4d12bf2dbbc00bf" kind="function"><name>TestVerificaNume_litere</name></member>
+    <member refid="class_test_1_1_unit_test1_1ae959bd7c3fd45bc89941d39043942a4b" kind="function"><name>TestVerificaNume_litereCorect</name></member>
+    <member refid="class_test_1_1_unit_test1_1a715b3e53baa7e89c35753ddaa787b256" kind="function"><name>TestVerificaNume_semn</name></member>
+    <member refid="class_test_1_1_unit_test1_1a5e451944152d9d3f705e0a647f83d965" kind="function"><name>TestVerificaNume_spatiu</name></member>
+    <member refid="class_test_1_1_unit_test1_1a0c48ea6b1e684aaa954269e45c0ea23a" kind="function"><name>TestVerificaNume_literaMare</name></member>
+    <member refid="class_test_1_1_unit_test1_1adabda97a906ecc76b756608992051513" kind="function"><name>TestVerificaNume_AreLitereDiferite_1</name></member>
+    <member refid="class_test_1_1_unit_test1_1a7e547b8aa51e5ac49eab1e77e5b3582d" kind="function"><name>TestVerificaNume_AreLitereDiferite_2</name></member>
+    <member refid="class_test_1_1_unit_test1_1a2f2af164e232d580f4be5bcda0c4a80a" kind="function"><name>TestVerificaNume_AreLitereDiferite_3</name></member>
+    <member refid="class_test_1_1_unit_test1_1a865dee21a16a1c417e7d2a37c2f635a0" kind="function"><name>TestVerificaNume_AreLitereDiferite_4</name></member>
+    <member refid="class_test_1_1_unit_test1_1af6919b22ef0fe45868b2d27368b696f9" kind="function"><name>TestVerificaNume_AreLitereDiferite_5</name></member>
+    <member refid="class_test_1_1_unit_test1_1a91c011998b321409e3ee6c98fe6c560d" kind="function"><name>TestVerificaNume_literaMica</name></member>
+    <member refid="class_test_1_1_unit_test1_1a0b54754c3d7caf0437711fc76e0ca917" kind="function"><name>TestVerificaNume_gol</name></member>
+    <member refid="class_test_1_1_unit_test1_1ab3852f531bd8f943323c94c839f41863" kind="function"><name>TestVerificaIntrebare</name></member>
+    <member refid="class_test_1_1_unit_test1_1a6e897ef567ca06cb9a1bb1cb70561d2e" kind="function"><name>TestVerificaVariantaCorecta</name></member>
+    <member refid="class_test_1_1_unit_test1_1a8160eaf7eba24253aad6538900fabd68" kind="function"><name>TestVerificaFlagIntrebare</name></member>
+    <member refid="class_test_1_1_unit_test1_1a16971bd59f60dc78afe95f31a27e6ca0" kind="function"><name>TestVerificaFlagIntrebareValoareMare</name></member>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_test" kind="namespace"><name>Test</name>
+  </compound>
+  <compound refid="_unit_test1_8cs" kind="file"><name>UnitTest1.cs</name>
+  </compound>
+</doxygenindex>

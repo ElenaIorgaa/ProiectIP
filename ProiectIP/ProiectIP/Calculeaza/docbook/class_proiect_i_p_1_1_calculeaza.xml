@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_calculeaza" xml:lang="en-US">
+<title>ProiectIP.Calculeaza Class Reference</title>
+<indexterm><primary>ProiectIP.Calculeaza</primary></indexterm>
+<para>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_calculeaza">Calculeaza</link> se va folosi pentru a calcula scorul in functie de numarul intrebarilor corecte si totale. Ea este apelata in clasele ScorPartial si ScorFinal. /summary&gt; </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_calculeaza_1a18da879828a7b964f008a1e29ad8d647">Calculeaza</link> (decimal x, decimal y)</para>
+
+<para>Constructorul clasei care primeste cei 2 operanzi si face verificarea sa vada daca acestia sunt valizi. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_proiect_i_p_1_1_calculeaza_1a9ca0e29faf98641ac1d84003ec03f7b4">Calcul</link> ()</para>
+
+<para>Calculul scorului final care va fi folosit pentru a imparti numarul de raspunsuri corecte la numarul de intrebari pentru a obtine procentajul. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_proiect_i_p_1_1_calculeaza_1ad5103d9828078c862d15912e61f6540a">Valid</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza daca argumentele date functiei sunt valide. </para>
+</listitem>
+            <listitem><para>decimal <link linkend="_class_proiect_i_p_1_1_calculeaza_1a705aeeadbe22ccfe134d8af52bc7c95e">Rezultat</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza rezultatul calculului. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_calculeaza">Calculeaza</link> se va folosi pentru a calcula scorul in functie de numarul intrebarilor corecte si totale. Ea este apelata in clasele ScorPartial si ScorFinal. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__calculeaza_8cs_source_1l00031">31</link> of file <link linkend="__calculeaza_8cs_source">Calculeaza.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_1a18da879828a7b964f008a1e29ad8d647"/><section>
+    <title>Calculeaza()</title>
+<indexterm><primary>Calculeaza</primary><secondary>ProiectIP.Calculeaza</secondary></indexterm>
+<indexterm><primary>ProiectIP.Calculeaza</primary><secondary>Calculeaza</secondary></indexterm>
+<para><computeroutput>ProiectIP.Calculeaza.Calculeaza (decimal x, decimal y)</computeroutput></para><para>
+
+<para>Constructorul clasei care primeste cei 2 operanzi si face verificarea sa vada daca acestia sunt valizi. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>y</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__calculeaza_8cs_source_1l00042">42</link> of file <link linkend="__calculeaza_8cs_source">Calculeaza.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_1a9ca0e29faf98641ac1d84003ec03f7b4"/><section>
+    <title>Calcul()</title>
+<indexterm><primary>Calcul</primary><secondary>ProiectIP.Calculeaza</secondary></indexterm>
+<indexterm><primary>ProiectIP.Calculeaza</primary><secondary>Calcul</secondary></indexterm>
+<para><computeroutput>void ProiectIP.Calculeaza.Calcul ( )</computeroutput></para><para>
+
+<para>Calculul scorului final care va fi folosit pentru a imparti numarul de raspunsuri corecte la numarul de intrebari pentru a obtine procentajul. </para>
+</para>
+<para>
+Definition at line <link linkend="__calculeaza_8cs_source_1l00056">56</link> of file <link linkend="__calculeaza_8cs_source">Calculeaza.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_1a705aeeadbe22ccfe134d8af52bc7c95e"/><section>
+    <title>Rezultat</title>
+<indexterm><primary>Rezultat</primary><secondary>ProiectIP.Calculeaza</secondary></indexterm>
+<indexterm><primary>ProiectIP.Calculeaza</primary><secondary>Rezultat</secondary></indexterm>
+<para><computeroutput>decimal ProiectIP.Calculeaza.Rezultat<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza rezultatul calculului. </para>
+</para>
+<para>
+Definition at line <link linkend="__calculeaza_8cs_source_1l00073">73</link> of file <link linkend="__calculeaza_8cs_source">Calculeaza.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_calculeaza_1ad5103d9828078c862d15912e61f6540a"/><section>
+    <title>Valid</title>
+<indexterm><primary>Valid</primary><secondary>ProiectIP.Calculeaza</secondary></indexterm>
+<indexterm><primary>ProiectIP.Calculeaza</primary><secondary>Valid</secondary></indexterm>
+<para><computeroutput>bool ProiectIP.Calculeaza.Valid<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza daca argumentele date functiei sunt valide. </para>
+</para>
+<para>
+Definition at line <link linkend="__calculeaza_8cs_source_1l00063">63</link> of file <link linkend="__calculeaza_8cs_source">Calculeaza.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__calculeaza_8cs">Calculeaza.cs</link></section>
+</section>

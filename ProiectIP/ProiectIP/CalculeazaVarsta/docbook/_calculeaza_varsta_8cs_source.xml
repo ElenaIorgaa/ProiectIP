@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__calculeaza_varsta_8cs_source" xml:lang="en-US">
+<title>CalculeazaVarsta.cs</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__calculeaza_varsta_8cs_source_1l00001"/>00001 
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00002"/>00002 <emphasis role="comment">/**************************************************************************</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00003"/>00003 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00004"/>00004 <emphasis role="comment">&#32;*&#32;&#32;File:&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;CalculeazaVarsta.cs&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00005"/>00005 <emphasis role="comment">&#32;*&#32;&#32;Copyright:&#32;&#32;&#32;(c)&#32;2008,&#32;Ingineria&#32;Programarii&#32;Proiect&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00006"/>00006 <emphasis role="comment">&#32;*&#32;&#32;Description:&#32;Proiect&#32;la&#32;materia&#32;&quot;Ingineria&#32;Programarii&quot;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00007"/>00007 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;ce&#32;contine&#32;chestionare&#32;de&#32;cultura&#32;generala&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00008"/>00008 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;din&#32;diverse&#32;domenii.&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00009"/>00009 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00010"/>00010 <emphasis role="comment">&#32;*&#32;&#32;This&#32;program&#32;is&#32;free&#32;software;&#32;you&#32;can&#32;redistribute&#32;it&#32;and/or&#32;modify&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00011"/>00011 <emphasis role="comment">&#32;*&#32;&#32;it&#32;under&#32;the&#32;terms&#32;of&#32;the&#32;GNU&#32;General&#32;Public&#32;License&#32;as&#32;published&#32;by&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00012"/>00012 <emphasis role="comment">&#32;*&#32;&#32;the&#32;Free&#32;Software&#32;Foundation.&#32;This&#32;program&#32;is&#32;distributed&#32;in&#32;the&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00013"/>00013 <emphasis role="comment">&#32;*&#32;&#32;hope&#32;that&#32;it&#32;will&#32;be&#32;useful,&#32;but&#32;WITHOUT&#32;ANY&#32;WARRANTY;&#32;without&#32;even&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00014"/>00014 <emphasis role="comment">&#32;*&#32;&#32;the&#32;implied&#32;warranty&#32;of&#32;MERCHANTABILITY&#32;or&#32;FITNESS&#32;FOR&#32;A&#32;PARTICULAR&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00015"/>00015 <emphasis role="comment">&#32;*&#32;&#32;PURPOSE.&#32;See&#32;the&#32;GNU&#32;General&#32;Public&#32;License&#32;for&#32;more&#32;details.&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00016"/>00016 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00017"/>00017 <emphasis role="comment">&#32;**************************************************************************/</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00018"/>00018 
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00019"/>00019 <emphasis role="keyword">using</emphasis>&#32;System;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00020"/>00020 <emphasis role="keyword">using</emphasis>&#32;System.Collections.Generic;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00021"/>00021 <emphasis role="keyword">using</emphasis>&#32;System.Linq;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00022"/>00022 <emphasis role="keyword">using</emphasis>&#32;System.Text;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00023"/>00023 <emphasis role="keyword">using</emphasis>&#32;System.Threading.Tasks;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00024"/>00024 
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00025"/><link linkend="_namespace_proiect_i_p">00025</link> <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_proiect_i_p">ProiectIP</link>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00026"/>00026 {
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00030"/><link linkend="_class_proiect_i_p_1_1_calculeaza_varsta">00030</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_class_proiect_i_p_1_1_calculeaza_varsta">CalculeazaVarsta</link>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00031"/>00031 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00032"/>00032 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;_valid&#32;{&#32;<emphasis role="keyword">set</emphasis>;&#32;<emphasis role="keyword">get</emphasis>;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00033"/>00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;_x;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00034"/>00034 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;_y;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;_rezultat;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00040"/><link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1a4762ad6b8f9bde67903e2628bedb3053">00040</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1a4762ad6b8f9bde67903e2628bedb3053">CalculeazaVarsta</link>(<emphasis role="keywordtype">int</emphasis>&#32;y)
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00041"/>00041 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00042"/>00042 
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00043"/>00043 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_x&#32;=&#32;DateTime.Now.Year;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00044"/>00044 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_y&#32;=&#32;y;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00045"/>00045 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_valid&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(y&#32;&lt;=&#32;0&#32;||&#32;y&#32;&gt;&#32;DateTime.Now.Year)
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_valid&#32;=&#32;<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00048"/>00048 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(_valid)
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1a415db5e4dc517ac6bc69ef25d4a15e20">Calcul</link>();
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00050"/>00050 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00054"/><link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1a415db5e4dc517ac6bc69ef25d4a15e20">00054</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1a415db5e4dc517ac6bc69ef25d4a15e20">Calcul</link>()
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00056"/>00056 
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00057"/>00057 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_rezultat&#32;=&#32;_x&#32;-&#32;_y;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(_rezultat&#32;&lt;&#32;16&#32;||&#32;_rezultat&#32;&gt;&#32;100)
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_valid&#32;=&#32;<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00064"/><link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1aec4d6b5f2c314c04695dfa593d0b9529">00064</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1aec4d6b5f2c314c04695dfa593d0b9529">Valid</link>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00065"/>00065 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">get</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00068"/>00068 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;_valid;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00069"/>00069 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00070"/>00070 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00074"/><link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1ac616ff0115a847d5b1298f0918b87d1b">00074</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_calculeaza_varsta_1ac616ff0115a847d5b1298f0918b87d1b">Rezultat</link>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00075"/>00075 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00076"/>00076 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">get</emphasis>
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00077"/>00077 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00078"/>00078 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;_rezultat;
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00079"/>00079 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00080"/>00080 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00081"/>00081 
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00082"/>00082 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00083"/>00083 }
+<anchor xml:id="__calculeaza_varsta_8cs_source_1l00084"/>00084 
+</programlisting></section>

@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "Care este formula chimică a sării?",
+        "var1": "Clorură de sodiu",
+        "var2": "Clorură de calciu",
+        "var3": "Clorură de magneziu",
+        "var4": "Clorură de fier",
+        "varCorecta": 1
+    },
+  {
+    "enunt": "Fosforul este un element chimic ... ?",
+    "var1": "Lichid",
+    "var2": "Solid",
+    "var3": "Gazos",
+    "var4": "Îngheţat",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Fluorul este un element chimic ... ?",
+    "var1": "Lichid",
+    "var2": "Solid",
+    "var3": "Gazos",
+    "var4": "Îngheţat",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "Bromul este un element chimic ... ?", 
+    "var1": "Lichid",
+    "var2": "Solid",
+    "var3": "Gazos",
+    "var4": "Îngheţat",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Kriptonul este un element chimic ... ?", 
+    "var1": "Lichid",
+    "var2": "Solid",
+    "var3": "Gazos",
+    "var4": "Îngheţat",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "Cr este simbolul chimic pentru ... ?",
+    "var1": "Cramă",
+    "var2": "Crom",
+    "var3": "Cristal",
+    "var4": "Criogen",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "C este simbolul chimic pentru ... ?", 
+    "var1": "Clor",
+    "var2": "Calciu",
+    "var3": "Carne",
+    "var4": "Carbon",
+    "varCorecta": 4
+  },
+  {
+    "enunt": "Li este simbolul chimic pentru ... ?", 
+    "var1": "Laura",
+    "var2": "Letonia",
+    "var3": "Litiu",
+    "var4": "Lantan",
+    "varCorecta": 3
+  }
+
+]

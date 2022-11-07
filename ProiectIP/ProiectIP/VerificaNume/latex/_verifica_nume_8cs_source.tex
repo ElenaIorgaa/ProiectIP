@@ -1,0 +1,66 @@
+\doxysection{Verifica\+Nume.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 \textcolor{comment}{/**************************************************************************}}
+\DoxyCodeLine{00002 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00003 \textcolor{comment}{ *  File:        VerificaNume.cs                                          *}}
+\DoxyCodeLine{00004 \textcolor{comment}{ *  Copyright:   (c) 2008, Ingineria Programarii Proiect                  *}}
+\DoxyCodeLine{00005 \textcolor{comment}{ *  Description: Proiect la materia "{}Ingineria Programarii"{}               *}}
+\DoxyCodeLine{00006 \textcolor{comment}{ *               ce contine chestionare de cultura generala               *}}
+\DoxyCodeLine{00007 \textcolor{comment}{ *               din diverse domenii.                                     *}}
+\DoxyCodeLine{00008 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00009 \textcolor{comment}{ *  This program is free software; you can redistribute it and/or modify  *}}
+\DoxyCodeLine{00010 \textcolor{comment}{ *  it under the terms of the GNU General Public License as published by  *}}
+\DoxyCodeLine{00011 \textcolor{comment}{ *  the Free Software Foundation. This program is distributed in the      *}}
+\DoxyCodeLine{00012 \textcolor{comment}{ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *}}
+\DoxyCodeLine{00013 \textcolor{comment}{ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *}}
+\DoxyCodeLine{00014 \textcolor{comment}{ *  PURPOSE. See the GNU General Public License for more details.         *}}
+\DoxyCodeLine{00015 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00016 \textcolor{comment}{ **************************************************************************/}}
+\DoxyCodeLine{00017 }
+\DoxyCodeLine{00018 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00019 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00020 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00021 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00022 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00023 }
+\DoxyCodeLine{00024 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00025 \{}
+\DoxyCodeLine{00029     \textcolor{keyword}{public} \textcolor{keyword}{class }VerificaNume}
+\DoxyCodeLine{00030     \{}
+\DoxyCodeLine{00031 }
+\DoxyCodeLine{00037         \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{bool} AreDoarLitere(\textcolor{keywordtype}{string} s)}
+\DoxyCodeLine{00038         \{}
+\DoxyCodeLine{00039             \textcolor{keywordflow}{return} s.All(\textcolor{keywordtype}{char}.IsLetter);}
+\DoxyCodeLine{00040         \}}
+\DoxyCodeLine{00046         \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{bool} IncepeCuLiteraMare(\textcolor{keywordtype}{string} s)}
+\DoxyCodeLine{00047         \{}
+\DoxyCodeLine{00048             \textcolor{keywordflow}{if} (s.Length > 0)}
+\DoxyCodeLine{00049             \{}
+\DoxyCodeLine{00050                 \textcolor{keywordflow}{return} Char.IsUpper(Convert.ToChar(s.Substring(0, 1)));}
+\DoxyCodeLine{00051             \}}
+\DoxyCodeLine{00052             \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{00053         \}}
+\DoxyCodeLine{00059         \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{bool} ContineLitereDiferite(\textcolor{keywordtype}{string} s)}
+\DoxyCodeLine{00060         \{}
+\DoxyCodeLine{00061             \textcolor{keywordflow}{if} (s.Length > 0)}
+\DoxyCodeLine{00062             \{}
+\DoxyCodeLine{00063                 \textcolor{keywordtype}{string} b = s.ToLower();}
+\DoxyCodeLine{00064                 \textcolor{keywordtype}{char} a = Convert.ToChar(b.Substring(0, 1));}
+\DoxyCodeLine{00065                 \textcolor{keywordtype}{int} suma = 0;}
+\DoxyCodeLine{00066 }
+\DoxyCodeLine{00067                 \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{char} i \textcolor{keywordflow}{in} b)}
+\DoxyCodeLine{00068                 \{}
+\DoxyCodeLine{00069                     \textcolor{keywordflow}{if} (i.Equals(a))}
+\DoxyCodeLine{00070                         suma++;}
+\DoxyCodeLine{00071                 \}}
+\DoxyCodeLine{00072                 \textcolor{keywordflow}{if} (suma == b.Length)}
+\DoxyCodeLine{00073                     \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{00074                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{00075             \}}
+\DoxyCodeLine{00076             \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{00077         \}}
+\DoxyCodeLine{00078     \}}
+\DoxyCodeLine{00079 \}}
+
+\end{DoxyCode}

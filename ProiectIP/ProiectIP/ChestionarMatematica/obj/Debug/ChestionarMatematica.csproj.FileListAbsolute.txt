@@ -1,0 +1,12 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\bin\Debug\ChestionarMatematica.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\bin\Debug\ChestionarMatematica.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\obj\Debug\ChestionarMatematica.csproj.AssemblyReference.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\obj\Debug\ChestionarMatematica.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\obj\Debug\ChestionarMatematica.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\obj\Debug\ChestionarMatematica.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarMatematica\obj\Debug\ChestionarMatematica.csproj.CopyComplete

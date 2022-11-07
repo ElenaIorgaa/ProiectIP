@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="interface_proiect_i_p_1_1_i_chestionar" kind="interface" language="C#" prot="public">
+    <compoundname>ProiectIP::IChestionar</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_proiect_i_p_1_1_i_chestionar_1aedc9cd58710af759229e5d639b85d69b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.IChestionar.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.IChestionar.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IChestionar.cs" line="32" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_proiect_i_p_1_1_i_chestionar_1ab4385831916b24479d1531c177984b37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.IChestionar.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.IChestionar.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IChestionar.cs" line="33" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_proiect_i_p_1_1_i_chestionar_1adf595151dbb6ca3d93ef155a35c224dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.IChestionar.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.IChestionar.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IChestionar.cs" line="34" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_proiect_i_p_1_1_i_chestionar_1a073d84b8194691a61aaca8b44d7017dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.IChestionar.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.IChestionar.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IChestionar.cs" line="35" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_proiect_i_p_1_1_i_chestionar_1a5fbf92c35f4e72c763aff114eb253bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.IChestionar.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.IChestionar.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IChestionar.cs" line="36" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_proiect_i_p_1_1_i_chestionar_1a8343bda25dd0e472428d270dc123a82d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.IChestionar.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.IChestionar.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IChestionar.cs" line="37" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_proiect_i_p_1_1_i_chestionar_1ae8b412329778a498cea0dbce04ce0b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.IChestionar.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.IChestionar.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IChestionar.cs" line="38" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interfata ce trebuie sa fie implementata de fiecare clasa de tip chestionar /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IChestionar.cs" line="30" column="22" bodyfile="IChestionar.cs" bodystart="31" bodyend="40"/>
+    <listofallmembers>
+      <member refid="interface_proiect_i_p_1_1_i_chestionar_1aedc9cd58710af759229e5d639b85d69b" prot="public" virt="non-virtual"><scope>ProiectIP::IChestionar</scope><name>GetEnunt</name></member>
+      <member refid="interface_proiect_i_p_1_1_i_chestionar_1a8343bda25dd0e472428d270dc123a82d" prot="public" virt="non-virtual"><scope>ProiectIP::IChestionar</scope><name>GetRaspuns</name></member>
+      <member refid="interface_proiect_i_p_1_1_i_chestionar_1ab4385831916b24479d1531c177984b37" prot="public" virt="non-virtual"><scope>ProiectIP::IChestionar</scope><name>GetVar1</name></member>
+      <member refid="interface_proiect_i_p_1_1_i_chestionar_1adf595151dbb6ca3d93ef155a35c224dc" prot="public" virt="non-virtual"><scope>ProiectIP::IChestionar</scope><name>GetVar2</name></member>
+      <member refid="interface_proiect_i_p_1_1_i_chestionar_1a073d84b8194691a61aaca8b44d7017dd" prot="public" virt="non-virtual"><scope>ProiectIP::IChestionar</scope><name>GetVar3</name></member>
+      <member refid="interface_proiect_i_p_1_1_i_chestionar_1a5fbf92c35f4e72c763aff114eb253bed" prot="public" virt="non-virtual"><scope>ProiectIP::IChestionar</scope><name>GetVar4</name></member>
+      <member refid="interface_proiect_i_p_1_1_i_chestionar_1ae8b412329778a498cea0dbce04ce0b8f" prot="public" virt="non-virtual"><scope>ProiectIP::IChestionar</scope><name>Picture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

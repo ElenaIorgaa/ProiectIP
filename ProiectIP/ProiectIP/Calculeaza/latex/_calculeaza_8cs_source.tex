@@ -1,0 +1,70 @@
+\doxysection{Calculeaza.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 }
+\DoxyCodeLine{00002 \textcolor{comment}{/**************************************************************************}}
+\DoxyCodeLine{00003 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00004 \textcolor{comment}{ *  File:        Calculeaza.cs                                            *}}
+\DoxyCodeLine{00005 \textcolor{comment}{ *  Copyright:   (c) 2008, Ingineria Programarii Proiect                  *}}
+\DoxyCodeLine{00006 \textcolor{comment}{ *  Description: Proiect la materia "{}Ingineria Programarii"{}               *}}
+\DoxyCodeLine{00007 \textcolor{comment}{ *               ce contine chestionare de cultura generala               *}}
+\DoxyCodeLine{00008 \textcolor{comment}{ *               din diverse domenii.                                     *}}
+\DoxyCodeLine{00009 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00010 \textcolor{comment}{ *  This program is free software; you can redistribute it and/or modify  *}}
+\DoxyCodeLine{00011 \textcolor{comment}{ *  it under the terms of the GNU General Public License as published by  *}}
+\DoxyCodeLine{00012 \textcolor{comment}{ *  the Free Software Foundation. This program is distributed in the      *}}
+\DoxyCodeLine{00013 \textcolor{comment}{ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *}}
+\DoxyCodeLine{00014 \textcolor{comment}{ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *}}
+\DoxyCodeLine{00015 \textcolor{comment}{ *  PURPOSE. See the GNU General Public License for more details.         *}}
+\DoxyCodeLine{00016 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00017 \textcolor{comment}{ **************************************************************************/}}
+\DoxyCodeLine{00018 }
+\DoxyCodeLine{00019 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00020 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00021 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00022 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00023 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00024 }
+\DoxyCodeLine{00025 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00026 \{}
+\DoxyCodeLine{00027 }
+\DoxyCodeLine{00031     \textcolor{keyword}{public} \textcolor{keyword}{class }Calculeaza}
+\DoxyCodeLine{00032     \{}
+\DoxyCodeLine{00033         \textcolor{keyword}{private} \textcolor{keywordtype}{bool} \_valid \{ \textcolor{keyword}{set}; \textcolor{keyword}{get}; \}}
+\DoxyCodeLine{00034         \textcolor{keyword}{private} decimal \_x;}
+\DoxyCodeLine{00035         \textcolor{keyword}{private} decimal \_y;}
+\DoxyCodeLine{00036         \textcolor{keyword}{private} decimal \_rezultat;}
+\DoxyCodeLine{00042         \textcolor{keyword}{public} Calculeaza(decimal x, decimal y)}
+\DoxyCodeLine{00043         \{}
+\DoxyCodeLine{00044 }
+\DoxyCodeLine{00045             \_x = x;}
+\DoxyCodeLine{00046             \_y = y;}
+\DoxyCodeLine{00047             \_valid = \textcolor{keyword}{true};}
+\DoxyCodeLine{00048             \textcolor{keywordflow}{if} (x < 0 || y <= 0)}
+\DoxyCodeLine{00049                 \_valid = \textcolor{keyword}{false};}
+\DoxyCodeLine{00050             \textcolor{keywordflow}{if} (\_valid)}
+\DoxyCodeLine{00051                 Calcul();}
+\DoxyCodeLine{00052         \}}
+\DoxyCodeLine{00056         \textcolor{keyword}{public} \textcolor{keywordtype}{void} Calcul()}
+\DoxyCodeLine{00057         \{}
+\DoxyCodeLine{00058             \_rezultat = \_x / \_y * 100m;}
+\DoxyCodeLine{00059         \}}
+\DoxyCodeLine{00063         \textcolor{keyword}{public} \textcolor{keywordtype}{bool} Valid}
+\DoxyCodeLine{00064         \{}
+\DoxyCodeLine{00065             \textcolor{keyword}{get}}
+\DoxyCodeLine{00066             \{}
+\DoxyCodeLine{00067                 \textcolor{keywordflow}{return} \_valid;}
+\DoxyCodeLine{00068             \}}
+\DoxyCodeLine{00069         \}}
+\DoxyCodeLine{00073         \textcolor{keyword}{public} decimal Rezultat}
+\DoxyCodeLine{00074         \{}
+\DoxyCodeLine{00075             \textcolor{keyword}{get}}
+\DoxyCodeLine{00076             \{}
+\DoxyCodeLine{00077                 \textcolor{keywordflow}{return} \_rezultat;}
+\DoxyCodeLine{00078             \}}
+\DoxyCodeLine{00079         \}}
+\DoxyCodeLine{00080 }
+\DoxyCodeLine{00081     \}}
+\DoxyCodeLine{00082 \}}
+
+\end{DoxyCode}

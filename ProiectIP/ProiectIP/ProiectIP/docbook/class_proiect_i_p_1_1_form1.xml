@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_form1" xml:lang="en-US">
+<title>ProiectIP.Form1 Class Reference</title>
+<indexterm><primary>ProiectIP.Form1</primary></indexterm>
+<para>
+
+<para>Clasa ce va lansa in executie interfata pentru meniul chestionarului care permite utilizatorului sa aleaga ce modul sa parcurga. /summary&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for ProiectIP.Form1:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_form1.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_form1_1a19125e27616eec2f91360be55895bbe8">Form1</link> ()</para>
+
+<para>constructorul public al clasei </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0">domeniu</link></para>
+</listitem>
+            <listitem><para>static string <link linkend="_class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17">nume</link></para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2">varsta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_proiect_i_p_1_1_form1_1ae6a64fdf66e0bbe81511f51eba33333c">Dispose</link> (bool disposing)</para>
+
+<para>Clean up any resources being used. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa ce va lansa in executie interfata pentru meniul chestionarului care permite utilizatorului sa aleaga ce modul sa parcurga. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__form1_8cs_source_1l00016">16</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_form1_1a19125e27616eec2f91360be55895bbe8"/><section>
+    <title>Form1()</title>
+<indexterm><primary>Form1</primary><secondary>ProiectIP.Form1</secondary></indexterm>
+<indexterm><primary>ProiectIP.Form1</primary><secondary>Form1</secondary></indexterm>
+<para><computeroutput>ProiectIP.Form1.Form1 ( )</computeroutput></para><para>
+
+<para>constructorul public al clasei </para>
+</para>
+<para>
+Definition at line <link linkend="__form1_8cs_source_1l00024">24</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_form1_1ae6a64fdf66e0bbe81511f51eba33333c"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>ProiectIP.Form1</secondary></indexterm>
+<indexterm><primary>ProiectIP.Form1</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>override void ProiectIP.Form1.Dispose (bool disposing)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>Clean up any resources being used. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>disposing</entry><entry>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__form1_8_designer_8cs_source_1l00015">15</link> of file <link linkend="__form1_8_designer_8cs_source">Form1.Designer.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0"/><section>
+    <title>domeniu</title>
+<indexterm><primary>domeniu</primary><secondary>ProiectIP.Form1</secondary></indexterm>
+<indexterm><primary>ProiectIP.Form1</primary><secondary>domeniu</secondary></indexterm>
+<para><computeroutput>int ProiectIP.Form1.domeniu<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__form1_8cs_source_1l00018">18</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17"/><section>
+    <title>nume</title>
+<indexterm><primary>nume</primary><secondary>ProiectIP.Form1</secondary></indexterm>
+<indexterm><primary>ProiectIP.Form1</primary><secondary>nume</secondary></indexterm>
+<para><computeroutput>string ProiectIP.Form1.nume<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__form1_8cs_source_1l00020">20</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2"/><section>
+    <title>varsta</title>
+<indexterm><primary>varsta</primary><secondary>ProiectIP.Form1</secondary></indexterm>
+<indexterm><primary>ProiectIP.Form1</primary><secondary>varsta</secondary></indexterm>
+<para><computeroutput>int ProiectIP.Form1.varsta<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__form1_8cs_source_1l00021">21</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+<link linkend="__form1_8cs">Form1.cs</link><link linkend="__form1_8_designer_8cs">Form1.Designer.cs</link></section>
+</section>

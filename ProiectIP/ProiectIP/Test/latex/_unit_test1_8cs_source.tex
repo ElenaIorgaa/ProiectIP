@@ -1,0 +1,200 @@
+\doxysection{Unit\+Test1.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 }
+\DoxyCodeLine{00002 \textcolor{comment}{/**************************************************************************}}
+\DoxyCodeLine{00003 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00004 \textcolor{comment}{ *  File:        UnitTest1.cs                                             *}}
+\DoxyCodeLine{00005 \textcolor{comment}{ *  Copyright:   (c) 2008, Ingineria Programarii Proiect                  *}}
+\DoxyCodeLine{00006 \textcolor{comment}{ *  Description: Proiect la materia "{}Ingineria Programarii"{}               *}}
+\DoxyCodeLine{00007 \textcolor{comment}{ *               ce contine chestionare de cultura generala               *}}
+\DoxyCodeLine{00008 \textcolor{comment}{ *               din diverse domenii.                                     *}}
+\DoxyCodeLine{00009 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00010 \textcolor{comment}{ *  This program is free software; you can redistribute it and/or modify  *}}
+\DoxyCodeLine{00011 \textcolor{comment}{ *  it under the terms of the GNU General Public License as published by  *}}
+\DoxyCodeLine{00012 \textcolor{comment}{ *  the Free Software Foundation. This program is distributed in the      *}}
+\DoxyCodeLine{00013 \textcolor{comment}{ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *}}
+\DoxyCodeLine{00014 \textcolor{comment}{ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *}}
+\DoxyCodeLine{00015 \textcolor{comment}{ *  PURPOSE. See the GNU General Public License for more details.         *}}
+\DoxyCodeLine{00016 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00017 \textcolor{comment}{ **************************************************************************/}}
+\DoxyCodeLine{00018 }
+\DoxyCodeLine{00019 \textcolor{keyword}{using} Microsoft.VisualStudio.TestTools.UnitTesting;}
+\DoxyCodeLine{00020 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00021 \textcolor{keyword}{using} ProiectIP;}
+\DoxyCodeLine{00022 \textcolor{keyword}{namespace }Test}
+\DoxyCodeLine{00023 \{}
+\DoxyCodeLine{00024     [TestClass]}
+\DoxyCodeLine{00025     \textcolor{keyword}{public} \textcolor{keyword}{class }UnitTest1}
+\DoxyCodeLine{00026     \{}
+\DoxyCodeLine{00027         [TestMethod]}
+\DoxyCodeLine{00028         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestScor\_0()}
+\DoxyCodeLine{00029         \{}
+\DoxyCodeLine{00030             ProiectIP.Calculeaza c = \textcolor{keyword}{new} ProiectIP.Calculeaza(0, 64m);}
+\DoxyCodeLine{00031             Assert.IsTrue(c.Valid);}
+\DoxyCodeLine{00032             Assert.AreEqual(0, c.Rezultat);}
+\DoxyCodeLine{00033         \}}
+\DoxyCodeLine{00034 }
+\DoxyCodeLine{00035         [TestMethod]}
+\DoxyCodeLine{00036         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestScor\_minus5()}
+\DoxyCodeLine{00037         \{}
+\DoxyCodeLine{00038             ProiectIP.Calculeaza c = \textcolor{keyword}{new} ProiectIP.Calculeaza(-\/5, 64m);}
+\DoxyCodeLine{00039             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00040         \}}
+\DoxyCodeLine{00041 }
+\DoxyCodeLine{00042         [TestMethod]}
+\DoxyCodeLine{00043         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestScor\_minusminus()}
+\DoxyCodeLine{00044         \{}
+\DoxyCodeLine{00045             ProiectIP.Calculeaza c = \textcolor{keyword}{new} ProiectIP.Calculeaza(-\/5, -\/5);}
+\DoxyCodeLine{00046             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00047         \}}
+\DoxyCodeLine{00048 }
+\DoxyCodeLine{00049         [TestMethod]}
+\DoxyCodeLine{00050         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestScor\_zero()}
+\DoxyCodeLine{00051         \{}
+\DoxyCodeLine{00052             ProiectIP.Calculeaza c = \textcolor{keyword}{new} ProiectIP.Calculeaza(0, 0);}
+\DoxyCodeLine{00053             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00054         \}}
+\DoxyCodeLine{00055         [TestMethod]}
+\DoxyCodeLine{00056         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestScor\_calcul()}
+\DoxyCodeLine{00057         \{}
+\DoxyCodeLine{00058             ProiectIP.Calculeaza c = \textcolor{keyword}{new} ProiectIP.Calculeaza(4, 2);}
+\DoxyCodeLine{00059             Assert.IsTrue(c.Valid);}
+\DoxyCodeLine{00060             Assert.AreEqual(200, c.Rezultat);}
+\DoxyCodeLine{00061         \}}
+\DoxyCodeLine{00062 }
+\DoxyCodeLine{00063         [TestMethod]}
+\DoxyCodeLine{00064         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestCalculVarsta\_varsta()}
+\DoxyCodeLine{00065         \{}
+\DoxyCodeLine{00066             ProiectIP.CalculeazaVarsta c = \textcolor{keyword}{new} ProiectIP.CalculeazaVarsta(2000);}
+\DoxyCodeLine{00067             Assert.IsTrue(c.Valid);}
+\DoxyCodeLine{00068             Assert.AreEqual(22, c.Rezultat);}
+\DoxyCodeLine{00069         \}}
+\DoxyCodeLine{00070         [TestMethod]}
+\DoxyCodeLine{00071         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestCalculVarsta\_minus()}
+\DoxyCodeLine{00072         \{}
+\DoxyCodeLine{00073             ProiectIP.CalculeazaVarsta c = \textcolor{keyword}{new} ProiectIP.CalculeazaVarsta(-\/2000);}
+\DoxyCodeLine{00074             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00075         \}}
+\DoxyCodeLine{00076         [TestMethod]}
+\DoxyCodeLine{00077         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestCalculVarsta\_maiMicCa16()}
+\DoxyCodeLine{00078         \{}
+\DoxyCodeLine{00079             ProiectIP.CalculeazaVarsta c = \textcolor{keyword}{new} ProiectIP.CalculeazaVarsta(2020);}
+\DoxyCodeLine{00080             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00081         \}}
+\DoxyCodeLine{00082         [TestMethod]}
+\DoxyCodeLine{00083         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestCalculVarsta\_anViitor()}
+\DoxyCodeLine{00084         \{}
+\DoxyCodeLine{00085             ProiectIP.CalculeazaVarsta c = \textcolor{keyword}{new} ProiectIP.CalculeazaVarsta(2080);}
+\DoxyCodeLine{00086             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00087         \}}
+\DoxyCodeLine{00088         [TestMethod]}
+\DoxyCodeLine{00089         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestCalculVarsta\_1922()}
+\DoxyCodeLine{00090         \{}
+\DoxyCodeLine{00091             ProiectIP.CalculeazaVarsta c = \textcolor{keyword}{new} ProiectIP.CalculeazaVarsta(1922);}
+\DoxyCodeLine{00092             Assert.IsTrue(c.Valid);}
+\DoxyCodeLine{00093             Assert.AreEqual(100, c.Rezultat);}
+\DoxyCodeLine{00094         \}}
+\DoxyCodeLine{00095         [TestMethod]}
+\DoxyCodeLine{00096         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestCalculVarsta\_1921()}
+\DoxyCodeLine{00097         \{}
+\DoxyCodeLine{00098             ProiectIP.CalculeazaVarsta c = \textcolor{keyword}{new} ProiectIP.CalculeazaVarsta(1921);}
+\DoxyCodeLine{00099             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00100         \}}
+\DoxyCodeLine{00101         [TestMethod]}
+\DoxyCodeLine{00102         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestCalculVarsta\_zero()}
+\DoxyCodeLine{00103         \{}
+\DoxyCodeLine{00104             ProiectIP.CalculeazaVarsta c = \textcolor{keyword}{new} ProiectIP.CalculeazaVarsta(0);}
+\DoxyCodeLine{00105             Assert.IsFalse(c.Valid);}
+\DoxyCodeLine{00106         \}}
+\DoxyCodeLine{00107 }
+\DoxyCodeLine{00108         [TestMethod]}
+\DoxyCodeLine{00109         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_litere()}
+\DoxyCodeLine{00110         \{}
+\DoxyCodeLine{00111            }
+\DoxyCodeLine{00112             Assert.IsFalse(ProiectIP.VerificaNume.AreDoarLitere(\textcolor{stringliteral}{"{}re3t"{}}));}
+\DoxyCodeLine{00113         \}}
+\DoxyCodeLine{00114         [TestMethod]}
+\DoxyCodeLine{00115         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_litereCorect()}
+\DoxyCodeLine{00116         \{}
+\DoxyCodeLine{00117             Assert.IsTrue(ProiectIP.VerificaNume.AreDoarLitere(\textcolor{stringliteral}{"{}Elena"{}}));}
+\DoxyCodeLine{00118         \}}
+\DoxyCodeLine{00119         [TestMethod]}
+\DoxyCodeLine{00120         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_semn()}
+\DoxyCodeLine{00121         \{}
+\DoxyCodeLine{00122             Assert.IsFalse(ProiectIP.VerificaNume.AreDoarLitere(\textcolor{stringliteral}{"{}El\%ena"{}}));}
+\DoxyCodeLine{00123         \}}
+\DoxyCodeLine{00124         [TestMethod]}
+\DoxyCodeLine{00125         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_spatiu()}
+\DoxyCodeLine{00126         \{}
+\DoxyCodeLine{00127             Assert.IsFalse(ProiectIP.VerificaNume.AreDoarLitere(\textcolor{stringliteral}{"{}El ena"{}}));}
+\DoxyCodeLine{00128         \}}
+\DoxyCodeLine{00129         [TestMethod]}
+\DoxyCodeLine{00130         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_literaMare()}
+\DoxyCodeLine{00131         \{}
+\DoxyCodeLine{00132             Assert.IsTrue(ProiectIP.VerificaNume.IncepeCuLiteraMare(\textcolor{stringliteral}{"{}Elena"{}}));}
+\DoxyCodeLine{00133         \}}
+\DoxyCodeLine{00134         [TestMethod]}
+\DoxyCodeLine{00135         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_AreLitereDiferite\_1()}
+\DoxyCodeLine{00136         \{}
+\DoxyCodeLine{00137             Assert.IsTrue(ProiectIP.VerificaNume.ContineLitereDiferite(\textcolor{stringliteral}{"{}elena"{}}));}
+\DoxyCodeLine{00138         \}}
+\DoxyCodeLine{00139 }
+\DoxyCodeLine{00140         [TestMethod]}
+\DoxyCodeLine{00141         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_AreLitereDiferite\_2()}
+\DoxyCodeLine{00142         \{}
+\DoxyCodeLine{00143             Assert.IsFalse(ProiectIP.VerificaNume.ContineLitereDiferite(\textcolor{stringliteral}{"{}eeee"{}}));}
+\DoxyCodeLine{00144         \}}
+\DoxyCodeLine{00145         [TestMethod]}
+\DoxyCodeLine{00146         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_AreLitereDiferite\_3()}
+\DoxyCodeLine{00147         \{}
+\DoxyCodeLine{00148             Assert.IsFalse(ProiectIP.VerificaNume.ContineLitereDiferite(\textcolor{stringliteral}{"{}Eeee"{}}));}
+\DoxyCodeLine{00149         \}}
+\DoxyCodeLine{00150         [TestMethod]}
+\DoxyCodeLine{00151         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_AreLitereDiferite\_4()}
+\DoxyCodeLine{00152         \{}
+\DoxyCodeLine{00153             Assert.IsFalse(ProiectIP.VerificaNume.ContineLitereDiferite(\textcolor{stringliteral}{"{}eeEe"{}}));}
+\DoxyCodeLine{00154         \}}
+\DoxyCodeLine{00155         [TestMethod]}
+\DoxyCodeLine{00156         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_AreLitereDiferite\_5()}
+\DoxyCodeLine{00157         \{}
+\DoxyCodeLine{00158             Assert.IsFalse(ProiectIP.VerificaNume.ContineLitereDiferite(\textcolor{stringliteral}{"{}EEEE"{}}));}
+\DoxyCodeLine{00159         \}}
+\DoxyCodeLine{00160         [TestMethod]}
+\DoxyCodeLine{00161         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_literaMica()}
+\DoxyCodeLine{00162         \{}
+\DoxyCodeLine{00163             Assert.IsFalse(ProiectIP.VerificaNume.IncepeCuLiteraMare(\textcolor{stringliteral}{"{}elena"{}}));}
+\DoxyCodeLine{00164         \}}
+\DoxyCodeLine{00165         [TestMethod]}
+\DoxyCodeLine{00166         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaNume\_gol()}
+\DoxyCodeLine{00167         \{}
+\DoxyCodeLine{00168             Assert.IsTrue(ProiectIP.VerificaNume.IncepeCuLiteraMare(\textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{00169         \}}
+\DoxyCodeLine{00170         [TestMethod]}
+\DoxyCodeLine{00171         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaIntrebare()}
+\DoxyCodeLine{00172         \{}
+\DoxyCodeLine{00173             ProiectIP.Intrebare a = \textcolor{keyword}{new} ProiectIP.Intrebare(\textcolor{stringliteral}{"{}enunt"{}},\textcolor{stringliteral}{"{}var1"{}},\textcolor{stringliteral}{"{}var2"{}},\textcolor{stringliteral}{"{}var3"{}},\textcolor{stringliteral}{"{}var4"{}},3);}
+\DoxyCodeLine{00174             Assert.AreEqual(\textcolor{stringliteral}{"{}enunt"{}}, a.Enunt);}
+\DoxyCodeLine{00175         \}}
+\DoxyCodeLine{00176         [TestMethod]}
+\DoxyCodeLine{00177         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaVariantaCorecta()}
+\DoxyCodeLine{00178         \{}
+\DoxyCodeLine{00179             ProiectIP.Intrebare a = \textcolor{keyword}{new} ProiectIP.Intrebare(\textcolor{stringliteral}{"{}enunt"{}}, \textcolor{stringliteral}{"{}var1"{}}, \textcolor{stringliteral}{"{}var2"{}}, \textcolor{stringliteral}{"{}var3"{}}, \textcolor{stringliteral}{"{}var4"{}}, 4);}
+\DoxyCodeLine{00180             Assert.AreEqual(4, a.VariantaCorecta);}
+\DoxyCodeLine{00181         \}}
+\DoxyCodeLine{00182         [TestMethod]}
+\DoxyCodeLine{00183         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaFlagIntrebare()}
+\DoxyCodeLine{00184         \{}
+\DoxyCodeLine{00185             ProiectIP.Intrebare a = \textcolor{keyword}{new} ProiectIP.Intrebare(\textcolor{stringliteral}{"{}enunt"{}}, \textcolor{stringliteral}{"{}var1"{}}, \textcolor{stringliteral}{"{}var2"{}}, \textcolor{stringliteral}{"{}var3"{}}, \textcolor{stringliteral}{"{}var4"{}}, -\/1);}
+\DoxyCodeLine{00186             Assert.IsFalse(a.VerificaFlag);}
+\DoxyCodeLine{00187         \}}
+\DoxyCodeLine{00188         [TestMethod]}
+\DoxyCodeLine{00189         \textcolor{keyword}{public} \textcolor{keywordtype}{void} TestVerificaFlagIntrebareValoareMare()}
+\DoxyCodeLine{00190         \{}
+\DoxyCodeLine{00191             ProiectIP.Intrebare a = \textcolor{keyword}{new} ProiectIP.Intrebare(\textcolor{stringliteral}{"{}enunt"{}}, \textcolor{stringliteral}{"{}var1"{}}, \textcolor{stringliteral}{"{}var2"{}}, \textcolor{stringliteral}{"{}var3"{}}, \textcolor{stringliteral}{"{}var4"{}}, 10);}
+\DoxyCodeLine{00192             Assert.IsFalse(a.VerificaFlag);}
+\DoxyCodeLine{00193         \}}
+\DoxyCodeLine{00194     \}}
+\DoxyCodeLine{00195 \}}
+
+\end{DoxyCode}

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_lista" xml:lang="en-US">
+<title>ProiectIP.Lista Class Reference</title>
+<indexterm><primary>ProiectIP.Lista</primary></indexterm>
+<para>
+
+<para>Un singleton care va retine o lista care va ramane accesibila si modificabila pe tot timpul programului. /summary&gt; </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_proiect_i_p_1_1_lista_1a45f0846579c692a60b9b981bdc1d4b4f">Add</link> (int x)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_proiect_i_p_1_1_lista_1a1cb68cc1aa564e712bb93d69524e3eb7">Contains</link> (int x)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba">moduleParcurse</link> = 0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_proiect_i_p_1_1_lista">Lista</link> <link linkend="_class_proiect_i_p_1_1_lista_1a7ef968945759a9a8fe3b7f3c8dab933b">Instance</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Un singleton care va retine o lista care va ramane accesibila si modificabila pe tot timpul programului. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__lista_8cs_source_1l00030">30</link> of file <link linkend="__lista_8cs_source">Lista.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_lista_1a45f0846579c692a60b9b981bdc1d4b4f"/><section>
+    <title>Add()</title>
+<indexterm><primary>Add</primary><secondary>ProiectIP.Lista</secondary></indexterm>
+<indexterm><primary>ProiectIP.Lista</primary><secondary>Add</secondary></indexterm>
+<para><computeroutput>void ProiectIP.Lista.Add (int x)</computeroutput></para>
+<para>summary&gt; Verifica daca in lista exista deja acel modul, pentru a nu repeta din nou acelasi test. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__lista_8cs_source_1l00058">58</link> of file <link linkend="__lista_8cs_source">Lista.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_lista_1a1cb68cc1aa564e712bb93d69524e3eb7"/><section>
+    <title>Contains()</title>
+<indexterm><primary>Contains</primary><secondary>ProiectIP.Lista</secondary></indexterm>
+<indexterm><primary>ProiectIP.Lista</primary><secondary>Contains</secondary></indexterm>
+<para><computeroutput>bool ProiectIP.Lista.Contains (int x)</computeroutput></para><para>
+Definition at line <link linkend="__lista_8cs_source_1l00066">66</link> of file <link linkend="__lista_8cs_source">Lista.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba"/><section>
+    <title>moduleParcurse</title>
+<indexterm><primary>moduleParcurse</primary><secondary>ProiectIP.Lista</secondary></indexterm>
+<indexterm><primary>ProiectIP.Lista</primary><secondary>moduleParcurse</secondary></indexterm>
+<para><computeroutput>int ProiectIP.Lista.moduleParcurse = 0<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__lista_8cs_source_1l00034">34</link> of file <link linkend="__lista_8cs_source">Lista.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_lista_1a7ef968945759a9a8fe3b7f3c8dab933b"/><section>
+    <title>Instance</title>
+<indexterm><primary>Instance</primary><secondary>ProiectIP.Lista</secondary></indexterm>
+<indexterm><primary>ProiectIP.Lista</primary><secondary>Instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_proiect_i_p_1_1_lista">Lista</link> ProiectIP.Lista.Instance<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para>
+<para>summary&gt; Metoda ce adauga la lista si in acelasi timp incremeneteaza numarul modulelor parcurse deoarece, odata ce adaugam un scor, inseamna ca am parcurs un modul. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__lista_8cs_source_1l00045">45</link> of file <link linkend="__lista_8cs_source">Lista.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__lista_8cs">Lista.cs</link></section>
+</section>

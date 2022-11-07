@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_invalid_name_exception" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::InvalidNameException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_invalid_name_exception_1ab59d9cb7b1c7787befc05fe99f946e91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.InvalidNameException.InvalidNameException</definition>
+        <argsstring>()</argsstring>
+        <name>InvalidNameException</name>
+        <qualifiedname>ProiectIP.InvalidNameException.InvalidNameException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="272" column="16" bodyfile="Form1.cs" bodystart="272" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_invalid_name_exception_1a838f6ff07586060f002cad44ff877fce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.InvalidNameException.InvalidNameException</definition>
+        <argsstring>(string name)</argsstring>
+        <name>InvalidNameException</name>
+        <qualifiedname>ProiectIP.InvalidNameException.InvalidNameException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="274" column="16" bodyfile="Form1.cs" bodystart="274" bodyend="278"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.InvalidNameException</label>
+        <link refid="class_proiect_i_p_1_1_invalid_name_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.InvalidNameException</label>
+        <link refid="class_proiect_i_p_1_1_invalid_name_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Form1.cs" line="270" column="11" bodyfile="Form1.cs" bodystart="271" bodyend="279"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_invalid_name_exception_1ab59d9cb7b1c7787befc05fe99f946e91" prot="public" virt="non-virtual"><scope>ProiectIP::InvalidNameException</scope><name>InvalidNameException</name></member>
+      <member refid="class_proiect_i_p_1_1_invalid_name_exception_1a838f6ff07586060f002cad44ff877fce" prot="public" virt="non-virtual"><scope>ProiectIP::InvalidNameException</scope><name>InvalidNameException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

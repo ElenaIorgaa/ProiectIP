@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_proiect_i_p_1_1_form1" kind="class"><name>ProiectIP::Form1</name>
+    <member refid="class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0" kind="variable"><name>domeniu</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17" kind="variable"><name>nume</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2" kind="variable"><name>varsta</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a87b1f3f83b5fb17977a3c0a8978ebe66" kind="variable"><name>l</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ae0e08465654edd7860cbd50f472e1c53" kind="variable"><name>components</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a3a41641b89b2c0bbd10c01a5358fed90" kind="variable"><name>LabelTitlu</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a370688df4c13ffbecb1b7f9cace7ae9d" kind="variable"><name>pictureBoxQuizNight</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a21362ce42aa803b8862842d0a0a71ca6" kind="variable"><name>labelDomeniu</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1abbd3ff7362edcad75082a606375faeab" kind="variable"><name>buttonMatematica</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a532d6ed0e65db6c630a94bc8e5df54a8" kind="variable"><name>buttonChimie</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a53c3822457099be65fdb7173166c2f3d" kind="variable"><name>buttonIstorie</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1aa7798d434d676842f38a53579080abf9" kind="variable"><name>buttonRomana</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a22f4906943c8786b3101768b8e8304d9" kind="variable"><name>buttonSport</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a65205d224a501308f5683a11fff3c2b6" kind="variable"><name>buttonArta</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a5c5cb8841ae33743e3cfb864622b3291" kind="variable"><name>buttonMuzica</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1abdc44f78c37f03e35ec0a3346d0559b7" kind="variable"><name>labelWelcome</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ab4b77fe2dc49eaf16d255f1b80215f97" kind="variable"><name>labelNume</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a9843b35b485ebceb929af473bae69258" kind="variable"><name>textBoxNume</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a6fc80ea9a1cd13f9bfa5ffee09cef986" kind="variable"><name>buttonHelp</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a2a4323a5c6ca5a6fdc34628612e64e23" kind="variable"><name>buttonGeografie</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a7e136586e46b9d1a02ba84ec5352e0c3" kind="variable"><name>buttonSeteaza</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a7e871824ad5d9db9f0c2d923b1332abf" kind="variable"><name>labelVarsta</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a6a95ec1e994785d2776a4cd4f25a084a" kind="variable"><name>textBoxVarsta</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a19125e27616eec2f91360be55895bbe8" kind="function"><name>Form1</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a3e1a8c0507bd10dd17f6c2d585984bb1" kind="function"><name>AlegeDomeniu</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a7f46114da50efae960df5182453795ec" kind="function"><name>labelTitlu_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ace58a5a41c4ed98abec90b0f1aa01e34" kind="function"><name>buttonGeografie_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a1b2e18f3816dac20c7df83906f2f1ccd" kind="function"><name>buttonMatematica_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a3f71777841ad05f5182c5067c383473c" kind="function"><name>buttonChimie_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a5fa05305b3d88d853ef81c7ca21e2b62" kind="function"><name>buttonIstorie_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a9bd99a17671b809d3a2c66af31080850" kind="function"><name>buttonSport_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1af90176bbb33e013ff63ea4258261842e" kind="function"><name>buttonRomana_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ac0d0a183ec194c34c2bd1f4a0d40e5e2" kind="function"><name>buttonArta_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a183b2afb45b0043ab3b3ec8a105f6c4d" kind="function"><name>buttonMuzica_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ad584694241feb311fa38ec1b4b258321" kind="function"><name>textBoxNume_TextChanged</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a67e24cd85bbafe54e2803f5619333c46" kind="function"><name>buttonHelp_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1af22b965603b980d5e80a9e5b7c105149" kind="function"><name>buttonSeteaza_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ab9e9835a888bd7774f95d2add883d398" kind="function"><name>pictureBoxQuizNight_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a9cd6f321bdb3d6d1fa8ece3c6634a613" kind="function"><name>Form1_Load</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a2ca9d013ee11b2e177fc16feda019021" kind="function"><name>labelWelcome_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a66389f2853d899a6b54b8fbc8ccd00d3" kind="function"><name>labelNume_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a295422a9ba45655be5dbfe2f8d2a2e8c" kind="function"><name>labelDomeniu_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a09ae84cd87fec1fc1a4c32c75ce258e8" kind="function"><name>textBoxVarsta_TextChanged</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1a9cc912cd677d701863debe4ee4f1f381" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_proiect_i_p_1_1_form1_1ae6a64fdf66e0bbe81511f51eba33333c" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_proiect_i_p_1_1_form2" kind="class"><name>ProiectIP::Form2</name>
+    <member refid="class_proiect_i_p_1_1_form2_1a7dab6ebab7762fa7374c2a1634a40f4b" kind="variable"><name>_raspunsCorect</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a05a1f78e19ba7aaae1dd6b52460e2906" kind="variable"><name>_numarIntrebare</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1ace49ef4b6300372f0853ca471dd3767d" kind="variable"><name>_scorFinal</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a728d20b67c920a8fb79a38a5780caf49" kind="variable"><name>_nrIntrebariCorecte</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1add9987b7c8998b54835823e15bb35ba4" kind="variable"><name>components</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a117e93234f9329c3cb16d2fbf561d888" kind="variable"><name>pictureBoxChestionar</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a6bd4777a50f7cb2bb890d7ea2c1e383e" kind="variable"><name>labelQuestion</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a7f451e7aadb95adda1537b546e3c7df8" kind="variable"><name>var1</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1ae47567e413c5fa521e714dda11b6f335" kind="variable"><name>var2</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1ac4fe8b5609000e6111af61a366a90bef" kind="variable"><name>var3</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a6df6d075051c379c1626fb1464542a5b" kind="variable"><name>var4</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1aede9db5fb223af495ed77d052c63021a" kind="variable"><name>labelSucces</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a9b74bbd830a60a6bee166059c7eb29e3" kind="variable"><name>buttonHelpChestionar</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a12637f28f761746d21b826d9abe7a152" kind="variable"><name>l</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1abe571523864bdf146b4dcc8331d08c7b" kind="function"><name>Form2</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1ac56eb5f8b5a05a7a3194496cc4ac286a" kind="function"><name>CheckAnswer</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a05b965a12e2ebedc72204616328b99fa" kind="function"><name>Question</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a2fee97fa0a3813a25cf1d00fa84beacb" kind="function"><name>Form2_Load</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a4e1d1cb8ad112a545988b26febf7f4c7" kind="function"><name>pictureBoxChestionar_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a3138c2ef788e5d731ed73b5baba195b7" kind="function"><name>buttonHelpChestionar_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a42367502277d3a971f2bf6d4b337db84" kind="function"><name>labelSucces_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a85d47045e48b2693617e8de23c1314ee" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_proiect_i_p_1_1_form2_1a9fe9e809ee1c178a0860a5766d6d6208" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_proiect_i_p_1_1_form3" kind="class"><name>ProiectIP::Form3</name>
+    <member refid="class_proiect_i_p_1_1_form3_1a32d47b7f71d1d84b49f320aa7db2f763" kind="variable"><name>_flag</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1a11f2edaceb10c2e0933f9f1f571cb25e" kind="variable"><name>components</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1a3d3053476735d2acede2d6d07ff8779e" kind="variable"><name>labelFelicitari</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1a9dc235fff89b2cff135724211450b3a9" kind="variable"><name>labelScorFinal</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1adb29203d6061cd0b104e0dbc04249161" kind="variable"><name>labelPunctaj</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1aebddbda005cd003cb644965960791dd8" kind="variable"><name>labelProcent</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1ab68ceb119077dd7aa21bb13203632d83" kind="variable"><name>buttonAlegeDomeniu</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1aaa8a72927cab3dc12cbda04de56dfccb" kind="function"><name>Form3</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1aa4c31011d38b0140c59fd0987002d66e" kind="function"><name>buttonAlegeDomeniu_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1a654f0b7c7790c366f65510f269d392ea" kind="function"><name>labelPunctaj_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1a731cfd7dc6ddf24066528a73410c11aa" kind="function"><name>labelFelicitari_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1aea066e8e61807b86ac341d4d0147e226" kind="function"><name>labelScorFinal_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1a663f0b6d40768abd9bcc408d26a7cd97" kind="function"><name>labelProcent_Click</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1a6948212c65beda83d7a7f7ed0c1b8a66" kind="function"><name>Form3_Load</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1ac8e216f3544e4aa16a75c245aa3fc677" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_proiect_i_p_1_1_form3_1aadb6eec30284d13a9c8366291938125f" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_proiect_i_p_1_1_invalid_name_exception" kind="class"><name>ProiectIP::InvalidNameException</name>
+    <member refid="class_proiect_i_p_1_1_invalid_name_exception_1ab59d9cb7b1c7787befc05fe99f946e91" kind="function"><name>InvalidNameException</name></member>
+    <member refid="class_proiect_i_p_1_1_invalid_name_exception_1a838f6ff07586060f002cad44ff877fce" kind="function"><name>InvalidNameException</name></member>
+  </compound>
+  <compound refid="class_proiect_i_p_1_1_program" kind="class"><name>ProiectIP::Program</name>
+    <member refid="class_proiect_i_p_1_1_program_1a7d87bc6bd9f21f6535717d123061b32d" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_form1_8cs" kind="file"><name>Form1.cs</name>
+  </compound>
+  <compound refid="_form1_8_designer_8cs" kind="file"><name>Form1.Designer.cs</name>
+  </compound>
+  <compound refid="_form2_8cs" kind="file"><name>Form2.cs</name>
+  </compound>
+  <compound refid="_form2_8_designer_8cs" kind="file"><name>Form2.Designer.cs</name>
+  </compound>
+  <compound refid="_form3_8cs" kind="file"><name>Form3.cs</name>
+  </compound>
+  <compound refid="_form3_8_designer_8cs" kind="file"><name>Form3.Designer.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_factory" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarFactory</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_factory_1a863c6dfddd336f54bdbf61502966c713" prot="private" static="no" mutable="no">
+        <type>IChestionar</type>
+        <definition>IChestionar ProiectIP.ChestionarFactory._chestionar</definition>
+        <argsstring></argsstring>
+        <name>_chestionar</name>
+        <qualifiedname>ProiectIP.ChestionarFactory._chestionar</qualifiedname>
+        <briefdescription>
+<para>functia ce va returna chestionarul dorit in functie de tipul primit ca parametru </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarFactory.cs" line="33" column="29" bodyfile="ChestionarFactory.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_factory_1ad011591a9ba66cf8b2255cb220699892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarFactory.ChestionarFactory</definition>
+        <argsstring>(int tip)</argsstring>
+        <name>ChestionarFactory</name>
+        <qualifiedname>ProiectIP.ChestionarFactory.ChestionarFactory</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>tip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarFactory.cs" line="34" column="16" bodyfile="ChestionarFactory.cs" bodystart="34" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_factory_1a7e8cde111f89d2366fd4c71073fe4bd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IChestionar</type>
+        <definition>IChestionar ProiectIP.ChestionarFactory.GetChestionar</definition>
+        <argsstring>()</argsstring>
+        <name>GetChestionar</name>
+        <qualifiedname>ProiectIP.ChestionarFactory.GetChestionar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarFactory.cs" line="68" column="28" bodyfile="ChestionarFactory.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clasa de tip Factory ce va decide ce fel de obiect va fi creat in functie de tipul dat. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ChestionarFactory.cs" line="30" column="11" bodyfile="ChestionarFactory.cs" bodystart="31" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_factory_1a863c6dfddd336f54bdbf61502966c713" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarFactory</scope><name>_chestionar</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_factory_1ad011591a9ba66cf8b2255cb220699892" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarFactory</scope><name>ChestionarFactory</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_factory_1a7e8cde111f89d2366fd4c71073fe4bd6" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarFactory</scope><name>GetChestionar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

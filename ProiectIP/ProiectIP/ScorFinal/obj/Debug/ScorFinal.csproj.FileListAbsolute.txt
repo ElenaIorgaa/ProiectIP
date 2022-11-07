@@ -1,0 +1,10 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\bin\Debug\ScorFinal.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\bin\Debug\ScorFinal.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\bin\Debug\Calculeaza.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\bin\Debug\Scor.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\bin\Debug\Calculeaza.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\bin\Debug\Scor.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\obj\Debug\ScorFinal.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\obj\Debug\ScorFinal.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\obj\Debug\ScorFinal.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorFinal\obj\Debug\ScorFinal.pdb

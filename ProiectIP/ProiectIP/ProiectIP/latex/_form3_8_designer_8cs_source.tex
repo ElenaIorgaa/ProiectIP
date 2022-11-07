@@ -1,0 +1,123 @@
+\doxysection{Form3.\+Designer.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 }
+\DoxyCodeLine{00002 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00003 \{}
+\DoxyCodeLine{00004     \textcolor{keyword}{partial class }Form3}
+\DoxyCodeLine{00005     \{}
+\DoxyCodeLine{00009         \textcolor{keyword}{private} System.ComponentModel.IContainer components = \textcolor{keyword}{null};}
+\DoxyCodeLine{00010 }
+\DoxyCodeLine{00015         \textcolor{keyword}{protected} \textcolor{keyword}{override} \textcolor{keywordtype}{void} Dispose(\textcolor{keywordtype}{bool} disposing)}
+\DoxyCodeLine{00016         \{}
+\DoxyCodeLine{00017             \textcolor{keywordflow}{if} (disposing \&\& (components != \textcolor{keyword}{null}))}
+\DoxyCodeLine{00018             \{}
+\DoxyCodeLine{00019                 components.Dispose();}
+\DoxyCodeLine{00020             \}}
+\DoxyCodeLine{00021             base.Dispose(disposing);}
+\DoxyCodeLine{00022         \}}
+\DoxyCodeLine{00023 }
+\DoxyCodeLine{00024 \textcolor{preprocessor}{        \#region Windows Form Designer generated code}}
+\DoxyCodeLine{00025 }
+\DoxyCodeLine{00030         \textcolor{keyword}{private} \textcolor{keywordtype}{void} InitializeComponent()}
+\DoxyCodeLine{00031         \{}
+\DoxyCodeLine{00032             System.ComponentModel.ComponentResourceManager resources = \textcolor{keyword}{new} System.ComponentModel.ComponentResourceManager(typeof(Form3));}
+\DoxyCodeLine{00033             this.labelFelicitari = \textcolor{keyword}{new} System.Windows.Forms.Label();}
+\DoxyCodeLine{00034             this.labelScorFinal = \textcolor{keyword}{new} System.Windows.Forms.Label();}
+\DoxyCodeLine{00035             this.labelPunctaj = \textcolor{keyword}{new} System.Windows.Forms.Label();}
+\DoxyCodeLine{00036             this.labelProcent = \textcolor{keyword}{new} System.Windows.Forms.Label();}
+\DoxyCodeLine{00037             this.buttonAlegeDomeniu = \textcolor{keyword}{new} System.Windows.Forms.Button();}
+\DoxyCodeLine{00038             this.SuspendLayout();}
+\DoxyCodeLine{00039             \textcolor{comment}{// }}
+\DoxyCodeLine{00040             \textcolor{comment}{// labelFelicitari}}
+\DoxyCodeLine{00041             \textcolor{comment}{// }}
+\DoxyCodeLine{00042             this.labelFelicitari.BackColor = System.Drawing.Color.BlanchedAlmond;}
+\DoxyCodeLine{00043             this.labelFelicitari.Font = \textcolor{keyword}{new} System.Drawing.Font(\textcolor{stringliteral}{"{}MV Boli"{}}, 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((\textcolor{keywordtype}{byte})(0)));}
+\DoxyCodeLine{00044             this.labelFelicitari.ForeColor = System.Drawing.Color.Red;}
+\DoxyCodeLine{00045             this.labelFelicitari.Location = \textcolor{keyword}{new} System.Drawing.Point(251, 55);}
+\DoxyCodeLine{00046             this.labelFelicitari.Name = \textcolor{stringliteral}{"{}labelFelicitari"{}};}
+\DoxyCodeLine{00047             this.labelFelicitari.Size = \textcolor{keyword}{new} System.Drawing.Size(322, 118);}
+\DoxyCodeLine{00048             this.labelFelicitari.TabIndex = 0;}
+\DoxyCodeLine{00049             this.labelFelicitari.Text = \textcolor{stringliteral}{"{}FELICITĂRI"{}};}
+\DoxyCodeLine{00050             this.labelFelicitari.Click += \textcolor{keyword}{new} System.EventHandler(this.labelFelicitari\_Click);}
+\DoxyCodeLine{00051             \textcolor{comment}{// }}
+\DoxyCodeLine{00052             \textcolor{comment}{// labelScorFinal}}
+\DoxyCodeLine{00053             \textcolor{comment}{// }}
+\DoxyCodeLine{00054             this.labelScorFinal.BackColor = System.Drawing.Color.LightSalmon;}
+\DoxyCodeLine{00055             this.labelScorFinal.Font = \textcolor{keyword}{new} System.Drawing.Font(\textcolor{stringliteral}{"{}MV Boli"{}}, 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((\textcolor{keywordtype}{byte})(0)));}
+\DoxyCodeLine{00056             this.labelScorFinal.ForeColor = System.Drawing.Color.Red;}
+\DoxyCodeLine{00057             this.labelScorFinal.Location = \textcolor{keyword}{new} System.Drawing.Point(253, 204);}
+\DoxyCodeLine{00058             this.labelScorFinal.Name = \textcolor{stringliteral}{"{}labelScorFinal"{}};}
+\DoxyCodeLine{00059             this.labelScorFinal.Size = \textcolor{keyword}{new} System.Drawing.Size(140, 29);}
+\DoxyCodeLine{00060             this.labelScorFinal.TabIndex = 1;}
+\DoxyCodeLine{00061             this.labelScorFinal.Text = \textcolor{stringliteral}{"{}Scor final:"{}};}
+\DoxyCodeLine{00062             this.labelScorFinal.Click += \textcolor{keyword}{new} System.EventHandler(this.labelScorFinal\_Click);}
+\DoxyCodeLine{00063             \textcolor{comment}{// }}
+\DoxyCodeLine{00064             \textcolor{comment}{// labelPunctaj}}
+\DoxyCodeLine{00065             \textcolor{comment}{// }}
+\DoxyCodeLine{00066             this.labelPunctaj.BackColor = System.Drawing.Color.LightSalmon;}
+\DoxyCodeLine{00067             this.labelPunctaj.Font = \textcolor{keyword}{new} System.Drawing.Font(\textcolor{stringliteral}{"{}MV Boli"{}}, 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((\textcolor{keywordtype}{byte})(0)));}
+\DoxyCodeLine{00068             this.labelPunctaj.ForeColor = System.Drawing.Color.Red;}
+\DoxyCodeLine{00069             this.labelPunctaj.Location = \textcolor{keyword}{new} System.Drawing.Point(392, 204);}
+\DoxyCodeLine{00070             this.labelPunctaj.Name = \textcolor{stringliteral}{"{}labelPunctaj"{}};}
+\DoxyCodeLine{00071             this.labelPunctaj.Size = \textcolor{keyword}{new} System.Drawing.Size(79, 29);}
+\DoxyCodeLine{00072             this.labelPunctaj.TabIndex = 3;}
+\DoxyCodeLine{00073             this.labelPunctaj.Text = \textcolor{stringliteral}{"{}label3"{}};}
+\DoxyCodeLine{00074             this.labelPunctaj.Click += \textcolor{keyword}{new} System.EventHandler(this.labelPunctaj\_Click);}
+\DoxyCodeLine{00075             \textcolor{comment}{// }}
+\DoxyCodeLine{00076             \textcolor{comment}{// labelProcent}}
+\DoxyCodeLine{00077             \textcolor{comment}{// }}
+\DoxyCodeLine{00078             this.labelProcent.BackColor = System.Drawing.Color.LightSalmon;}
+\DoxyCodeLine{00079             this.labelProcent.Font = \textcolor{keyword}{new} System.Drawing.Font(\textcolor{stringliteral}{"{}MV Boli"{}}, 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((\textcolor{keywordtype}{byte})(0)));}
+\DoxyCodeLine{00080             this.labelProcent.ForeColor = System.Drawing.Color.Red;}
+\DoxyCodeLine{00081             this.labelProcent.Location = \textcolor{keyword}{new} System.Drawing.Point(468, 204);}
+\DoxyCodeLine{00082             this.labelProcent.Name = \textcolor{stringliteral}{"{}labelProcent"{}};}
+\DoxyCodeLine{00083             this.labelProcent.Size = \textcolor{keyword}{new} System.Drawing.Size(35, 29);}
+\DoxyCodeLine{00084             this.labelProcent.TabIndex = 4;}
+\DoxyCodeLine{00085             this.labelProcent.Text = \textcolor{stringliteral}{"{}\%"{}};}
+\DoxyCodeLine{00086             this.labelProcent.Click += \textcolor{keyword}{new} System.EventHandler(this.labelProcent\_Click);}
+\DoxyCodeLine{00087             \textcolor{comment}{// }}
+\DoxyCodeLine{00088             \textcolor{comment}{// buttonAlegeDomeniu}}
+\DoxyCodeLine{00089             \textcolor{comment}{// }}
+\DoxyCodeLine{00090             this.buttonAlegeDomeniu.BackColor = System.Drawing.Color.Coral;}
+\DoxyCodeLine{00091             this.buttonAlegeDomeniu.ForeColor = System.Drawing.Color.Black;}
+\DoxyCodeLine{00092             this.buttonAlegeDomeniu.Location = \textcolor{keyword}{new} System.Drawing.Point(289, 281);}
+\DoxyCodeLine{00093             this.buttonAlegeDomeniu.Name = \textcolor{stringliteral}{"{}buttonAlegeDomeniu"{}};}
+\DoxyCodeLine{00094             this.buttonAlegeDomeniu.Size = \textcolor{keyword}{new} System.Drawing.Size(182, 59);}
+\DoxyCodeLine{00095             this.buttonAlegeDomeniu.TabIndex = 5;}
+\DoxyCodeLine{00096             this.buttonAlegeDomeniu.Text = \textcolor{stringliteral}{"{}Alege alt domeniu"{}};}
+\DoxyCodeLine{00097             this.buttonAlegeDomeniu.UseVisualStyleBackColor = \textcolor{keyword}{false};}
+\DoxyCodeLine{00098             this.buttonAlegeDomeniu.Click += \textcolor{keyword}{new} System.EventHandler(this.buttonAlegeDomeniu\_Click);}
+\DoxyCodeLine{00099             \textcolor{comment}{// }}
+\DoxyCodeLine{00100             \textcolor{comment}{// Form3}}
+\DoxyCodeLine{00101             \textcolor{comment}{// }}
+\DoxyCodeLine{00102             this.AutoScaleDimensions = \textcolor{keyword}{new} System.Drawing.SizeF(8F, 16F);}
+\DoxyCodeLine{00103             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;}
+\DoxyCodeLine{00104             this.BackgroundImage = global::ProiectIP.Properties.Resources.c\_\_\_Copy;}
+\DoxyCodeLine{00105             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;}
+\DoxyCodeLine{00106             this.ClientSize = \textcolor{keyword}{new} System.Drawing.Size(800, 450);}
+\DoxyCodeLine{00107             this.Controls.Add(this.buttonAlegeDomeniu);}
+\DoxyCodeLine{00108             this.Controls.Add(this.labelProcent);}
+\DoxyCodeLine{00109             this.Controls.Add(this.labelPunctaj);}
+\DoxyCodeLine{00110             this.Controls.Add(this.labelScorFinal);}
+\DoxyCodeLine{00111             this.Controls.Add(this.labelFelicitari);}
+\DoxyCodeLine{00112             this.DoubleBuffered = \textcolor{keyword}{true};}
+\DoxyCodeLine{00113             this.Icon = ((System.Drawing.Icon)(resources.GetObject(\textcolor{stringliteral}{"{}\$this.Icon"{}})));}
+\DoxyCodeLine{00114             this.Name = \textcolor{stringliteral}{"{}Form3"{}};}
+\DoxyCodeLine{00115             this.Text = \textcolor{stringliteral}{"{}COMPLETED"{}};}
+\DoxyCodeLine{00116             this.Load += \textcolor{keyword}{new} System.EventHandler(this.Form3\_Load);}
+\DoxyCodeLine{00117             this.ResumeLayout(\textcolor{keyword}{false});}
+\DoxyCodeLine{00118 }
+\DoxyCodeLine{00119         \}}
+\DoxyCodeLine{00120 }
+\DoxyCodeLine{00121 \textcolor{preprocessor}{        \#endregion}}
+\DoxyCodeLine{00122 }
+\DoxyCodeLine{00123         \textcolor{keyword}{private} System.Windows.Forms.Label labelFelicitari;}
+\DoxyCodeLine{00124         \textcolor{keyword}{private} System.Windows.Forms.Label labelScorFinal;}
+\DoxyCodeLine{00125         \textcolor{keyword}{private} System.Windows.Forms.Label labelPunctaj;}
+\DoxyCodeLine{00126         \textcolor{keyword}{private} System.Windows.Forms.Label labelProcent;}
+\DoxyCodeLine{00127         \textcolor{keyword}{private} System.Windows.Forms.Button buttonAlegeDomeniu;}
+\DoxyCodeLine{00128     \}}
+\DoxyCodeLine{00129 \}}
+
+\end{DoxyCode}

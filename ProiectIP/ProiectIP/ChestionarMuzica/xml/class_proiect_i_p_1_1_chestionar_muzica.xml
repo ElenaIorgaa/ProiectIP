@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_muzica" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarMuzica</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IChestionar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_muzica_1a164dfefa91a1fd417d71d6960a310a04" prot="private" static="no" mutable="no">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt;Intrebare&gt; ProiectIP.ChestionarMuzica._intrebari</definition>
+        <argsstring></argsstring>
+        <name>_intrebari</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica._intrebari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="34" column="22" bodyfile="ChestionarMuzica.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1a4387a7e1d86dadf8e399d61e3ad7f732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarMuzica.ChestionarMuzica</definition>
+        <argsstring>()</argsstring>
+        <name>ChestionarMuzica</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.ChestionarMuzica</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="35" column="16" bodyfile="ChestionarMuzica.cs" bodystart="35" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1adb80c7d7c5fde7e98b54144dd0bbe844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMuzica.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="62" column="23" bodyfile="ChestionarMuzica.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1a147afe82820f3fea6a168ddfcee16b4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMuzica.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="68" column="23" bodyfile="ChestionarMuzica.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1a6df1bc9047542ccef146da1e1e28dcf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMuzica.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="74" column="23" bodyfile="ChestionarMuzica.cs" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1a13eb2ed397ec7e463f3bf11d435147c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMuzica.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="80" column="23" bodyfile="ChestionarMuzica.cs" bodystart="80" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1a07c258f7543c0bd8e434686c0c93b2e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMuzica.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="86" column="23" bodyfile="ChestionarMuzica.cs" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1a309025de95404361aceab69341e50a7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ChestionarMuzica.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="92" column="20" bodyfile="ChestionarMuzica.cs" bodystart="92" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1abe1ec7f315f986f07e1778564bc248f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMuzica.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="98" column="23" bodyfile="ChestionarMuzica.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_muzica_1abf0ca4dad1485b5fab9e3bfa44820889" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt; Intrebare &gt; ProiectIP.ChestionarMuzica.ReturneazaLista</definition>
+        <argsstring>()</argsstring>
+        <name>ReturneazaLista</name>
+        <qualifiedname>ProiectIP.ChestionarMuzica.ReturneazaLista</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMuzica.cs" line="102" column="21" bodyfile="ChestionarMuzica.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Muzica. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarMuzica</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_muzica"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarMuzica</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_muzica"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ChestionarMuzica.cs" line="32" column="11" bodyfile="ChestionarMuzica.cs" bodystart="33" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a164dfefa91a1fd417d71d6960a310a04" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>_intrebari</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a4387a7e1d86dadf8e399d61e3ad7f732" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>ChestionarMuzica</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1adb80c7d7c5fde7e98b54144dd0bbe844" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>GetEnunt</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a309025de95404361aceab69341e50a7a" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>GetRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a147afe82820f3fea6a168ddfcee16b4a" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>GetVar1</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a6df1bc9047542ccef146da1e1e28dcf4" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>GetVar2</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a13eb2ed397ec7e463f3bf11d435147c5" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>GetVar3</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a07c258f7543c0bd8e434686c0c93b2e3" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>GetVar4</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1abe1ec7f315f986f07e1778564bc248f8" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>Picture</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_muzica_1abf0ca4dad1485b5fab9e3bfa44820889" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMuzica</scope><name>ReturneazaLista</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_proiect_i_p_1_1_scor_partial" kind="class"><name>ProiectIP::ScorPartial</name>
+    <member refid="class_proiect_i_p_1_1_scor_partial_1a37986534c9522de678e1baa2f495812c" kind="variable"><name>_intrebariCorecte</name></member>
+    <member refid="class_proiect_i_p_1_1_scor_partial_1a1b9b688375a39cd671cfaadb503654e8" kind="function"><name>ScorPartial</name></member>
+    <member refid="class_proiect_i_p_1_1_scor_partial_1a3206c1e65aa380bcac0c0f5d8fa3a581" kind="function"><name>Rezultat</name></member>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_scor_partial_8cs" kind="file"><name>ScorPartial.cs</name>
+  </compound>
+</doxygenindex>

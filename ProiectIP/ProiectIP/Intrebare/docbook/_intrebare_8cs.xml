@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__intrebare_8cs" xml:lang="en-US">
+<title>Intrebare.cs File Reference</title>
+<indexterm><primary>Intrebare.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_intrebare">ProiectIP.Intrebare</link></para>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_intrebare">Intrebare</link> este folosita pentru a ne permite sa cream un obiect de tip <link linkend="_class_proiect_i_p_1_1_intrebare">Intrebare</link>, fiecare obiect avand un enunt, 4 variante si un int care va spune care varianta este cea corecta. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_proiect_i_p">ProiectIP</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

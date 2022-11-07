@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_chestionar_chimie" xml:lang="en-US">
+<title>ProiectIP.ChestionarChimie Class Reference</title>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary></indexterm>
+<para>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Chimie. /summary&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for ProiectIP.ChestionarChimie:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_chestionar_chimie.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1a78917585cdb98bba2d8a2a9e29860132">ChestionarChimie</link> ()</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1a74c0b12b5fdee505853083070074b0ef">GetEnunt</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1a247e8fe6e9b244d5b33f9ad526a03121">GetVar1</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1afb8e5e41777e77b4df3fdb009dab790f">GetVar2</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1a8fb086e7f123870b901b3e0d3c10bbd4">GetVar3</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1a23dfa161964f2d5ef6887c1d3f16d074">GetVar4</link> (int x)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1acdc0e2700e680ee7aa57e137953a7d06">GetRaspuns</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_chimie_1af1c4df1805c4fa324eabb68b9cac0743">Picture</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Chimie. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00032">32</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1a78917585cdb98bba2d8a2a9e29860132"/><section>
+    <title>ChestionarChimie()</title>
+<indexterm><primary>ChestionarChimie</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>ChestionarChimie</secondary></indexterm>
+<para><computeroutput>ProiectIP.ChestionarChimie.ChestionarChimie ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00035">35</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1a74c0b12b5fdee505853083070074b0ef"/><section>
+    <title>GetEnunt()</title>
+<indexterm><primary>GetEnunt</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>GetEnunt</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarChimie.GetEnunt (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00063">63</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1acdc0e2700e680ee7aa57e137953a7d06"/><section>
+    <title>GetRaspuns()</title>
+<indexterm><primary>GetRaspuns</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>GetRaspuns</secondary></indexterm>
+<para><computeroutput>int ProiectIP.ChestionarChimie.GetRaspuns (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00093">93</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1a247e8fe6e9b244d5b33f9ad526a03121"/><section>
+    <title>GetVar1()</title>
+<indexterm><primary>GetVar1</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>GetVar1</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarChimie.GetVar1 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00069">69</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1afb8e5e41777e77b4df3fdb009dab790f"/><section>
+    <title>GetVar2()</title>
+<indexterm><primary>GetVar2</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>GetVar2</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarChimie.GetVar2 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00075">75</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1a8fb086e7f123870b901b3e0d3c10bbd4"/><section>
+    <title>GetVar3()</title>
+<indexterm><primary>GetVar3</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>GetVar3</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarChimie.GetVar3 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00081">81</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1a23dfa161964f2d5ef6887c1d3f16d074"/><section>
+    <title>GetVar4()</title>
+<indexterm><primary>GetVar4</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>GetVar4</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarChimie.GetVar4 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00087">87</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_chimie_1af1c4df1805c4fa324eabb68b9cac0743"/><section>
+    <title>Picture()</title>
+<indexterm><primary>Picture</primary><secondary>ProiectIP.ChestionarChimie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarChimie</primary><secondary>Picture</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarChimie.Picture ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_chimie_8cs_source_1l00099">99</link> of file <link linkend="__chestionar_chimie_8cs_source">ChestionarChimie.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__chestionar_chimie_8cs">ChestionarChimie.cs</link></section>
+</section>

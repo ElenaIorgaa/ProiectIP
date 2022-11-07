@@ -1,0 +1,111 @@
+\doxysection{Chestionar\+Istorie.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 }
+\DoxyCodeLine{00002 \textcolor{comment}{/**************************************************************************}}
+\DoxyCodeLine{00003 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00004 \textcolor{comment}{ *  File:        ChestioarIstorie.cs                                      *}}
+\DoxyCodeLine{00005 \textcolor{comment}{ *  Copyright:   (c) 2008, Ingineria Programarii Proiect                  *}}
+\DoxyCodeLine{00006 \textcolor{comment}{ *  Description: Proiect la materia "{}Ingineria Programarii"{}               *}}
+\DoxyCodeLine{00007 \textcolor{comment}{ *               ce contine chestionare de cultura generala               *}}
+\DoxyCodeLine{00008 \textcolor{comment}{ *               din diverse domenii.                                     *}}
+\DoxyCodeLine{00009 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00010 \textcolor{comment}{ *  This program is free software; you can redistribute it and/or modify  *}}
+\DoxyCodeLine{00011 \textcolor{comment}{ *  it under the terms of the GNU General Public License as published by  *}}
+\DoxyCodeLine{00012 \textcolor{comment}{ *  the Free Software Foundation. This program is distributed in the      *}}
+\DoxyCodeLine{00013 \textcolor{comment}{ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *}}
+\DoxyCodeLine{00014 \textcolor{comment}{ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *}}
+\DoxyCodeLine{00015 \textcolor{comment}{ *  PURPOSE. See the GNU General Public License for more details.         *}}
+\DoxyCodeLine{00016 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00017 \textcolor{comment}{ **************************************************************************/}}
+\DoxyCodeLine{00018 }
+\DoxyCodeLine{00019 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00020 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00021 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00022 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00023 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00024 \textcolor{keyword}{using} Newtonsoft.Json;}
+\DoxyCodeLine{00025 \textcolor{keyword}{using} System.IO;}
+\DoxyCodeLine{00026 }
+\DoxyCodeLine{00027 }
+\DoxyCodeLine{00028 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00029 \{}
+\DoxyCodeLine{00033     \textcolor{keyword}{public} \textcolor{keyword}{class }ChestionarIstorie : IChestionar}
+\DoxyCodeLine{00034     \{}
+\DoxyCodeLine{00035         \textcolor{keyword}{private} List<Intrebare> \_intrebari;}
+\DoxyCodeLine{00036         \textcolor{keyword}{public} ChestionarIstorie()}
+\DoxyCodeLine{00037         \{}
+\DoxyCodeLine{00038 }
+\DoxyCodeLine{00039             \_intrebari = \textcolor{keyword}{new} List<Intrebare>();}
+\DoxyCodeLine{00040             \textcolor{keywordtype}{string} fileName = \textcolor{stringliteral}{"{}IntrebariIstorie.json"{}};\textcolor{comment}{//numele fisierului JSON in care se afla datele}}
+\DoxyCodeLine{00041             \textcolor{comment}{// string jsonString = File.ReadAllText(fileName);}}
+\DoxyCodeLine{00042 }
+\DoxyCodeLine{00043             \textcolor{comment}{// \_intrebari = JsonSerializer.Deserialize<Intrebare>(jsonString)!;}}
+\DoxyCodeLine{00044             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00045             \{}
+\DoxyCodeLine{00046                 \textcolor{keyword}{using} (StreamReader r = \textcolor{keyword}{new} StreamReader(fileName))\textcolor{comment}{//cu ajutorul StreamReader se extrag datele din fisierul cu numele setat mai sus}}
+\DoxyCodeLine{00047                 \{}
+\DoxyCodeLine{00048                     \{}
+\DoxyCodeLine{00049                     \textcolor{keywordtype}{string} json = r.ReadToEnd();\textcolor{comment}{//se citesc datele pana la final}}
+\DoxyCodeLine{00050                         \_intrebari = JsonConvert.DeserializeObject<List<Intrebare>>(json);\textcolor{comment}{//deserializarea json-\/ului si adaugarea lui sub forma de lista cu obiecte de tipul Intrebare}}
+\DoxyCodeLine{00051                     \}}
+\DoxyCodeLine{00052                 \}}
+\DoxyCodeLine{00053             \}}
+\DoxyCodeLine{00054             \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00055             \{}
+\DoxyCodeLine{00056                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}În ce an s-\/a născut Regele Mihai I?"{}}, \textcolor{stringliteral}{"{}1921"{}}, \textcolor{stringliteral}{"{}1999"{}}, \textcolor{stringliteral}{"{}1840"{}}, \textcolor{stringliteral}{"{}1400"{}}, 1));}
+\DoxyCodeLine{00057                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}În ce țară s-\/a născut Adolf Hitler?"{}}, \textcolor{stringliteral}{"{}Germania"{}}, \textcolor{stringliteral}{"{}Austria"{}}, \textcolor{stringliteral}{"{}Romania"{}}, \textcolor{stringliteral}{"{}Rusia"{}}, 2));}
+\DoxyCodeLine{00058                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}În ce an a reușit Mihai Viteazul unirea celor trei mari țări medievale?"{}}, \textcolor{stringliteral}{"{}1600"{}}, \textcolor{stringliteral}{"{}2200"{}}, \textcolor{stringliteral}{"{}1800"{}}, \textcolor{stringliteral}{"{}1400"{}}, 1));}
+\DoxyCodeLine{00059                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Când a inceput Primul Război Mondial?"{}}, \textcolor{stringliteral}{"{}2000"{}}, \textcolor{stringliteral}{"{}1800"{}}, \textcolor{stringliteral}{"{}1914"{}}, \textcolor{stringliteral}{"{}1600"{}}, 3));}
+\DoxyCodeLine{00060                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}În ce an a intrat România în Uniunea Europeana?"{}}, \textcolor{stringliteral}{"{}1600"{}}, \textcolor{stringliteral}{"{}2007"{}}, \textcolor{stringliteral}{"{}Niciodata"{}}, \textcolor{stringliteral}{"{}1800"{}}, 2));}
+\DoxyCodeLine{00061                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}În ce an a murit Prințesa Diana?"{}}, \textcolor{stringliteral}{"{}Inca traieste"{}}, \textcolor{stringliteral}{"{}1900"{}}, \textcolor{stringliteral}{"{}2000"{}}, \textcolor{stringliteral}{"{}1997"{}}, 4));}
+\DoxyCodeLine{00062                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Ce naționalitate are Papa Francisc I?"{}}, \textcolor{stringliteral}{"{}Romana"{}}, \textcolor{stringliteral}{"{}Engleza"{}}, \textcolor{stringliteral}{"{}Argentiniana"{}}, \textcolor{stringliteral}{"{}Franceza"{}}, 3));}
+\DoxyCodeLine{00063                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}În ce oraș au fost executați soții Ceaușescu?"{}}, \textcolor{stringliteral}{"{}Bucuresti"{}}, \textcolor{stringliteral}{"{}Praga"{}}, \textcolor{stringliteral}{"{}Targoviste"{}}, \textcolor{stringliteral}{"{}Liesti"{}}, 3));}
+\DoxyCodeLine{00064             \}}
+\DoxyCodeLine{00065         \}}
+\DoxyCodeLine{00066 }
+\DoxyCodeLine{00067         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetEnunt(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00068         \{}
+\DoxyCodeLine{00069 }
+\DoxyCodeLine{00070             \textcolor{keywordflow}{return} \_intrebari[x].Enunt;}
+\DoxyCodeLine{00071 }
+\DoxyCodeLine{00072         \}}
+\DoxyCodeLine{00073         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar1(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00074         \{}
+\DoxyCodeLine{00075 }
+\DoxyCodeLine{00076             \textcolor{keywordflow}{return} \_intrebari[x].Varianta1;}
+\DoxyCodeLine{00077 }
+\DoxyCodeLine{00078         \}}
+\DoxyCodeLine{00079         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar2(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00080         \{}
+\DoxyCodeLine{00081 }
+\DoxyCodeLine{00082             \textcolor{keywordflow}{return} \_intrebari[x].Varianta2;}
+\DoxyCodeLine{00083 }
+\DoxyCodeLine{00084         \}}
+\DoxyCodeLine{00085         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar3(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00086         \{}
+\DoxyCodeLine{00087 }
+\DoxyCodeLine{00088             \textcolor{keywordflow}{return} \_intrebari[x].Varianta3;}
+\DoxyCodeLine{00089 }
+\DoxyCodeLine{00090         \}}
+\DoxyCodeLine{00091         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar4(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00092         \{}
+\DoxyCodeLine{00093 }
+\DoxyCodeLine{00094             \textcolor{keywordflow}{return} \_intrebari[x].Varianta4;}
+\DoxyCodeLine{00095 }
+\DoxyCodeLine{00096         \}}
+\DoxyCodeLine{00097         \textcolor{keyword}{public} \textcolor{keywordtype}{int} GetRaspuns(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00098         \{}
+\DoxyCodeLine{00099 }
+\DoxyCodeLine{00100             \textcolor{keywordflow}{return} \_intrebari[x].VariantaCorecta;}
+\DoxyCodeLine{00101 }
+\DoxyCodeLine{00102         \}}
+\DoxyCodeLine{00103         \textcolor{keyword}{public} \textcolor{keywordtype}{string} Picture()}
+\DoxyCodeLine{00104         \{}
+\DoxyCodeLine{00105             \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}istorie"{}};}
+\DoxyCodeLine{00106         \}}
+\DoxyCodeLine{00107 }
+\DoxyCodeLine{00108     \}}
+\DoxyCodeLine{00109 \}}
+
+\end{DoxyCode}

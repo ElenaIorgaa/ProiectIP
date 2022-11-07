@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__chestionar_geografie_8cs" xml:lang="en-US">
+<title>ChestionarGeografie.cs File Reference</title>
+<indexterm><primary>ChestionarGeografie.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_chestionar_geografie">ProiectIP.ChestionarGeografie</link></para>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Chimie. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_proiect_i_p">ProiectIP</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

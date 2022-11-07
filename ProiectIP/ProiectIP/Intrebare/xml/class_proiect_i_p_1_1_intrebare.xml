@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_intrebare" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::Intrebare</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1ab059805dd656d26afcb83e828b56abba" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare._enunt</definition>
+        <argsstring></argsstring>
+        <name>_enunt</name>
+        <qualifiedname>ProiectIP.Intrebare._enunt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="33" column="24" bodyfile="Intrebare.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1a1312d6f4eb2815a1b967de3144c6abff" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare._var1</definition>
+        <argsstring></argsstring>
+        <name>_var1</name>
+        <qualifiedname>ProiectIP.Intrebare._var1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="34" column="24" bodyfile="Intrebare.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1a6112c3aa64735982b1b8d11878b52619" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare._var2</definition>
+        <argsstring></argsstring>
+        <name>_var2</name>
+        <qualifiedname>ProiectIP.Intrebare._var2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="35" column="24" bodyfile="Intrebare.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1a678dfe7ddf47a27cb085b09f5023611a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare._var3</definition>
+        <argsstring></argsstring>
+        <name>_var3</name>
+        <qualifiedname>ProiectIP.Intrebare._var3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="36" column="24" bodyfile="Intrebare.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1a77e04cd516de3db755100c81b295776c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare._var4</definition>
+        <argsstring></argsstring>
+        <name>_var4</name>
+        <qualifiedname>ProiectIP.Intrebare._var4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="37" column="24" bodyfile="Intrebare.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1a071fe12cacba9f47dcface502b79596f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProiectIP.Intrebare._varCorecta</definition>
+        <argsstring></argsstring>
+        <name>_varCorecta</name>
+        <qualifiedname>ProiectIP.Intrebare._varCorecta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="38" column="21" bodyfile="Intrebare.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1a3a05d2f801c5fc78aa3f0362bc080388" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ProiectIP.Intrebare._flag</definition>
+        <argsstring></argsstring>
+        <name>_flag</name>
+        <qualifiedname>ProiectIP.Intrebare._flag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="40" column="22" bodyfile="Intrebare.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_intrebare_1a6072b0ca220ccf20a88631caab0cfb53" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ProiectIP.Intrebare.nr</definition>
+        <argsstring></argsstring>
+        <name>nr</name>
+        <qualifiedname>ProiectIP.Intrebare.nr</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="39" column="27" bodyfile="Intrebare.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_proiect_i_p_1_1_intrebare_1addb5f6ca2380ea18af98cf0e461bb463" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare.Enunt</definition>
+        <argsstring></argsstring>
+        <name>Enunt</name>
+        <qualifiedname>ProiectIP.Intrebare.Enunt</qualifiedname>
+        <briefdescription>
+<para>Returneaza enuntul intrebarii. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="58" column="23" bodyfile="Intrebare.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_proiect_i_p_1_1_intrebare_1a5408f871d0027d4a15eeaacff5ef4f0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare.Varianta1</definition>
+        <argsstring></argsstring>
+        <name>Varianta1</name>
+        <qualifiedname>ProiectIP.Intrebare.Varianta1</qualifiedname>
+        <briefdescription>
+<para>Returneaza prima varianta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="66" column="23" bodyfile="Intrebare.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_proiect_i_p_1_1_intrebare_1a5f342122c38071e4754f6ad860aaff67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare.Varianta2</definition>
+        <argsstring></argsstring>
+        <name>Varianta2</name>
+        <qualifiedname>ProiectIP.Intrebare.Varianta2</qualifiedname>
+        <briefdescription>
+<para>Returneaza a doua varianta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="74" column="23" bodyfile="Intrebare.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_proiect_i_p_1_1_intrebare_1aa184363223011a9d1d3e45ca88200498" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare.Varianta3</definition>
+        <argsstring></argsstring>
+        <name>Varianta3</name>
+        <qualifiedname>ProiectIP.Intrebare.Varianta3</qualifiedname>
+        <briefdescription>
+<para>Returneaza a treia varianta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="82" column="23" bodyfile="Intrebare.cs" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_proiect_i_p_1_1_intrebare_1acc84eec267248111fbd88578983681c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Intrebare.Varianta4</definition>
+        <argsstring></argsstring>
+        <name>Varianta4</name>
+        <qualifiedname>ProiectIP.Intrebare.Varianta4</qualifiedname>
+        <briefdescription>
+<para>Returneaza a patra varianta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="90" column="23" bodyfile="Intrebare.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="property" id="class_proiect_i_p_1_1_intrebare_1a0270026f2868340f95767269cd6cf947" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ProiectIP.Intrebare.VariantaCorecta</definition>
+        <argsstring></argsstring>
+        <name>VariantaCorecta</name>
+        <qualifiedname>ProiectIP.Intrebare.VariantaCorecta</qualifiedname>
+        <briefdescription>
+<para>Returneaza care este varianta corecta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="98" column="20" bodyfile="Intrebare.cs" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="class_proiect_i_p_1_1_intrebare_1a986b53acc83a881cfe310929450ca6a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ProiectIP.Intrebare.VerificaFlag</definition>
+        <argsstring></argsstring>
+        <name>VerificaFlag</name>
+        <qualifiedname>ProiectIP.Intrebare.VerificaFlag</qualifiedname>
+        <briefdescription>
+<para>Verifica daca valoarea introdusa ca raspuns corect este valida. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="108" column="21" bodyfile="Intrebare.cs" bodystart="109" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_intrebare_1a7243e54948c97ca8e9a5a792ce1dcaa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.Intrebare.Intrebare</definition>
+        <argsstring>(string enunt, string var1, string var2, string var3, string var4, int varCorecta)</argsstring>
+        <name>Intrebare</name>
+        <qualifiedname>ProiectIP.Intrebare.Intrebare</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>enunt</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>var1</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>var2</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>var3</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>var4</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>varCorecta</declname>
+        </param>
+        <briefdescription>
+<para>Constructorul clasei. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Intrebare.cs" line="42" column="16" bodyfile="Intrebare.cs" bodystart="42" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clasa <ref refid="class_proiect_i_p_1_1_intrebare" kindref="compound">Intrebare</ref> este folosita pentru a ne permite sa cream un obiect de tip <ref refid="class_proiect_i_p_1_1_intrebare" kindref="compound">Intrebare</ref>, fiecare obiect avand un enunt, 4 variante si un int care va spune care varianta este cea corecta. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Intrebare.cs" line="31" column="11" bodyfile="Intrebare.cs" bodystart="32" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_intrebare_1ab059805dd656d26afcb83e828b56abba" prot="private" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>_enunt</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a3a05d2f801c5fc78aa3f0362bc080388" prot="private" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>_flag</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a1312d6f4eb2815a1b967de3144c6abff" prot="private" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>_var1</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a6112c3aa64735982b1b8d11878b52619" prot="private" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>_var2</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a678dfe7ddf47a27cb085b09f5023611a" prot="private" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>_var3</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a77e04cd516de3db755100c81b295776c" prot="private" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>_var4</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a071fe12cacba9f47dcface502b79596f" prot="private" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>_varCorecta</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1addb5f6ca2380ea18af98cf0e461bb463" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>Enunt</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a7243e54948c97ca8e9a5a792ce1dcaa8" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>Intrebare</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a6072b0ca220ccf20a88631caab0cfb53" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>nr</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a5408f871d0027d4a15eeaacff5ef4f0e" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>Varianta1</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a5f342122c38071e4754f6ad860aaff67" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>Varianta2</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1aa184363223011a9d1d3e45ca88200498" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>Varianta3</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1acc84eec267248111fbd88578983681c3" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>Varianta4</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a0270026f2868340f95767269cd6cf947" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>VariantaCorecta</name></member>
+      <member refid="class_proiect_i_p_1_1_intrebare_1a986b53acc83a881cfe310929450ca6a3" prot="public" virt="non-virtual"><scope>ProiectIP::Intrebare</scope><name>VerificaFlag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Calculeaza\bin\Debug\Calculeaza.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Calculeaza\bin\Debug\Calculeaza.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Calculeaza\obj\Debug\Calculeaza.csproj.AssemblyReference.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Calculeaza\obj\Debug\Calculeaza.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Calculeaza\obj\Debug\Calculeaza.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Calculeaza\obj\Debug\Calculeaza.pdb

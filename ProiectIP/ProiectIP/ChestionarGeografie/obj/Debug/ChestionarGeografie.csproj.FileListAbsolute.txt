@@ -1,0 +1,11 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\bin\Debug\ChestionarGeografie.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\bin\Debug\ChestionarGeografie.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\obj\Debug\ChestionarGeografie.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\obj\Debug\ChestionarGeografie.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\obj\Debug\ChestionarGeografie.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarGeografie\obj\Debug\ChestionarGeografie.pdb

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90F3584A-48BC-4A98-9715-574257F95885}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProiectIP</RootNamespace>
+    <AssemblyName>ProiectIP</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Calculeaza">
+      <HintPath>..\Calculeaza\bin\Debug\Calculeaza.dll</HintPath>
+    </Reference>
+    <Reference Include="CalculeazaVarsta">
+      <HintPath>..\CalculeazaVarsta\bin\Debug\CalculeazaVarsta.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarArta">
+      <HintPath>..\ChestionarArta\bin\Debug\ChestionarArta.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarChimie">
+      <HintPath>..\ChestionarChimie\bin\Debug\ChestionarChimie.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarFactory">
+      <HintPath>..\ChestionarFactory\bin\Debug\ChestionarFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarGeografie">
+      <HintPath>..\ChestionarGeografie\bin\Debug\ChestionarGeografie.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarIstorie">
+      <HintPath>..\ChestionarIstorie\bin\Debug\ChestionarIstorie.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarLimbaSiLiteraturaRomana">
+      <HintPath>..\ChestionarLimbaSiLiteraturaRomana\bin\Debug\ChestionarLimbaSiLiteraturaRomana.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarMatematica">
+      <HintPath>..\ChestionarMatematica\bin\Debug\ChestionarMatematica.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarMuzica">
+      <HintPath>..\ChestionarMuzica\bin\Debug\ChestionarMuzica.dll</HintPath>
+    </Reference>
+    <Reference Include="ChestionarSport">
+      <HintPath>..\ChestionarSport\bin\Debug\ChestionarSport.dll</HintPath>
+    </Reference>
+    <Reference Include="IChestionar">
+      <HintPath>..\IChestionar\bin\Debug\IChestionar.dll</HintPath>
+    </Reference>
+    <Reference Include="Intrebare">
+      <HintPath>..\Intrebare\bin\Debug\Intrebare.dll</HintPath>
+    </Reference>
+    <Reference Include="Lista">
+      <HintPath>..\Lista\bin\Debug\Lista.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Scor">
+      <HintPath>..\Scor\bin\Debug\Scor.dll</HintPath>
+    </Reference>
+    <Reference Include="ScorFinal">
+      <HintPath>..\ScorFinal\bin\Debug\ScorFinal.dll</HintPath>
+    </Reference>
+    <Reference Include="ScorPartial">
+      <HintPath>..\ScorPartial\bin\Debug\ScorPartial.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxException">
+      <HintPath>..\TextBoxException\bin\Debug\TextBoxException.dll</HintPath>
+    </Reference>
+    <Reference Include="VerificaNume">
+      <HintPath>..\VerificaNume\bin\Debug\VerificaNume.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\math.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\geografie.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sport.png" />
+    <None Include="Resources\romana.png" />
+    <None Include="Resources\muzica.png" />
+    <None Include="Resources\arta.png" />
+    <None Include="Resources\c - Copy.png" />
+    <Content Include="Resources\chimie.png" />
+    <None Include="Resources\istorie.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_scor_final" xml:lang="en-US">
+<title>ProiectIP.ScorFinal Class Reference</title>
+<indexterm><primary>ProiectIP.ScorFinal</primary></indexterm>
+<para>
+
+<para>Aceasta clasa este folosita pentru a calcula scorul final, fiind un singleton deoarece avem nevoie de o singura instanta a ei, scorul final fiind doar unul. /summary&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for ProiectIP.ScorFinal:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_scor_final.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_proiect_i_p_1_1_scor_final_1a3f750bf2ea0f306c73cd703d21e6c192">Adauga</link> (int intrebariCorecte)</para>
+</listitem>
+            <listitem><para>override decimal <link linkend="_class_proiect_i_p_1_1_scor_final_1ac68daf362981e46d03eec5f4bf57dccb">Rezultat</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_proiect_i_p_1_1_scor_final_1ab1992117cb2d44a07d93daa85808c916">getCalculRaspuns</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_proiect_i_p_1_1_scor_final">ScorFinal</link> <link linkend="_class_proiect_i_p_1_1_scor_final_1af43f025a18c9a8dadefd2435a7ab38ed">Instance</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Aceasta clasa este folosita pentru a calcula scorul final, fiind un singleton deoarece avem nevoie de o singura instanta a ei, scorul final fiind doar unul. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__scor_final_8cs_source_1l00031">31</link> of file <link linkend="__scor_final_8cs_source">ScorFinal.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_scor_final_1a3f750bf2ea0f306c73cd703d21e6c192"/><section>
+    <title>Adauga()</title>
+<indexterm><primary>Adauga</primary><secondary>ProiectIP.ScorFinal</secondary></indexterm>
+<indexterm><primary>ProiectIP.ScorFinal</primary><secondary>Adauga</secondary></indexterm>
+<para><computeroutput>void ProiectIP.ScorFinal.Adauga (int intrebariCorecte)</computeroutput></para>
+<para>summary&gt; Metoda care calculeaza rezultatul. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__scor_final_8cs_source_1l00058">58</link> of file <link linkend="__scor_final_8cs_source">ScorFinal.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_scor_final_1ab1992117cb2d44a07d93daa85808c916"/><section>
+    <title>getCalculRaspuns()</title>
+<indexterm><primary>getCalculRaspuns</primary><secondary>ProiectIP.ScorFinal</secondary></indexterm>
+<indexterm><primary>ProiectIP.ScorFinal</primary><secondary>getCalculRaspuns</secondary></indexterm>
+<para><computeroutput>int ProiectIP.ScorFinal.getCalculRaspuns ( )</computeroutput></para><para>
+Definition at line <link linkend="__scor_final_8cs_source_1l00084">84</link> of file <link linkend="__scor_final_8cs_source">ScorFinal.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_scor_final_1ac68daf362981e46d03eec5f4bf57dccb"/><section>
+    <title>Rezultat()</title>
+<indexterm><primary>Rezultat</primary><secondary>ProiectIP.ScorFinal</secondary></indexterm>
+<indexterm><primary>ProiectIP.ScorFinal</primary><secondary>Rezultat</secondary></indexterm>
+<para><computeroutput>override decimal ProiectIP.ScorFinal.Rezultat ( )</computeroutput></para>
+<para>summary&gt; Metoda ce returneaza cate intrebari corecte au fost facute pana intr-un anumit punct. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__scor_final_8cs_source_1l00065">65</link> of file <link linkend="__scor_final_8cs_source">ScorFinal.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_scor_final_1af43f025a18c9a8dadefd2435a7ab38ed"/><section>
+    <title>Instance</title>
+<indexterm><primary>Instance</primary><secondary>ProiectIP.ScorFinal</secondary></indexterm>
+<indexterm><primary>ProiectIP.ScorFinal</primary><secondary>Instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_proiect_i_p_1_1_scor_final">ScorFinal</link> ProiectIP.ScorFinal.Instance<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para>
+<para>summary&gt; Aceasta metoda adauga la scorul tinut pana intr-un punct, noul scor facut de utilizator la completarea unui modul. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__scor_final_8cs_source_1l00046">46</link> of file <link linkend="__scor_final_8cs_source">ScorFinal.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__scor_final_8cs">ScorFinal.cs</link></section>
+</section>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_scor_final" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ScorFinal</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Scor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_scor_final_1a4e14d659f3f813711305253523b5b07b" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_proiect_i_p_1_1_scor_final" kindref="compound">ScorFinal</ref></type>
+        <definition>ScorFinal ProiectIP.ScorFinal._scor</definition>
+        <argsstring></argsstring>
+        <name>_scor</name>
+        <qualifiedname>ProiectIP.ScorFinal._scor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorFinal.cs" line="33" column="34" bodyfile="ScorFinal.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_scor_final_1aa2c97943df5062c1dcf3cad64e5c4cbe" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ProiectIP.ScorFinal._intrebariCorecte</definition>
+        <argsstring></argsstring>
+        <name>_intrebariCorecte</name>
+        <qualifiedname>ProiectIP.ScorFinal._intrebariCorecte</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorFinal.cs" line="34" column="28" bodyfile="ScorFinal.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_proiect_i_p_1_1_scor_final_1af43f025a18c9a8dadefd2435a7ab38ed" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_proiect_i_p_1_1_scor_final" kindref="compound">ScorFinal</ref></type>
+        <definition>ScorFinal ProiectIP.ScorFinal.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>ProiectIP.ScorFinal.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Aceasta metoda adauga la scorul tinut pana intr-un punct, noul scor facut de utilizator la completarea unui modul. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorFinal.cs" line="46" column="33" bodyfile="ScorFinal.cs" bodystart="47" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_scor_final_1a09e5bc1fb48afe768d67bab12db80f2f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ScorFinal.ScorFinal</definition>
+        <argsstring>()</argsstring>
+        <name>ScorFinal</name>
+        <qualifiedname>ProiectIP.ScorFinal.ScorFinal</qualifiedname>
+        <briefdescription>
+<para>Constructorul privat. /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Metoda va returna instanta Singleton-ului. Daca acesta a fost deja creat, va returna instanta creata anterior, daca nu, va crea un nou obiect. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorFinal.cs" line="38" column="17" bodyfile="ScorFinal.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_scor_final_1a3f750bf2ea0f306c73cd703d21e6c192" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.ScorFinal.Adauga</definition>
+        <argsstring>(int intrebariCorecte)</argsstring>
+        <name>Adauga</name>
+        <qualifiedname>ProiectIP.ScorFinal.Adauga</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>intrebariCorecte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Metoda care calculeaza rezultatul. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorFinal.cs" line="58" column="21" bodyfile="ScorFinal.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_scor_final_1ac68daf362981e46d03eec5f4bf57dccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override decimal</type>
+        <definition>override decimal ProiectIP.ScorFinal.Rezultat</definition>
+        <argsstring>()</argsstring>
+        <name>Rezultat</name>
+        <qualifiedname>ProiectIP.ScorFinal.Rezultat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Metoda ce returneaza cate intrebari corecte au fost facute pana intr-un anumit punct. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorFinal.cs" line="65" column="33" bodyfile="ScorFinal.cs" bodystart="65" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_scor_final_1ab1992117cb2d44a07d93daa85808c916" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ScorFinal.getCalculRaspuns</definition>
+        <argsstring>()</argsstring>
+        <name>getCalculRaspuns</name>
+        <qualifiedname>ProiectIP.ScorFinal.getCalculRaspuns</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorFinal.cs" line="84" column="20" bodyfile="ScorFinal.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta clasa este folosita pentru a calcula scorul final, fiind un singleton deoarece avem nevoie de o singura instanta a ei, scorul final fiind doar unul. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ProiectIP.ScorFinal</label>
+        <link refid="class_proiect_i_p_1_1_scor_final"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Scor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ProiectIP.ScorFinal</label>
+        <link refid="class_proiect_i_p_1_1_scor_final"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Scor</label>
+      </node>
+    </collaborationgraph>
+    <location file="ScorFinal.cs" line="31" column="11" bodyfile="ScorFinal.cs" bodystart="32" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_scor_final_1aa2c97943df5062c1dcf3cad64e5c4cbe" prot="private" virt="non-virtual"><scope>ProiectIP::ScorFinal</scope><name>_intrebariCorecte</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_final_1a4e14d659f3f813711305253523b5b07b" prot="private" virt="non-virtual"><scope>ProiectIP::ScorFinal</scope><name>_scor</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_final_1a3f750bf2ea0f306c73cd703d21e6c192" prot="public" virt="non-virtual"><scope>ProiectIP::ScorFinal</scope><name>Adauga</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_final_1ab1992117cb2d44a07d93daa85808c916" prot="public" virt="non-virtual"><scope>ProiectIP::ScorFinal</scope><name>getCalculRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_final_1af43f025a18c9a8dadefd2435a7ab38ed" prot="public" virt="non-virtual"><scope>ProiectIP::ScorFinal</scope><name>Instance</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_final_1ac68daf362981e46d03eec5f4bf57dccb" prot="public" virt="non-virtual"><scope>ProiectIP::ScorFinal</scope><name>Rezultat</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_final_1a09e5bc1fb48afe768d67bab12db80f2f" prot="private" virt="non-virtual"><scope>ProiectIP::ScorFinal</scope><name>ScorFinal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

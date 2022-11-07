@@ -1,0 +1,5 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Intrebare\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Intrebare\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Intrebare\obj\Debug\Intrebare.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Intrebare\obj\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Intrebare\obj\Debug\Intrebare.pdb

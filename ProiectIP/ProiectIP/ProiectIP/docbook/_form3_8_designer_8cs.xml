@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__form3_8_designer_8cs" xml:lang="en-US">
+<title>Form3.Designer.cs File Reference</title>
+<indexterm><primary>Form3.Designer.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_form3">ProiectIP.Form3</link></para>
+
+<para>Clasa ce da functionalitatea lui <link linkend="_class_proiect_i_p_1_1_form3">Form3</link>, <link linkend="_class_proiect_i_p_1_1_form3">Form3</link> fiind interfata afisata atunci cand un modul este completat, sau cand tot testul este terminat. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_proiect_i_p">ProiectIP</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

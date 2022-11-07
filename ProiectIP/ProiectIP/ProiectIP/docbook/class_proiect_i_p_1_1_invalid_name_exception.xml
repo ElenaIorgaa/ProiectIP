@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_invalid_name_exception" xml:lang="en-US">
+<title>ProiectIP.InvalidNameException Class Reference</title>
+<indexterm><primary>ProiectIP.InvalidNameException</primary></indexterm>
+<para>Inheritance diagram for ProiectIP.InvalidNameException:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_invalid_name_exception.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_invalid_name_exception_1ab59d9cb7b1c7787befc05fe99f946e91">InvalidNameException</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_invalid_name_exception_1a838f6ff07586060f002cad44ff877fce">InvalidNameException</link> (string name)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__form1_8cs_source_1l00270">270</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_invalid_name_exception_1ab59d9cb7b1c7787befc05fe99f946e91"/><section>
+    <title>InvalidNameException()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>InvalidNameException</primary><secondary>ProiectIP.InvalidNameException</secondary></indexterm>
+<indexterm><primary>ProiectIP.InvalidNameException</primary><secondary>InvalidNameException</secondary></indexterm>
+<para><computeroutput>ProiectIP.InvalidNameException.InvalidNameException ( )</computeroutput></para><para>
+Definition at line <link linkend="__form1_8cs_source_1l00272">272</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_invalid_name_exception_1a838f6ff07586060f002cad44ff877fce"/><section>
+    <title>InvalidNameException()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>InvalidNameException</primary><secondary>ProiectIP.InvalidNameException</secondary></indexterm>
+<indexterm><primary>ProiectIP.InvalidNameException</primary><secondary>InvalidNameException</secondary></indexterm>
+<para><computeroutput>ProiectIP.InvalidNameException.InvalidNameException (string name)</computeroutput></para><para>
+Definition at line <link linkend="__form1_8cs_source_1l00274">274</link> of file <link linkend="__form1_8cs_source">Form1.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__form1_8cs">Form1.cs</link></section>
+</section>

@@ -1,0 +1,279 @@
+\doxysection{Form1.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00002 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00003 \textcolor{keyword}{using} System.ComponentModel;}
+\DoxyCodeLine{00004 \textcolor{keyword}{using} System.Data;}
+\DoxyCodeLine{00005 \textcolor{keyword}{using} System.Drawing;}
+\DoxyCodeLine{00006 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00007 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00008 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00009 \textcolor{keyword}{using} System.Windows.Forms;}
+\DoxyCodeLine{00010 }
+\DoxyCodeLine{00011 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00012 \{}
+\DoxyCodeLine{00016     \textcolor{keyword}{public} \textcolor{keyword}{partial class }Form1 : Form}
+\DoxyCodeLine{00017     \{}
+\DoxyCodeLine{00018         \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{int} domeniu;\textcolor{comment}{//domeniul pe care il alege utilizatorul}}
+\DoxyCodeLine{00019         \textcolor{keyword}{private} Lista l;\textcolor{comment}{//singetonul care tine lista in care vom cauta modulele pe care le parcurgem, pentru a evita reincercarea lor}}
+\DoxyCodeLine{00020         \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{string} nume;}
+\DoxyCodeLine{00021         \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{int} varsta;}
+\DoxyCodeLine{00022 }
+\DoxyCodeLine{00024         \textcolor{keyword}{public} Form1()}
+\DoxyCodeLine{00025         \{}
+\DoxyCodeLine{00026             l = Lista.Instance;}
+\DoxyCodeLine{00027             InitializeComponent();}
+\DoxyCodeLine{00028             Form2 f2 = \textcolor{keyword}{new} Form2();}
+\DoxyCodeLine{00029             labelWelcome.Text = \$\textcolor{stringliteral}{"{}Bine ai venit, \{nume\}!"{}};}
+\DoxyCodeLine{00030             \textcolor{keywordflow}{if}(nume!=\textcolor{keyword}{null})}
+\DoxyCodeLine{00031             \{}
+\DoxyCodeLine{00032                 textBoxNume.Enabled = \textcolor{keyword}{false};}
+\DoxyCodeLine{00033                 textBoxVarsta.Enabled = \textcolor{keyword}{false};}
+\DoxyCodeLine{00034                 buttonGeografie.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00035                 buttonMatematica.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00036                 buttonChimie.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00037                 buttonMuzica.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00038                 buttonArta.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00039                 buttonSport.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00040                 buttonIstorie.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00041                 buttonRomana.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00042 }
+\DoxyCodeLine{00043             \}}
+\DoxyCodeLine{00044 }
+\DoxyCodeLine{00045 }
+\DoxyCodeLine{00046         \}}
+\DoxyCodeLine{00047 }
+\DoxyCodeLine{00049         \textcolor{keyword}{private} \textcolor{keywordtype}{void} AlegeDomeniu(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00050         \{}
+\DoxyCodeLine{00051             domeniu = x;}
+\DoxyCodeLine{00052             \textcolor{keywordflow}{if} (l.Contains(domeniu))}
+\DoxyCodeLine{00053             \{}
+\DoxyCodeLine{00054                 MessageBox.Show(\textcolor{stringliteral}{"{}Deja ati parcurs acest modul!"{}});}
+\DoxyCodeLine{00055             \}}
+\DoxyCodeLine{00056             \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00057             \{}
+\DoxyCodeLine{00058 }
+\DoxyCodeLine{00059                 l.Add(domeniu);}
+\DoxyCodeLine{00060                 this.Hide();}
+\DoxyCodeLine{00061                 Form2 f2 = \textcolor{keyword}{new} Form2();}
+\DoxyCodeLine{00062                 f2.Show();}
+\DoxyCodeLine{00063             \}}
+\DoxyCodeLine{00064         \}}
+\DoxyCodeLine{00065         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelTitlu\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00066         \{}
+\DoxyCodeLine{00067 }
+\DoxyCodeLine{00068         \}}
+\DoxyCodeLine{00069 }
+\DoxyCodeLine{00072         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonGeografie\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00073         \{}
+\DoxyCodeLine{00074             AlegeDomeniu(2);}
+\DoxyCodeLine{00075 }
+\DoxyCodeLine{00076         \}}
+\DoxyCodeLine{00077 }
+\DoxyCodeLine{00078         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonMatematica\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00079         \{}
+\DoxyCodeLine{00080             AlegeDomeniu(1);}
+\DoxyCodeLine{00081  }
+\DoxyCodeLine{00082         \}}
+\DoxyCodeLine{00083 }
+\DoxyCodeLine{00084         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonChimie\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00085         \{}
+\DoxyCodeLine{00086 }
+\DoxyCodeLine{00087             AlegeDomeniu(3);}
+\DoxyCodeLine{00088         \}}
+\DoxyCodeLine{00089 }
+\DoxyCodeLine{00090         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonIstorie\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00091         \{}
+\DoxyCodeLine{00092             AlegeDomeniu(4);}
+\DoxyCodeLine{00093         \}}
+\DoxyCodeLine{00094 }
+\DoxyCodeLine{00095         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonSport\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00096         \{}
+\DoxyCodeLine{00097             AlegeDomeniu(5);}
+\DoxyCodeLine{00098         \}}
+\DoxyCodeLine{00099 }
+\DoxyCodeLine{00100         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonRomana\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00101         \{}
+\DoxyCodeLine{00102             AlegeDomeniu(6);}
+\DoxyCodeLine{00103         \}}
+\DoxyCodeLine{00104 }
+\DoxyCodeLine{00105         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonArta\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00106         \{}
+\DoxyCodeLine{00107             AlegeDomeniu(7);}
+\DoxyCodeLine{00108         \}}
+\DoxyCodeLine{00109 }
+\DoxyCodeLine{00110         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonMuzica\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00111         \{}
+\DoxyCodeLine{00112             AlegeDomeniu(8);}
+\DoxyCodeLine{00113         \}}
+\DoxyCodeLine{00114 }
+\DoxyCodeLine{00115         \textcolor{keyword}{private} \textcolor{keywordtype}{void} textBoxNume\_TextChanged(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00116         \{}
+\DoxyCodeLine{00117             }
+\DoxyCodeLine{00118             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00119             \{}
+\DoxyCodeLine{00120                 \textcolor{comment}{//if (textBoxNume.Text.All(char.IsLetter) == false)}}
+\DoxyCodeLine{00121                 \textcolor{keywordflow}{if}(VerificaNume.AreDoarLitere(textBoxNume.Text)==\textcolor{keyword}{false})}
+\DoxyCodeLine{00122                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} InvalidNameException((textBoxNume.Text));}
+\DoxyCodeLine{00123 }
+\DoxyCodeLine{00124                 \textcolor{keywordflow}{if} (textBoxNume.Text.Length > 10)}
+\DoxyCodeLine{00125                 \{}
+\DoxyCodeLine{00126                     }
+\DoxyCodeLine{00127                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} TextBoxException(\textcolor{stringliteral}{"{}Mai mult de 10 caractere, "{}});}
+\DoxyCodeLine{00128                     }
+\DoxyCodeLine{00129                 \}}
+\DoxyCodeLine{00130               }
+\DoxyCodeLine{00131             \}}
+\DoxyCodeLine{00132             \textcolor{keywordflow}{catch}(InvalidNameException n)}
+\DoxyCodeLine{00133             \{}
+\DoxyCodeLine{00134                 MessageBox.Show(String.Format(\textcolor{stringliteral}{"{}\{0\}. Numele nu poate contine numere, spatii sau semne"{}}, n.Message));}
+\DoxyCodeLine{00135                 textBoxNume.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00136             \}}
+\DoxyCodeLine{00137             \textcolor{keywordflow}{catch}(TextBoxException t)}
+\DoxyCodeLine{00138             \{}
+\DoxyCodeLine{00139                 MessageBox.Show(String.Format(\textcolor{stringliteral}{"{}\{0\}. Numele e prea lung"{}}, t.Message));}
+\DoxyCodeLine{00140                 textBoxNume.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00141 }
+\DoxyCodeLine{00142             \}}
+\DoxyCodeLine{00143             \textcolor{keywordflow}{try} \{ }
+\DoxyCodeLine{00144               \textcolor{keywordflow}{if}(VerificaNume.IncepeCuLiteraMare(textBoxNume.Text)==\textcolor{keyword}{false})}
+\DoxyCodeLine{00145                 \{}
+\DoxyCodeLine{00146                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} TextBoxException(\textcolor{stringliteral}{"{}Numele trebuie sa inceapa cu litera mare!"{}});}
+\DoxyCodeLine{00147                 \}\}}
+\DoxyCodeLine{00148               \textcolor{keywordflow}{catch}(TextBoxException r)}
+\DoxyCodeLine{00149             \{}
+\DoxyCodeLine{00150                 MessageBox.Show(String.Format(\textcolor{stringliteral}{"{}\{0\} "{}}, r.Message));}
+\DoxyCodeLine{00151                 textBoxNume.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00152             \}}
+\DoxyCodeLine{00153 }
+\DoxyCodeLine{00154 }
+\DoxyCodeLine{00155         \}}
+\DoxyCodeLine{00156 }
+\DoxyCodeLine{00157 }
+\DoxyCodeLine{00158         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonHelp\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00159         \{}
+\DoxyCodeLine{00160             Help.ShowHelp(\textcolor{keyword}{this}, \textcolor{stringliteral}{"{}Help-\/for-\/Project.chm"{}});}
+\DoxyCodeLine{00161         \}}
+\DoxyCodeLine{00162 }
+\DoxyCodeLine{00163         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonSeteaza\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00164         \{}
+\DoxyCodeLine{00165             \textcolor{keywordflow}{if} (l.Contains(9) || l.Contains(10))}
+\DoxyCodeLine{00166             \{}
+\DoxyCodeLine{00167                 MessageBox.Show(\textcolor{stringliteral}{"{}Deja ati setat datele!"{}});}
+\DoxyCodeLine{00168             \}}
+\DoxyCodeLine{00169             \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00170             \{}
+\DoxyCodeLine{00171                }
+\DoxyCodeLine{00172 }
+\DoxyCodeLine{00173                 \textcolor{keywordtype}{string} x = textBoxVarsta.Text;}
+\DoxyCodeLine{00174                 \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00175                 \{}
+\DoxyCodeLine{00176                     \textcolor{keywordtype}{int} y = \textcolor{keywordtype}{int}.Parse(x);}
+\DoxyCodeLine{00177                     CalculeazaVarsta c = \textcolor{keyword}{new} CalculeazaVarsta(y); }
+\DoxyCodeLine{00178                     varsta = c.Rezultat;}
+\DoxyCodeLine{00179 }
+\DoxyCodeLine{00180                     \textcolor{keywordflow}{if} (c.Valid == \textcolor{keyword}{true} \&\& textBoxNume.Text!=\textcolor{stringliteral}{"{}"{}} \&\& VerificaNume.ContineLitereDiferite(textBoxNume.Text)==\textcolor{keyword}{true})}
+\DoxyCodeLine{00181                     \{}
+\DoxyCodeLine{00182                         nume = textBoxNume.Text;}
+\DoxyCodeLine{00183                         labelWelcome.Text = \$\textcolor{stringliteral}{"{}Bine ai venit, \{textBoxNume.Text\}!"{}};}
+\DoxyCodeLine{00184                         l.Add(9);}
+\DoxyCodeLine{00185                         l.Add(10); }
+\DoxyCodeLine{00186                         textBoxNume.Enabled = \textcolor{keyword}{false};}
+\DoxyCodeLine{00187                         textBoxVarsta.Enabled = \textcolor{keyword}{false};}
+\DoxyCodeLine{00188                         buttonGeografie.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00189                         buttonMatematica.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00190                         buttonChimie.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00191                         buttonMuzica.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00192                         buttonArta.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00193                         buttonSport.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00194                         buttonIstorie.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00195                         buttonRomana.Enabled = \textcolor{keyword}{true};}
+\DoxyCodeLine{00196                     \}}
+\DoxyCodeLine{00197                     \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00198                     \{}
+\DoxyCodeLine{00199                         MessageBox.Show(\textcolor{stringliteral}{"{}Date incorecte, reincercati!"{}});}
+\DoxyCodeLine{00200                         textBoxNume.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00201                         textBoxVarsta.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00202 }
+\DoxyCodeLine{00203 }
+\DoxyCodeLine{00204                     \}}
+\DoxyCodeLine{00205                 \}}
+\DoxyCodeLine{00206                 \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00207                 \{}
+\DoxyCodeLine{00208                     MessageBox.Show(\textcolor{stringliteral}{"{}Nu e un an valid!"{}});}
+\DoxyCodeLine{00209                 \}}
+\DoxyCodeLine{00210                }
+\DoxyCodeLine{00211                }
+\DoxyCodeLine{00212 }
+\DoxyCodeLine{00213 }
+\DoxyCodeLine{00214             \}}
+\DoxyCodeLine{00215         \}}
+\DoxyCodeLine{00216 }
+\DoxyCodeLine{00217         \textcolor{keyword}{private} \textcolor{keywordtype}{void} pictureBoxQuizNight\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00218         \{}
+\DoxyCodeLine{00219 }
+\DoxyCodeLine{00220         \}}
+\DoxyCodeLine{00221 }
+\DoxyCodeLine{00222         \textcolor{keyword}{private} \textcolor{keywordtype}{void} Form1\_Load(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00223         \{}
+\DoxyCodeLine{00224 }
+\DoxyCodeLine{00225         \}}
+\DoxyCodeLine{00226 }
+\DoxyCodeLine{00227         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelWelcome\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00228         \{}
+\DoxyCodeLine{00229 }
+\DoxyCodeLine{00230         \}}
+\DoxyCodeLine{00231 }
+\DoxyCodeLine{00232         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelNume\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00233         \{}
+\DoxyCodeLine{00234 }
+\DoxyCodeLine{00235         \}}
+\DoxyCodeLine{00236 }
+\DoxyCodeLine{00237         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelDomeniu\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00238         \{}
+\DoxyCodeLine{00239 }
+\DoxyCodeLine{00240         \}}
+\DoxyCodeLine{00241 }
+\DoxyCodeLine{00242         \textcolor{keyword}{private} \textcolor{keywordtype}{void} textBoxVarsta\_TextChanged(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00243         \{}
+\DoxyCodeLine{00244 }
+\DoxyCodeLine{00245             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00246             \{}
+\DoxyCodeLine{00247                 \textcolor{keywordflow}{if} (textBoxVarsta.Text.Any(\textcolor{keywordtype}{char}.IsLetter) == \textcolor{keyword}{true})}
+\DoxyCodeLine{00248                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"{}Anul nasterii nu poate contine litere"{}});}
+\DoxyCodeLine{00249             \}}
+\DoxyCodeLine{00250             \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00251             \{}
+\DoxyCodeLine{00252                 MessageBox.Show(\textcolor{stringliteral}{"{}Anul nasterii nu poate contine litere"{}});}
+\DoxyCodeLine{00253                 textBoxVarsta.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00254             \}}
+\DoxyCodeLine{00255 }
+\DoxyCodeLine{00256             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00257             \{}
+\DoxyCodeLine{00258                 \textcolor{keywordflow}{if} (textBoxVarsta.Text.Contains(\textcolor{charliteral}{'-\/'}) || textBoxVarsta.Text.Contains(\textcolor{charliteral}{'+'}) || textBoxVarsta.Text.Contains(\textcolor{charliteral}{'`'}) || textBoxVarsta.Text.Contains(\textcolor{charliteral}{'\string~'}) || textBoxVarsta.Text.Contains(\textcolor{charliteral}{'\%'}) || textBoxVarsta.Text.Contains(\textcolor{charliteral}{'\#'}) || textBoxVarsta.Text.Contains(\textcolor{charliteral}{'\&'}) || textBoxVarsta.Text.Contains(\textcolor{charliteral}{'\string^'}))}
+\DoxyCodeLine{00259                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"{}Anul nasterii nu poate contine astfel de caractere"{}});}
+\DoxyCodeLine{00260             \}}
+\DoxyCodeLine{00261             \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00262             \{}
+\DoxyCodeLine{00263                 MessageBox.Show(\textcolor{stringliteral}{"{}Anul nasterii nu poate contine astfel de caractere"{}});}
+\DoxyCodeLine{00264                 textBoxVarsta.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00265             \}}
+\DoxyCodeLine{00266         \}}
+\DoxyCodeLine{00267     \}}
+\DoxyCodeLine{00268 }
+\DoxyCodeLine{00269     [Serializable]}
+\DoxyCodeLine{00270     \textcolor{keyword}{public} \textcolor{keyword}{class }InvalidNameException : Exception}
+\DoxyCodeLine{00271     \{}
+\DoxyCodeLine{00272         \textcolor{keyword}{public} InvalidNameException() \{ \}}
+\DoxyCodeLine{00273 }
+\DoxyCodeLine{00274         \textcolor{keyword}{public} InvalidNameException(\textcolor{keywordtype}{string} name)}
+\DoxyCodeLine{00275             : base(String.Format(\textcolor{stringliteral}{"{}Nume invalid: \{0\}"{}}, name))}
+\DoxyCodeLine{00276         \{}
+\DoxyCodeLine{00277 }
+\DoxyCodeLine{00278         \}}
+\DoxyCodeLine{00279     \}}
+\DoxyCodeLine{00280 }
+\DoxyCodeLine{00281 \}}
+
+\end{DoxyCode}

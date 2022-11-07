@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "Atunci când vorbim de o unitate de măsură, pluralul de la „lux” este:", 
+        "var1": "luxe",
+        "var2": "luxuri",
+        "var3": "lucşi",
+        "var4": "lux",
+        "varCorecta": 3
+    },
+  {
+    "enunt": "Câte cazuri are substantivul?", 
+    "var1": "4",
+    "var2": "5",
+    "var3": "6",
+    "var4": "3",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Cine a scris Luceafărul?", 
+    "var1": "Mihai Eminescu",
+    "var2": "Ion Eminescu",
+    "var3": "Mihai Creangă",
+    "var4": "Veronica Micle",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Câte strofe are poezia “Luceafărul” de Mihai Eminescu?", 
+    "var1": "98",
+    "var2": "56",
+    "var3": "74",
+    "var4": "200",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Cine a scris romanul “Ion”?", 
+    "var1": "Mihai Eminescu",
+    "var2": "Liviu Rebreanu",
+    "var3": "I. L. Caragiale",
+    "var4": "Ioan Slavici",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Unde s-a născut Ion Creangă?", 
+    "var1": "Timişoara",
+    "var2": "Roman",
+    "var3": "Suceava",
+    "var4": "Humuleşti",
+    "varCorecta": 4
+  },
+  {
+    "enunt": "Cine a scris “Enigma Otilei”?", 
+    "var1": "George Călinescu",
+    "var2": "Ioan Slavici",
+    "var3": "Mircea Cărtărescu",
+    "var4": "Ana Blandiana",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Ce poet a scris poezia “Plumb”?", 
+    "var1": "Ana Blandiana",
+    "var2": "George Bacovia",
+    "var3": "Ştefan Baciu",
+    "var4": "Dan Damaschin",
+    "varCorecta": 2
+  }
+
+]

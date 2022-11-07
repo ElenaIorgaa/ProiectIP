@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_proiect_i_p" xml:lang="en-US">
+<title>ProiectIP Namespace Reference</title>
+<indexterm><primary>ProiectIP</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_text_box_exception">TextBoxException</link></para>
+
+<para>Clasa ce reprezinta o exceptie de tip textbox. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

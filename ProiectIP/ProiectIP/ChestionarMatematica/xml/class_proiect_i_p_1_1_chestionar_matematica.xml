@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_matematica" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarMatematica</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IChestionar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_matematica_1a31c239a8229e4aad8c2e306430918211" prot="private" static="no" mutable="no">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt;Intrebare&gt; ProiectIP.ChestionarMatematica._intrebari</definition>
+        <argsstring></argsstring>
+        <name>_intrebari</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica._intrebari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="34" column="22" bodyfile="ChestionarMatematica.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1a59e1ef6f2dbb25c763fa8f41e01b976b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarMatematica.ChestionarMatematica</definition>
+        <argsstring>()</argsstring>
+        <name>ChestionarMatematica</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.ChestionarMatematica</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="35" column="16" bodyfile="ChestionarMatematica.cs" bodystart="35" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1ad9d3447a60b7766082fdc9e186df13d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMatematica.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="61" column="23" bodyfile="ChestionarMatematica.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1a49dc09bc387fa50871f6a6272e967212" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMatematica.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="67" column="23" bodyfile="ChestionarMatematica.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1acc54ca0127f8964ef72c316c8ae3d56f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMatematica.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="73" column="23" bodyfile="ChestionarMatematica.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1a8daa6a87a7f0e8ae32e0723849948f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMatematica.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="79" column="23" bodyfile="ChestionarMatematica.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1a779c08bc1d7fd29c09901a4be37bfa0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMatematica.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="85" column="23" bodyfile="ChestionarMatematica.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1a4dce2ca21ea64a625248c9b06f118c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ChestionarMatematica.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="91" column="20" bodyfile="ChestionarMatematica.cs" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_matematica_1a2e46296a0ba876e397cd8a6e839497db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarMatematica.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.ChestionarMatematica.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarMatematica.cs" line="98" column="23" bodyfile="ChestionarMatematica.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Matematica. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarMatematica</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_matematica"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarMatematica</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_matematica"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ChestionarMatematica.cs" line="32" column="11" bodyfile="ChestionarMatematica.cs" bodystart="33" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1a31c239a8229e4aad8c2e306430918211" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>_intrebari</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1a59e1ef6f2dbb25c763fa8f41e01b976b" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>ChestionarMatematica</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1ad9d3447a60b7766082fdc9e186df13d7" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>GetEnunt</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1a4dce2ca21ea64a625248c9b06f118c10" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>GetRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1a49dc09bc387fa50871f6a6272e967212" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>GetVar1</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1acc54ca0127f8964ef72c316c8ae3d56f" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>GetVar2</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1a8daa6a87a7f0e8ae32e0723849948f13" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>GetVar3</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1a779c08bc1d7fd29c09901a4be37bfa0f" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>GetVar4</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_matematica_1a2e46296a0ba876e397cd8a6e839497db" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarMatematica</scope><name>Picture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_chestionar_sport" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ChestionarSport</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IChestionar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_chestionar_sport_1a6a6ee449684885c28c4420f8b0792858" prot="private" static="no" mutable="no">
+        <type>List&lt; Intrebare &gt;</type>
+        <definition>List&lt;Intrebare&gt; ProiectIP.ChestionarSport._intrebari</definition>
+        <argsstring></argsstring>
+        <name>_intrebari</name>
+        <qualifiedname>ProiectIP.ChestionarSport._intrebari</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="34" column="22" bodyfile="ChestionarSport.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1a030cf99e3bf4eab6a88d2c3eb414f764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ChestionarSport.ChestionarSport</definition>
+        <argsstring>()</argsstring>
+        <name>ChestionarSport</name>
+        <qualifiedname>ProiectIP.ChestionarSport.ChestionarSport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="35" column="16" bodyfile="ChestionarSport.cs" bodystart="35" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1aafaa1e78a08f2c52459c74903f5b7c7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarSport.GetEnunt</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetEnunt</name>
+        <qualifiedname>ProiectIP.ChestionarSport.GetEnunt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="61" column="23" bodyfile="ChestionarSport.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1ad0a2960743ac3736be06156b51889746" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarSport.GetVar1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar1</name>
+        <qualifiedname>ProiectIP.ChestionarSport.GetVar1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="67" column="23" bodyfile="ChestionarSport.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1afd1a6d408743c869e28d61e0334e2135" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarSport.GetVar2</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar2</name>
+        <qualifiedname>ProiectIP.ChestionarSport.GetVar2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="73" column="23" bodyfile="ChestionarSport.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1ac7aea48c617aa70433f3a9a15eccef6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarSport.GetVar3</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar3</name>
+        <qualifiedname>ProiectIP.ChestionarSport.GetVar3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="79" column="23" bodyfile="ChestionarSport.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1ab9efc2249107d863d930a47bf7eb6d4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarSport.GetVar4</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetVar4</name>
+        <qualifiedname>ProiectIP.ChestionarSport.GetVar4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="85" column="23" bodyfile="ChestionarSport.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1afae7b64013f63ab8988874882a414493" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProiectIP.ChestionarSport.GetRaspuns</definition>
+        <argsstring>(int x)</argsstring>
+        <name>GetRaspuns</name>
+        <qualifiedname>ProiectIP.ChestionarSport.GetRaspuns</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="91" column="20" bodyfile="ChestionarSport.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_chestionar_sport_1aaf4a923c69a343220edb023eeab97f2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ProiectIP.ChestionarSport.Picture</definition>
+        <argsstring>()</argsstring>
+        <name>Picture</name>
+        <qualifiedname>ProiectIP.ChestionarSport.Picture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ChestionarSport.cs" line="95" column="23" bodyfile="ChestionarSport.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Sport. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarSport</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_sport"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IChestionar</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.ChestionarSport</label>
+        <link refid="class_proiect_i_p_1_1_chestionar_sport"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ChestionarSport.cs" line="32" column="11" bodyfile="ChestionarSport.cs" bodystart="33" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1a6a6ee449684885c28c4420f8b0792858" prot="private" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>_intrebari</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1a030cf99e3bf4eab6a88d2c3eb414f764" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>ChestionarSport</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1aafaa1e78a08f2c52459c74903f5b7c7a" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>GetEnunt</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1afae7b64013f63ab8988874882a414493" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>GetRaspuns</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1ad0a2960743ac3736be06156b51889746" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>GetVar1</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1afd1a6d408743c869e28d61e0334e2135" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>GetVar2</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1ac7aea48c617aa70433f3a9a15eccef6e" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>GetVar3</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1ab9efc2249107d863d930a47bf7eb6d4e" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>GetVar4</name></member>
+      <member refid="class_proiect_i_p_1_1_chestionar_sport_1aaf4a923c69a343220edb023eeab97f2d" prot="public" virt="non-virtual"><scope>ProiectIP::ChestionarSport</scope><name>Picture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

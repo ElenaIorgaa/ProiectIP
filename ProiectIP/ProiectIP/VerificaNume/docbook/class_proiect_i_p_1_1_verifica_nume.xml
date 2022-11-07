@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_verifica_nume" xml:lang="en-US">
+<title>ProiectIP.VerificaNume Class Reference</title>
+<indexterm><primary>ProiectIP.VerificaNume</primary></indexterm>
+<para>
+
+<para>Clasa care va verifica corectitudinea numelui introdus la logare. /summary&gt; </para>
+ 
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static bool <link linkend="_class_proiect_i_p_1_1_verifica_nume_1a03dee178b845333c9162e73dc0ce2f0f">AreDoarLitere</link> (string s)</para>
+
+<para>Functia care vrifica daca string-ul introdus are doar litere. </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_proiect_i_p_1_1_verifica_nume_1a43b77f786cf0f980dc7533f62a3bd790">IncepeCuLiteraMare</link> (string s)</para>
+
+<para>Functia care verifica daca string-ul incepe cu litera mare. </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_proiect_i_p_1_1_verifica_nume_1a96518f78167096d85bcebbf33c09b9bb">ContineLitereDiferite</link> (string s)</para>
+
+<para>Functie ce primeste ca parametru un string si va verifica daca contine litere diferite sau aceeasi litera ex: Aaaa va returna false. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa care va verifica corectitudinea numelui introdus la logare. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__verifica_nume_8cs_source_1l00029">29</link> of file <link linkend="__verifica_nume_8cs_source">VerificaNume.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_verifica_nume_1a03dee178b845333c9162e73dc0ce2f0f"/><section>
+    <title>AreDoarLitere()</title>
+<indexterm><primary>AreDoarLitere</primary><secondary>ProiectIP.VerificaNume</secondary></indexterm>
+<indexterm><primary>ProiectIP.VerificaNume</primary><secondary>AreDoarLitere</secondary></indexterm>
+<para><computeroutput>static bool ProiectIP.VerificaNume.AreDoarLitere (string s)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Functia care vrifica daca string-ul introdus are doar litere. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>returneaza true daca incepe cu litera mare si false daca cu mica</para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__verifica_nume_8cs_source_1l00037">37</link> of file <link linkend="__verifica_nume_8cs_source">VerificaNume.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_verifica_nume_1a96518f78167096d85bcebbf33c09b9bb"/><section>
+    <title>ContineLitereDiferite()</title>
+<indexterm><primary>ContineLitereDiferite</primary><secondary>ProiectIP.VerificaNume</secondary></indexterm>
+<indexterm><primary>ProiectIP.VerificaNume</primary><secondary>ContineLitereDiferite</secondary></indexterm>
+<para><computeroutput>static bool ProiectIP.VerificaNume.ContineLitereDiferite (string s)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Functie ce primeste ca parametru un string si va verifica daca contine litere diferite sau aceeasi litera ex: Aaaa va returna false. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__verifica_nume_8cs_source_1l00059">59</link> of file <link linkend="__verifica_nume_8cs_source">VerificaNume.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_verifica_nume_1a43b77f786cf0f980dc7533f62a3bd790"/><section>
+    <title>IncepeCuLiteraMare()</title>
+<indexterm><primary>IncepeCuLiteraMare</primary><secondary>ProiectIP.VerificaNume</secondary></indexterm>
+<indexterm><primary>ProiectIP.VerificaNume</primary><secondary>IncepeCuLiteraMare</secondary></indexterm>
+<para><computeroutput>static bool ProiectIP.VerificaNume.IncepeCuLiteraMare (string s)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Functia care verifica daca string-ul incepe cu litera mare. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>returneaza true daca incepe cu litera mare si false daca cu mica</para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__verifica_nume_8cs_source_1l00046">46</link> of file <link linkend="__verifica_nume_8cs_source">VerificaNume.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__verifica_nume_8cs">VerificaNume.cs</link></section>
+</section>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_class_proiect_i_p_1_1_scor_partial">ProiectIP.ScorPartial</link>
+<para>Clasa folosita pentru a calcula scorul utilizatorului dupa fiecare modul terminat /summary&gt; </para>
+</section>

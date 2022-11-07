@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_proiect_i_p_1_1_lista" kind="class"><name>ProiectIP::Lista</name>
+    <member refid="class_proiect_i_p_1_1_lista_1a847d2ad04fceb35e5174be2172ba6122" kind="variable"><name>_lista</name></member>
+    <member refid="class_proiect_i_p_1_1_lista_1ab243cdc65a4b5e495d467ee05d7367c7" kind="variable"><name>_instance</name></member>
+    <member refid="class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba" kind="variable"><name>moduleParcurse</name></member>
+    <member refid="class_proiect_i_p_1_1_lista_1a7ef968945759a9a8fe3b7f3c8dab933b" kind="property"><name>Instance</name></member>
+    <member refid="class_proiect_i_p_1_1_lista_1a2252b7cf20a79762537136154d79377f" kind="function"><name>Lista</name></member>
+    <member refid="class_proiect_i_p_1_1_lista_1a45f0846579c692a60b9b981bdc1d4b4f" kind="function"><name>Add</name></member>
+    <member refid="class_proiect_i_p_1_1_lista_1a1cb68cc1aa564e712bb93d69524e3eb7" kind="function"><name>Contains</name></member>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_lista_8cs" kind="file"><name>Lista.cs</name>
+  </compound>
+</doxygenindex>

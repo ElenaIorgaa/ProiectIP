@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_scor_partial" xml:lang="en-US">
+<title>ProiectIP.ScorPartial Class Reference</title>
+<indexterm><primary>ProiectIP.ScorPartial</primary></indexterm>
+<para>
+
+<para>Clasa folosita pentru a calcula scorul utilizatorului dupa fiecare modul terminat /summary&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for ProiectIP.ScorPartial:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_scor_partial.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_scor_partial_1a1b9b688375a39cd671cfaadb503654e8">ScorPartial</link> (int intrebariCorecte)</para>
+
+<para>Constrctorul scorului partial. /summary&gt; </para>
+</listitem>
+            <listitem><para>override decimal <link linkend="_class_proiect_i_p_1_1_scor_partial_1a3206c1e65aa380bcac0c0f5d8fa3a581">Rezultat</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa folosita pentru a calcula scorul utilizatorului dupa fiecare modul terminat /summary&gt; </para>
+<para>
+Definition at line <link linkend="__scor_partial_8cs_source_1l00030">30</link> of file <link linkend="__scor_partial_8cs_source">ScorPartial.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_scor_partial_1a1b9b688375a39cd671cfaadb503654e8"/><section>
+    <title>ScorPartial()</title>
+<indexterm><primary>ScorPartial</primary><secondary>ProiectIP.ScorPartial</secondary></indexterm>
+<indexterm><primary>ProiectIP.ScorPartial</primary><secondary>ScorPartial</secondary></indexterm>
+<para><computeroutput>ProiectIP.ScorPartial.ScorPartial (int intrebariCorecte)</computeroutput></para><para>
+
+<para>Constrctorul scorului partial. /summary&gt; </para>
+</para>
+
+<para>summary&gt; Metoda ce calculeaza scorul. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__scor_partial_8cs_source_1l00036">36</link> of file <link linkend="__scor_partial_8cs_source">ScorPartial.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_scor_partial_1a3206c1e65aa380bcac0c0f5d8fa3a581"/><section>
+    <title>Rezultat()</title>
+<indexterm><primary>Rezultat</primary><secondary>ProiectIP.ScorPartial</secondary></indexterm>
+<indexterm><primary>ProiectIP.ScorPartial</primary><secondary>Rezultat</secondary></indexterm>
+<para><computeroutput>override decimal ProiectIP.ScorPartial.Rezultat ( )</computeroutput></para><para>
+Definition at line <link linkend="__scor_partial_8cs_source_1l00043">43</link> of file <link linkend="__scor_partial_8cs_source">ScorPartial.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__scor_partial_8cs">ScorPartial.cs</link></section>
+</section>

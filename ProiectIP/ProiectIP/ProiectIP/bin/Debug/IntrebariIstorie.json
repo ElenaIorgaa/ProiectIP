@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "În ce an s-a născut Regele Mihai I?",
+        "var1": "1921",
+        "var2": "1999",
+        "var3": "1840",
+        "var4":"1400",
+        "varCorecta": 1
+    },
+  {
+    "enunt": "În ce țară s-a născut Adolf Hitler?",
+    "var1": "Germania",
+    "var2": "Austria",
+    "var3": "Romania",
+    "var4": "Rusia",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "În ce an a reușit Mihai Viteazul unirea celor trei mari țări medievale?",
+    "var1": "1600",
+    "var2": "2200",
+    "var3": "1800",
+    "var4": "1400",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Când a început Primul Război Mondial?",
+    "var1": "2000",
+    "var2": "1800",
+    "var3": "1914",
+    "var4": "1600",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "În ce an a intrat România în Uniunea Europeană?",
+    "var1": "1600",
+    "var2": "2007",
+    "var3": "Niciodată",
+    "var4": "1800",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "În ce an a murit Prințesa Diana?",
+    "var1": "Încă trăieşte",
+    "var2": "1900",
+    "var3": "2000",
+    "var4": "1997",
+    "varCorecta": 4
+  },
+  {
+    "enunt": "Ce naționalitate are Papa Francisc I?",
+    "var1": "Română",
+    "var2": "Engleză",
+    "var3": "Argentiniană",
+    "var4": "Franceză",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "În ce oraș au fost executați soții Ceaușescu?",
+    "var1": "Bucureşti",
+    "var2": "Praga",
+    "var3": "Târgovişte",
+    "var4": "Lieşti",
+    "varCorecta": 3
+  }
+
+]

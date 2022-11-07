@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_scor_partial" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::ScorPartial</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Scor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_scor_partial_1a37986534c9522de678e1baa2f495812c" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ProiectIP.ScorPartial._intrebariCorecte</definition>
+        <argsstring></argsstring>
+        <name>_intrebariCorecte</name>
+        <qualifiedname>ProiectIP.ScorPartial._intrebariCorecte</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorPartial.cs" line="32" column="28" bodyfile="ScorPartial.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_scor_partial_1a1b9b688375a39cd671cfaadb503654e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.ScorPartial.ScorPartial</definition>
+        <argsstring>(int intrebariCorecte)</argsstring>
+        <name>ScorPartial</name>
+        <qualifiedname>ProiectIP.ScorPartial.ScorPartial</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>intrebariCorecte</declname>
+        </param>
+        <briefdescription>
+<para>Constrctorul scorului partial. /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Metoda ce calculeaza scorul. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorPartial.cs" line="36" column="16" bodyfile="ScorPartial.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_scor_partial_1a3206c1e65aa380bcac0c0f5d8fa3a581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override decimal</type>
+        <definition>override decimal ProiectIP.ScorPartial.Rezultat</definition>
+        <argsstring>()</argsstring>
+        <name>Rezultat</name>
+        <qualifiedname>ProiectIP.ScorPartial.Rezultat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ScorPartial.cs" line="43" column="33" bodyfile="ScorPartial.cs" bodystart="43" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clasa folosita pentru a calcula scorul utilizatorului dupa fiecare modul terminat /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ProiectIP.ScorPartial</label>
+        <link refid="class_proiect_i_p_1_1_scor_partial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Scor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ProiectIP.ScorPartial</label>
+        <link refid="class_proiect_i_p_1_1_scor_partial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Scor</label>
+      </node>
+    </collaborationgraph>
+    <location file="ScorPartial.cs" line="30" column="11" bodyfile="ScorPartial.cs" bodystart="31" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_scor_partial_1a37986534c9522de678e1baa2f495812c" prot="private" virt="non-virtual"><scope>ProiectIP::ScorPartial</scope><name>_intrebariCorecte</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_partial_1a3206c1e65aa380bcac0c0f5d8fa3a581" prot="public" virt="non-virtual"><scope>ProiectIP::ScorPartial</scope><name>Rezultat</name></member>
+      <member refid="class_proiect_i_p_1_1_scor_partial_1a1b9b688375a39cd671cfaadb503654e8" prot="public" virt="non-virtual"><scope>ProiectIP::ScorPartial</scope><name>ScorPartial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

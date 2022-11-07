@@ -1,0 +1,5 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\TextBoxException\bin\Debug\TextBoxException.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\TextBoxException\bin\Debug\TextBoxException.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\TextBoxException\obj\Debug\TextBoxException.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\TextBoxException\obj\Debug\TextBoxException.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\TextBoxException\obj\Debug\TextBoxException.pdb

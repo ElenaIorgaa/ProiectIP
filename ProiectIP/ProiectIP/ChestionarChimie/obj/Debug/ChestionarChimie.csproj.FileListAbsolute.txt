@@ -1,0 +1,11 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\bin\Debug\ChestionarChimie.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\bin\Debug\ChestionarChimie.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\bin\Debug\IChestionar.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\bin\Debug\Intrebare.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\bin\Debug\IChestionar.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\bin\Debug\Intrebare.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\obj\Debug\ChestionarChimie.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\obj\Debug\ChestionarChimie.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\obj\Debug\ChestionarChimie.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ChestionarChimie\obj\Debug\ChestionarChimie.pdb

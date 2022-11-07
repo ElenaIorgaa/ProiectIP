@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_lista" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::Lista</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_lista_1a847d2ad04fceb35e5174be2172ba6122" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ProiectIP.Lista._lista</definition>
+        <argsstring></argsstring>
+        <name>_lista</name>
+        <qualifiedname>ProiectIP.Lista._lista</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lista.cs" line="32" column="22" bodyfile="Lista.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_lista_1ab243cdc65a4b5e495d467ee05d7367c7" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_proiect_i_p_1_1_lista" kindref="compound">Lista</ref></type>
+        <definition>Lista ProiectIP.Lista._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <qualifiedname>ProiectIP.Lista._instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lista.cs" line="33" column="30" bodyfile="Lista.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ProiectIP.Lista.moduleParcurse</definition>
+        <argsstring></argsstring>
+        <name>moduleParcurse</name>
+        <qualifiedname>ProiectIP.Lista.moduleParcurse</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lista.cs" line="34" column="27" bodyfile="Lista.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_proiect_i_p_1_1_lista_1a7ef968945759a9a8fe3b7f3c8dab933b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_proiect_i_p_1_1_lista" kindref="compound">Lista</ref></type>
+        <definition>Lista ProiectIP.Lista.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>ProiectIP.Lista.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Metoda ce adauga la lista si in acelasi timp incremeneteaza numarul modulelor parcurse deoarece, odata ce adaugam un scor, inseamna ca am parcurs un modul. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lista.cs" line="45" column="29" bodyfile="Lista.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_lista_1a2252b7cf20a79762537136154d79377f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.Lista.Lista</definition>
+        <argsstring>()</argsstring>
+        <name>Lista</name>
+        <qualifiedname>ProiectIP.Lista.Lista</qualifiedname>
+        <briefdescription>
+<para>Constructorul privat al Singleton-ului. /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Daca nu exista deja o instanta a clasei, se creaza una. Daca exista, se returneaza cea creata. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lista.cs" line="38" column="17" bodyfile="Lista.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_lista_1a45f0846579c692a60b9b981bdc1d4b4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Lista.Add</definition>
+        <argsstring>(int x)</argsstring>
+        <name>Add</name>
+        <qualifiedname>ProiectIP.Lista.Add</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Verifica daca in lista exista deja acel modul, pentru a nu repeta din nou acelasi test. /summary&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lista.cs" line="58" column="21" bodyfile="Lista.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_lista_1a1cb68cc1aa564e712bb93d69524e3eb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ProiectIP.Lista.Contains</definition>
+        <argsstring>(int x)</argsstring>
+        <name>Contains</name>
+        <qualifiedname>ProiectIP.Lista.Contains</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lista.cs" line="66" column="21" bodyfile="Lista.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Un singleton care va retine o lista care va ramane accesibila si modificabila pe tot timpul programului. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Lista.cs" line="30" column="11" bodyfile="Lista.cs" bodystart="31" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_lista_1ab243cdc65a4b5e495d467ee05d7367c7" prot="private" virt="non-virtual"><scope>ProiectIP::Lista</scope><name>_instance</name></member>
+      <member refid="class_proiect_i_p_1_1_lista_1a847d2ad04fceb35e5174be2172ba6122" prot="private" virt="non-virtual"><scope>ProiectIP::Lista</scope><name>_lista</name></member>
+      <member refid="class_proiect_i_p_1_1_lista_1a45f0846579c692a60b9b981bdc1d4b4f" prot="public" virt="non-virtual"><scope>ProiectIP::Lista</scope><name>Add</name></member>
+      <member refid="class_proiect_i_p_1_1_lista_1a1cb68cc1aa564e712bb93d69524e3eb7" prot="public" virt="non-virtual"><scope>ProiectIP::Lista</scope><name>Contains</name></member>
+      <member refid="class_proiect_i_p_1_1_lista_1a7ef968945759a9a8fe3b7f3c8dab933b" prot="public" virt="non-virtual"><scope>ProiectIP::Lista</scope><name>Instance</name></member>
+      <member refid="class_proiect_i_p_1_1_lista_1a2252b7cf20a79762537136154d79377f" prot="private" virt="non-virtual"><scope>ProiectIP::Lista</scope><name>Lista</name></member>
+      <member refid="class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba" prot="public" virt="non-virtual"><scope>ProiectIP::Lista</scope><name>moduleParcurse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+\doxysection{Chestionar\+Matematica.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 }
+\DoxyCodeLine{00002 \textcolor{comment}{/**************************************************************************}}
+\DoxyCodeLine{00003 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00004 \textcolor{comment}{ *  File:        ChestioarMatematica.cs                                   *}}
+\DoxyCodeLine{00005 \textcolor{comment}{ *  Copyright:   (c) 2008, Ingineria Programarii Proiect                  *}}
+\DoxyCodeLine{00006 \textcolor{comment}{ *  Description: Proiect la materia "{}Ingineria Programarii"{}               *}}
+\DoxyCodeLine{00007 \textcolor{comment}{ *               ce contine chestionare de cultura generala               *}}
+\DoxyCodeLine{00008 \textcolor{comment}{ *               din diverse domenii.                                     *}}
+\DoxyCodeLine{00009 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00010 \textcolor{comment}{ *  This program is free software; you can redistribute it and/or modify  *}}
+\DoxyCodeLine{00011 \textcolor{comment}{ *  it under the terms of the GNU General Public License as published by  *}}
+\DoxyCodeLine{00012 \textcolor{comment}{ *  the Free Software Foundation. This program is distributed in the      *}}
+\DoxyCodeLine{00013 \textcolor{comment}{ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *}}
+\DoxyCodeLine{00014 \textcolor{comment}{ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *}}
+\DoxyCodeLine{00015 \textcolor{comment}{ *  PURPOSE. See the GNU General Public License for more details.         *}}
+\DoxyCodeLine{00016 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00017 \textcolor{comment}{ **************************************************************************/}}
+\DoxyCodeLine{00018 }
+\DoxyCodeLine{00019 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00020 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00021 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00022 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00023 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00024 \textcolor{keyword}{using} System.IO;}
+\DoxyCodeLine{00025 \textcolor{keyword}{using} Newtonsoft.Json;}
+\DoxyCodeLine{00026 }
+\DoxyCodeLine{00027 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00028 \{}
+\DoxyCodeLine{00032     \textcolor{keyword}{public} \textcolor{keyword}{class }ChestionarMatematica : IChestionar}
+\DoxyCodeLine{00033     \{}
+\DoxyCodeLine{00034         \textcolor{keyword}{private} List<Intrebare> \_intrebari;}
+\DoxyCodeLine{00035         \textcolor{keyword}{public} ChestionarMatematica()}
+\DoxyCodeLine{00036         \{}
+\DoxyCodeLine{00037             \_intrebari = \textcolor{keyword}{new} List<Intrebare>();}
+\DoxyCodeLine{00038             \textcolor{keywordtype}{string} fileName = \textcolor{stringliteral}{"{}IntrebariMatematica.json"{}}; \textcolor{comment}{//numele fisierului JSON in care se afla datele}}
+\DoxyCodeLine{00039             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00040             \{}
+\DoxyCodeLine{00041                 \textcolor{keyword}{using} (StreamReader r = \textcolor{keyword}{new} StreamReader(fileName))\textcolor{comment}{//cu ajutorul StreamReader se extrag datele din fisierul cu numele setat mai sus}}
+\DoxyCodeLine{00042                 \{}
+\DoxyCodeLine{00043                     \textcolor{keywordtype}{string} json = r.ReadToEnd();\textcolor{comment}{//se citesc datele pana la final}}
+\DoxyCodeLine{00044                     \_intrebari = JsonConvert.DeserializeObject<List<Intrebare>>(json);\textcolor{comment}{//deserializarea json-\/ului si adaugarea lui sub forma de lista cu obiecte de tipul Intrebare}}
+\DoxyCodeLine{00045                 \}}
+\DoxyCodeLine{00046             \}}
+\DoxyCodeLine{00047             \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00048             \{}
+\DoxyCodeLine{00049                 \_intrebari = \textcolor{keyword}{new} List<Intrebare>();}
+\DoxyCodeLine{00050                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Care este rezultatul operației 3452-\/112/2+2\string^7?"{}}, \textcolor{stringliteral}{"{}3268"{}}, \textcolor{stringliteral}{"{}Da"{}}, \textcolor{stringliteral}{"{}3563"{}}, \textcolor{stringliteral}{"{}4324"{}}, 1));}
+\DoxyCodeLine{00051                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Care este rezultatul operației 1*1?"{}}, \textcolor{stringliteral}{"{}1"{}}, \textcolor{stringliteral}{"{}Da"{}}, \textcolor{stringliteral}{"{}3563"{}}, \textcolor{stringliteral}{"{}0"{}}, 1));}
+\DoxyCodeLine{00052                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Cate laturi are un hexagon?"{}}, \textcolor{stringliteral}{"{}2"{}}, \textcolor{stringliteral}{"{}6"{}}, \textcolor{stringliteral}{"{}Niciuna"{}}, \textcolor{stringliteral}{"{}4"{}}, 2));}
+\DoxyCodeLine{00053                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Care este al 50-\/lea număr din această secvență? 5, 11, 17, 23, 29, 35, 41, …?"{}}, \textcolor{stringliteral}{"{}Stai să scriu tot"{}}, \textcolor{stringliteral}{"{}34343"{}}, \textcolor{stringliteral}{"{}299"{}}, \textcolor{stringliteral}{"{}Ana"{}}, 2));}
+\DoxyCodeLine{00054                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Care este modulul numărului complex z = (2 + 3i)(2 -\/ 3i ) -\/ (9 -\/ 3i)?"{}}, \textcolor{stringliteral}{"{}23"{}}, \textcolor{stringliteral}{"{}-\/23"{}}, \textcolor{stringliteral}{"{}5"{}}, \textcolor{stringliteral}{"{}PI"{}}, 3));}
+\DoxyCodeLine{00055                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}2 este ... ?"{}}, \textcolor{stringliteral}{"{}prim"{}}, \textcolor{stringliteral}{"{}impar"{}}, \textcolor{stringliteral}{"{}frumos"{}}, \textcolor{stringliteral}{"{}patrat perfect"{}}, 1));}
+\DoxyCodeLine{00056                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Rădăcina pătrată a lui 196 este ..."{}}, \textcolor{stringliteral}{"{}38416"{}}, \textcolor{stringliteral}{"{}14"{}}, \textcolor{stringliteral}{"{}Nu are radacina patrata"{}}, \textcolor{stringliteral}{"{}196"{}}, 2));}
+\DoxyCodeLine{00057                 \_intrebari.Add(\textcolor{keyword}{new} Intrebare(\textcolor{stringliteral}{"{}Care este perimetrul unui pătrat cu latura de 8 cm?"{}}, \textcolor{stringliteral}{"{}32 dm"{}}, \textcolor{stringliteral}{"{}64 cm"{}}, \textcolor{stringliteral}{"{}32 cm"{}}, \textcolor{stringliteral}{"{}7 m"{}}, 3));}
+\DoxyCodeLine{00058             \}}
+\DoxyCodeLine{00059         \}}
+\DoxyCodeLine{00060 }
+\DoxyCodeLine{00061         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetEnunt(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00062         \{}
+\DoxyCodeLine{00063 }
+\DoxyCodeLine{00064             \textcolor{keywordflow}{return} \_intrebari[x].Enunt;}
+\DoxyCodeLine{00065 }
+\DoxyCodeLine{00066         \}}
+\DoxyCodeLine{00067         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar1(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00068         \{}
+\DoxyCodeLine{00069 }
+\DoxyCodeLine{00070             \textcolor{keywordflow}{return} \_intrebari[x].Varianta1;}
+\DoxyCodeLine{00071 }
+\DoxyCodeLine{00072         \}}
+\DoxyCodeLine{00073         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar2(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00074         \{}
+\DoxyCodeLine{00075 }
+\DoxyCodeLine{00076             \textcolor{keywordflow}{return} \_intrebari[x].Varianta2;}
+\DoxyCodeLine{00077 }
+\DoxyCodeLine{00078         \}}
+\DoxyCodeLine{00079         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar3(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00080         \{}
+\DoxyCodeLine{00081 }
+\DoxyCodeLine{00082             \textcolor{keywordflow}{return} \_intrebari[x].Varianta3;}
+\DoxyCodeLine{00083 }
+\DoxyCodeLine{00084         \}}
+\DoxyCodeLine{00085         \textcolor{keyword}{public} \textcolor{keywordtype}{string} GetVar4(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00086         \{}
+\DoxyCodeLine{00087 }
+\DoxyCodeLine{00088             \textcolor{keywordflow}{return} \_intrebari[x].Varianta4;}
+\DoxyCodeLine{00089 }
+\DoxyCodeLine{00090         \}}
+\DoxyCodeLine{00091         \textcolor{keyword}{public} \textcolor{keywordtype}{int} GetRaspuns(\textcolor{keywordtype}{int} x)}
+\DoxyCodeLine{00092         \{}
+\DoxyCodeLine{00093 }
+\DoxyCodeLine{00094             \textcolor{keywordflow}{return} \_intrebari[x].VariantaCorecta;}
+\DoxyCodeLine{00095 }
+\DoxyCodeLine{00096 }
+\DoxyCodeLine{00097         \}}
+\DoxyCodeLine{00098         \textcolor{keyword}{public} \textcolor{keywordtype}{string} Picture()}
+\DoxyCodeLine{00099         \{}
+\DoxyCodeLine{00100             \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}math"{}};}
+\DoxyCodeLine{00101         \}}
+\DoxyCodeLine{00102 }
+\DoxyCodeLine{00103     \}}
+\DoxyCodeLine{00104 \}}
+
+\end{DoxyCode}

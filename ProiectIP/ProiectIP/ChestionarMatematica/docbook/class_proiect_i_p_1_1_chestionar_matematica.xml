@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_chestionar_matematica" xml:lang="en-US">
+<title>ProiectIP.ChestionarMatematica Class Reference</title>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary></indexterm>
+<para>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Matematica. /summary&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for ProiectIP.ChestionarMatematica:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_chestionar_matematica.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1a59e1ef6f2dbb25c763fa8f41e01b976b">ChestionarMatematica</link> ()</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1ad9d3447a60b7766082fdc9e186df13d7">GetEnunt</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1a49dc09bc387fa50871f6a6272e967212">GetVar1</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1acc54ca0127f8964ef72c316c8ae3d56f">GetVar2</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1a8daa6a87a7f0e8ae32e0723849948f13">GetVar3</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1a779c08bc1d7fd29c09901a4be37bfa0f">GetVar4</link> (int x)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1a4dce2ca21ea64a625248c9b06f118c10">GetRaspuns</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_matematica_1a2e46296a0ba876e397cd8a6e839497db">Picture</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Matematica. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00032">32</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1a59e1ef6f2dbb25c763fa8f41e01b976b"/><section>
+    <title>ChestionarMatematica()</title>
+<indexterm><primary>ChestionarMatematica</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>ChestionarMatematica</secondary></indexterm>
+<para><computeroutput>ProiectIP.ChestionarMatematica.ChestionarMatematica ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00035">35</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1ad9d3447a60b7766082fdc9e186df13d7"/><section>
+    <title>GetEnunt()</title>
+<indexterm><primary>GetEnunt</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>GetEnunt</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMatematica.GetEnunt (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00061">61</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1a4dce2ca21ea64a625248c9b06f118c10"/><section>
+    <title>GetRaspuns()</title>
+<indexterm><primary>GetRaspuns</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>GetRaspuns</secondary></indexterm>
+<para><computeroutput>int ProiectIP.ChestionarMatematica.GetRaspuns (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00091">91</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1a49dc09bc387fa50871f6a6272e967212"/><section>
+    <title>GetVar1()</title>
+<indexterm><primary>GetVar1</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>GetVar1</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMatematica.GetVar1 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00067">67</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1acc54ca0127f8964ef72c316c8ae3d56f"/><section>
+    <title>GetVar2()</title>
+<indexterm><primary>GetVar2</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>GetVar2</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMatematica.GetVar2 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00073">73</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1a8daa6a87a7f0e8ae32e0723849948f13"/><section>
+    <title>GetVar3()</title>
+<indexterm><primary>GetVar3</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>GetVar3</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMatematica.GetVar3 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00079">79</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1a779c08bc1d7fd29c09901a4be37bfa0f"/><section>
+    <title>GetVar4()</title>
+<indexterm><primary>GetVar4</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>GetVar4</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMatematica.GetVar4 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00085">85</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_matematica_1a2e46296a0ba876e397cd8a6e839497db"/><section>
+    <title>Picture()</title>
+<indexterm><primary>Picture</primary><secondary>ProiectIP.ChestionarMatematica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMatematica</primary><secondary>Picture</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMatematica.Picture ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_matematica_8cs_source_1l00098">98</link> of file <link linkend="__chestionar_matematica_8cs_source">ChestionarMatematica.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__chestionar_matematica_8cs">ChestionarMatematica.cs</link></section>
+</section>

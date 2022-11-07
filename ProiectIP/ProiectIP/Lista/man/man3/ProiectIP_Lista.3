@@ -1,0 +1,64 @@
+.TH "ProiectIP.Lista" 3 "Wed May 25 2022" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ProiectIP.Lista \- Un singleton care va retine o lista care va ramane accesibila si modificabila pe tot timpul programului\&. /summary>  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBAdd\fP (int x)"
+.br
+.ti -1c
+.RI "bool \fBContains\fP (int x)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBmoduleParcurse\fP = 0"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static \fBLista\fP \fBInstance\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Un singleton care va retine o lista care va ramane accesibila si modificabila pe tot timpul programului\&. /summary> 
+.PP
+Definition at line \fB30\fP of file \fBLista\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void ProiectIP\&.Lista\&.Add (int x)"
+summary> Verifica daca in lista exista deja acel modul, pentru a nu repeta din nou acelasi test\&. /summary> 
+.PP
+Definition at line \fB58\fP of file \fBLista\&.cs\fP\&.
+.SS "bool ProiectIP\&.Lista\&.Contains (int x)"
+
+.PP
+Definition at line \fB66\fP of file \fBLista\&.cs\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int ProiectIP\&.Lista\&.moduleParcurse = 0\fC [static]\fP"
+
+.PP
+Definition at line \fB34\fP of file \fBLista\&.cs\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "\fBLista\fP ProiectIP\&.Lista\&.Instance\fC [static]\fP, \fC [get]\fP"
+summary> Metoda ce adauga la lista si in acelasi timp incremeneteaza numarul modulelor parcurse deoarece, odata ce adaugam un scor, inseamna ca am parcurs un modul\&. /summary> 
+.PP
+Definition at line \fB45\fP of file \fBLista\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

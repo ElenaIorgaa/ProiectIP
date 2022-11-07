@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_chestionar_factory" xml:lang="en-US">
+<title>ProiectIP.ChestionarFactory Class Reference</title>
+<indexterm><primary>ProiectIP.ChestionarFactory</primary></indexterm>
+<para>
+
+<para>Clasa de tip Factory ce va decide ce fel de obiect va fi creat in functie de tipul dat. /summary&gt; </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_chestionar_factory_1ad011591a9ba66cf8b2255cb220699892">ChestionarFactory</link> (int tip)</para>
+</listitem>
+            <listitem><para>IChestionar <link linkend="_class_proiect_i_p_1_1_chestionar_factory_1a7e8cde111f89d2366fd4c71073fe4bd6">GetChestionar</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa de tip Factory ce va decide ce fel de obiect va fi creat in functie de tipul dat. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__chestionar_factory_8cs_source_1l00030">30</link> of file <link linkend="__chestionar_factory_8cs_source">ChestionarFactory.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_factory_1ad011591a9ba66cf8b2255cb220699892"/><section>
+    <title>ChestionarFactory()</title>
+<indexterm><primary>ChestionarFactory</primary><secondary>ProiectIP.ChestionarFactory</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarFactory</primary><secondary>ChestionarFactory</secondary></indexterm>
+<para><computeroutput>ProiectIP.ChestionarFactory.ChestionarFactory (int tip)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_factory_8cs_source_1l00034">34</link> of file <link linkend="__chestionar_factory_8cs_source">ChestionarFactory.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_factory_1a7e8cde111f89d2366fd4c71073fe4bd6"/><section>
+    <title>GetChestionar()</title>
+<indexterm><primary>GetChestionar</primary><secondary>ProiectIP.ChestionarFactory</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarFactory</primary><secondary>GetChestionar</secondary></indexterm>
+<para><computeroutput>IChestionar ProiectIP.ChestionarFactory.GetChestionar ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_factory_8cs_source_1l00068">68</link> of file <link linkend="__chestionar_factory_8cs_source">ChestionarFactory.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__chestionar_factory_8cs">ChestionarFactory.cs</link></section>
+</section>

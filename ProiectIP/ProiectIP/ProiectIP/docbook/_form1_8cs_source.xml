@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__form1_8cs_source" xml:lang="en-US">
+<title>Form1.cs</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__form1_8cs_source_1l00001"/>00001 <emphasis role="keyword">using</emphasis>&#32;System;
+<anchor xml:id="__form1_8cs_source_1l00002"/>00002 <emphasis role="keyword">using</emphasis>&#32;System.Collections.Generic;
+<anchor xml:id="__form1_8cs_source_1l00003"/>00003 <emphasis role="keyword">using</emphasis>&#32;System.ComponentModel;
+<anchor xml:id="__form1_8cs_source_1l00004"/>00004 <emphasis role="keyword">using</emphasis>&#32;System.Data;
+<anchor xml:id="__form1_8cs_source_1l00005"/>00005 <emphasis role="keyword">using</emphasis>&#32;System.Drawing;
+<anchor xml:id="__form1_8cs_source_1l00006"/>00006 <emphasis role="keyword">using</emphasis>&#32;System.Linq;
+<anchor xml:id="__form1_8cs_source_1l00007"/>00007 <emphasis role="keyword">using</emphasis>&#32;System.Text;
+<anchor xml:id="__form1_8cs_source_1l00008"/>00008 <emphasis role="keyword">using</emphasis>&#32;System.Threading.Tasks;
+<anchor xml:id="__form1_8cs_source_1l00009"/>00009 <emphasis role="keyword">using</emphasis>&#32;System.Windows.Forms;
+<anchor xml:id="__form1_8cs_source_1l00010"/>00010 
+<anchor xml:id="__form1_8cs_source_1l00011"/><link linkend="_namespace_proiect_i_p">00011</link> <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_proiect_i_p">ProiectIP</link>
+<anchor xml:id="__form1_8cs_source_1l00012"/>00012 {
+<anchor xml:id="__form1_8cs_source_1l00016"/><link linkend="_class_proiect_i_p_1_1_form1">00016</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">partial&#32;class&#32;</emphasis><link linkend="_class_proiect_i_p_1_1_form1">Form1</link>&#32;:&#32;Form
+<anchor xml:id="__form1_8cs_source_1l00017"/>00017 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00018"/><link linkend="_class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0">00018</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0">domeniu</link>;<emphasis role="comment">//domeniul&#32;pe&#32;care&#32;il&#32;alege&#32;utilizatorul</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00019"/>00019 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;Lista&#32;l;<emphasis role="comment">//singetonul&#32;care&#32;tine&#32;lista&#32;in&#32;care&#32;vom&#32;cauta&#32;modulele&#32;pe&#32;care&#32;le&#32;parcurgem,&#32;pentru&#32;a&#32;evita&#32;reincercarea&#32;lor</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00020"/><link linkend="_class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17">00020</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">string</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17">nume</link>;
+<anchor xml:id="__form1_8cs_source_1l00021"/><link linkend="_class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2">00021</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2">varsta</link>;
+<anchor xml:id="__form1_8cs_source_1l00022"/>00022 
+<anchor xml:id="__form1_8cs_source_1l00024"/><link linkend="_class_proiect_i_p_1_1_form1_1a19125e27616eec2f91360be55895bbe8">00024</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_form1_1a19125e27616eec2f91360be55895bbe8">Form1</link>()
+<anchor xml:id="__form1_8cs_source_1l00025"/>00025 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00026"/>00026 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;l&#32;=&#32;Lista.Instance;
+<anchor xml:id="__form1_8cs_source_1l00027"/>00027 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;InitializeComponent();
+<anchor xml:id="__form1_8cs_source_1l00028"/>00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_proiect_i_p_1_1_form2">Form2</link>&#32;f2&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_form2">Form2</link>();
+<anchor xml:id="__form1_8cs_source_1l00029"/>00029 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;labelWelcome.Text&#32;=&#32;$<emphasis role="stringliteral">&quot;Bine&#32;ai&#32;venit,&#32;{nume}!&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00030"/>00030 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(<link linkend="_class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17">nume</link>!=<emphasis role="keyword">null</emphasis>)
+<anchor xml:id="__form1_8cs_source_1l00031"/>00031 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00032"/>00032 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxNume.Enabled&#32;=&#32;<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00033"/>00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxVarsta.Enabled&#32;=&#32;<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00034"/>00034 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonGeografie.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonMatematica.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00036"/>00036 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonChimie.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00037"/>00037 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonMuzica.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonArta.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonSport.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00040"/>00040 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonIstorie.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00041"/>00041 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonRomana.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00042"/>00042 
+<anchor xml:id="__form1_8cs_source_1l00043"/>00043 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00044"/>00044 
+<anchor xml:id="__form1_8cs_source_1l00045"/>00045 
+<anchor xml:id="__form1_8cs_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00047"/>00047 
+<anchor xml:id="__form1_8cs_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;AlegeDomeniu(<emphasis role="keywordtype">int</emphasis>&#32;x)
+<anchor xml:id="__form1_8cs_source_1l00050"/>00050 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00051"/>00051 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0">domeniu</link>&#32;=&#32;x;
+<anchor xml:id="__form1_8cs_source_1l00052"/>00052 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(l.Contains(<link linkend="_class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0">domeniu</link>))
+<anchor xml:id="__form1_8cs_source_1l00053"/>00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00054"/>00054 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(<emphasis role="stringliteral">&quot;Deja&#32;ati&#32;parcurs&#32;acest&#32;modul!&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00056"/>00056 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00057"/>00057 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00058"/>00058 
+<anchor xml:id="__form1_8cs_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;l.Add(<link linkend="_class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0">domeniu</link>);
+<anchor xml:id="__form1_8cs_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Hide();
+<anchor xml:id="__form1_8cs_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Form2&#32;f2&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;Form2();
+<anchor xml:id="__form1_8cs_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;f2.Show();
+<anchor xml:id="__form1_8cs_source_1l00063"/>00063 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00064"/>00064 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00065"/>00065 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelTitlu_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00067"/>00067 
+<anchor xml:id="__form1_8cs_source_1l00068"/>00068 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00069"/>00069 
+<anchor xml:id="__form1_8cs_source_1l00072"/>00072 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonGeografie_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00073"/>00073 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00074"/>00074 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(2);
+<anchor xml:id="__form1_8cs_source_1l00075"/>00075 
+<anchor xml:id="__form1_8cs_source_1l00076"/>00076 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00077"/>00077 
+<anchor xml:id="__form1_8cs_source_1l00078"/>00078 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonMatematica_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00079"/>00079 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00080"/>00080 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(1);
+<anchor xml:id="__form1_8cs_source_1l00081"/>00081 &#32;
+<anchor xml:id="__form1_8cs_source_1l00082"/>00082 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00083"/>00083 
+<anchor xml:id="__form1_8cs_source_1l00084"/>00084 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonChimie_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00085"/>00085 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00086"/>00086 
+<anchor xml:id="__form1_8cs_source_1l00087"/>00087 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(3);
+<anchor xml:id="__form1_8cs_source_1l00088"/>00088 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00089"/>00089 
+<anchor xml:id="__form1_8cs_source_1l00090"/>00090 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonIstorie_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00091"/>00091 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00092"/>00092 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(4);
+<anchor xml:id="__form1_8cs_source_1l00093"/>00093 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00094"/>00094 
+<anchor xml:id="__form1_8cs_source_1l00095"/>00095 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonSport_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00096"/>00096 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00097"/>00097 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(5);
+<anchor xml:id="__form1_8cs_source_1l00098"/>00098 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00099"/>00099 
+<anchor xml:id="__form1_8cs_source_1l00100"/>00100 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonRomana_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00101"/>00101 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00102"/>00102 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(6);
+<anchor xml:id="__form1_8cs_source_1l00103"/>00103 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00104"/>00104 
+<anchor xml:id="__form1_8cs_source_1l00105"/>00105 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonArta_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00106"/>00106 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00107"/>00107 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(7);
+<anchor xml:id="__form1_8cs_source_1l00108"/>00108 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00109"/>00109 
+<anchor xml:id="__form1_8cs_source_1l00110"/>00110 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonMuzica_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00111"/>00111 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00112"/>00112 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;AlegeDomeniu(8);
+<anchor xml:id="__form1_8cs_source_1l00113"/>00113 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00114"/>00114 
+<anchor xml:id="__form1_8cs_source_1l00115"/>00115 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;textBoxNume_TextChanged(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00116"/>00116 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00117"/>00117 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form1_8cs_source_1l00118"/>00118 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">try</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00119"/>00119 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00120"/>00120 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//if&#32;(textBoxNume.Text.All(char.IsLetter)&#32;==&#32;false)</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00121"/>00121 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(VerificaNume.AreDoarLitere(textBoxNume.Text)==<emphasis role="keyword">false</emphasis>)
+<anchor xml:id="__form1_8cs_source_1l00122"/>00122 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;InvalidNameException((textBoxNume.Text));
+<anchor xml:id="__form1_8cs_source_1l00123"/>00123 
+<anchor xml:id="__form1_8cs_source_1l00124"/>00124 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(textBoxNume.Text.Length&#32;&gt;&#32;10)
+<anchor xml:id="__form1_8cs_source_1l00125"/>00125 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00126"/>00126 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form1_8cs_source_1l00127"/>00127 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;TextBoxException(<emphasis role="stringliteral">&quot;Mai&#32;mult&#32;de&#32;10&#32;caractere,&#32;&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00128"/>00128 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form1_8cs_source_1l00129"/>00129 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00130"/>00130 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form1_8cs_source_1l00131"/>00131 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00132"/>00132 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">catch</emphasis>(InvalidNameException&#32;n)
+<anchor xml:id="__form1_8cs_source_1l00133"/>00133 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00134"/>00134 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(String.Format(<emphasis role="stringliteral">&quot;{0}.&#32;Numele&#32;nu&#32;poate&#32;contine&#32;numere,&#32;spatii&#32;sau&#32;semne&quot;</emphasis>,&#32;n.Message));
+<anchor xml:id="__form1_8cs_source_1l00135"/>00135 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxNume.Text&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00136"/>00136 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00137"/>00137 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">catch</emphasis>(TextBoxException&#32;t)
+<anchor xml:id="__form1_8cs_source_1l00138"/>00138 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00139"/>00139 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(String.Format(<emphasis role="stringliteral">&quot;{0}.&#32;Numele&#32;e&#32;prea&#32;lung&quot;</emphasis>,&#32;t.Message));
+<anchor xml:id="__form1_8cs_source_1l00140"/>00140 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxNume.Text&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00141"/>00141 
+<anchor xml:id="__form1_8cs_source_1l00142"/>00142 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00143"/>00143 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">try</emphasis>&#32;{&#32;
+<anchor xml:id="__form1_8cs_source_1l00144"/>00144 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(VerificaNume.IncepeCuLiteraMare(textBoxNume.Text)==<emphasis role="keyword">false</emphasis>)
+<anchor xml:id="__form1_8cs_source_1l00145"/>00145 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00146"/>00146 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;TextBoxException(<emphasis role="stringliteral">&quot;Numele&#32;trebuie&#32;sa&#32;inceapa&#32;cu&#32;litera&#32;mare!&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00147"/>00147 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}}
+<anchor xml:id="__form1_8cs_source_1l00148"/>00148 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">catch</emphasis>(TextBoxException&#32;r)
+<anchor xml:id="__form1_8cs_source_1l00149"/>00149 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00150"/>00150 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(String.Format(<emphasis role="stringliteral">&quot;{0}&#32;&quot;</emphasis>,&#32;r.Message));
+<anchor xml:id="__form1_8cs_source_1l00151"/>00151 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxNume.Text&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00152"/>00152 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00153"/>00153 
+<anchor xml:id="__form1_8cs_source_1l00154"/>00154 
+<anchor xml:id="__form1_8cs_source_1l00155"/>00155 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00156"/>00156 
+<anchor xml:id="__form1_8cs_source_1l00157"/>00157 
+<anchor xml:id="__form1_8cs_source_1l00158"/>00158 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonHelp_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00159"/>00159 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00160"/>00160 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Help.ShowHelp(<emphasis role="keyword">this</emphasis>,&#32;<emphasis role="stringliteral">&quot;Help-for-Project.chm&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00161"/>00161 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00162"/>00162 
+<anchor xml:id="__form1_8cs_source_1l00163"/>00163 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;buttonSeteaza_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00164"/>00164 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00165"/>00165 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(l.Contains(9)&#32;||&#32;l.Contains(10))
+<anchor xml:id="__form1_8cs_source_1l00166"/>00166 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00167"/>00167 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(<emphasis role="stringliteral">&quot;Deja&#32;ati&#32;setat&#32;datele!&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00168"/>00168 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00169"/>00169 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00170"/>00170 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00171"/>00171 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form1_8cs_source_1l00172"/>00172 
+<anchor xml:id="__form1_8cs_source_1l00173"/>00173 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">string</emphasis>&#32;x&#32;=&#32;textBoxVarsta.Text;
+<anchor xml:id="__form1_8cs_source_1l00174"/>00174 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">try</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00175"/>00175 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00176"/>00176 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;y&#32;=&#32;<emphasis role="keywordtype">int</emphasis>.Parse(x);
+<anchor xml:id="__form1_8cs_source_1l00177"/>00177 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;CalculeazaVarsta&#32;c&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;CalculeazaVarsta(y);&#32;
+<anchor xml:id="__form1_8cs_source_1l00178"/>00178 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2">varsta</link>&#32;=&#32;c.Rezultat;
+<anchor xml:id="__form1_8cs_source_1l00179"/>00179 
+<anchor xml:id="__form1_8cs_source_1l00180"/>00180 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(c.Valid&#32;==&#32;<emphasis role="keyword">true</emphasis>&#32;&amp;&amp;&#32;textBoxNume.Text!=<emphasis role="stringliteral">&quot;&quot;</emphasis>&#32;&amp;&amp;&#32;VerificaNume.ContineLitereDiferite(textBoxNume.Text)==<emphasis role="keyword">true</emphasis>)
+<anchor xml:id="__form1_8cs_source_1l00181"/>00181 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00182"/>00182 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17">nume</link>&#32;=&#32;textBoxNume.Text;
+<anchor xml:id="__form1_8cs_source_1l00183"/>00183 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;labelWelcome.Text&#32;=&#32;$<emphasis role="stringliteral">&quot;Bine&#32;ai&#32;venit,&#32;{textBoxNume.Text}!&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00184"/>00184 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;l.Add(9);
+<anchor xml:id="__form1_8cs_source_1l00185"/>00185 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;l.Add(10);&#32;
+<anchor xml:id="__form1_8cs_source_1l00186"/>00186 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxNume.Enabled&#32;=&#32;<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00187"/>00187 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxVarsta.Enabled&#32;=&#32;<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00188"/>00188 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonGeografie.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00189"/>00189 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonMatematica.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00190"/>00190 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonChimie.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00191"/>00191 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonMuzica.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00192"/>00192 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonArta.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00193"/>00193 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonSport.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00194"/>00194 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonIstorie.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00195"/>00195 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;buttonRomana.Enabled&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00196"/>00196 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00197"/>00197 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00198"/>00198 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00199"/>00199 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(<emphasis role="stringliteral">&quot;Date&#32;incorecte,&#32;reincercati!&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00200"/>00200 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxNume.Text&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00201"/>00201 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxVarsta.Text&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00202"/>00202 
+<anchor xml:id="__form1_8cs_source_1l00203"/>00203 
+<anchor xml:id="__form1_8cs_source_1l00204"/>00204 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00205"/>00205 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00206"/>00206 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">catch</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00207"/>00207 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00208"/>00208 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(<emphasis role="stringliteral">&quot;Nu&#32;e&#32;un&#32;an&#32;valid!&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00209"/>00209 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00210"/>00210 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form1_8cs_source_1l00211"/>00211 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__form1_8cs_source_1l00212"/>00212 
+<anchor xml:id="__form1_8cs_source_1l00213"/>00213 
+<anchor xml:id="__form1_8cs_source_1l00214"/>00214 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00215"/>00215 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00216"/>00216 
+<anchor xml:id="__form1_8cs_source_1l00217"/>00217 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;pictureBoxQuizNight_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00218"/>00218 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00219"/>00219 
+<anchor xml:id="__form1_8cs_source_1l00220"/>00220 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00221"/>00221 
+<anchor xml:id="__form1_8cs_source_1l00222"/>00222 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Form1_Load(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00223"/>00223 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00224"/>00224 
+<anchor xml:id="__form1_8cs_source_1l00225"/>00225 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00226"/>00226 
+<anchor xml:id="__form1_8cs_source_1l00227"/>00227 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelWelcome_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00228"/>00228 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00229"/>00229 
+<anchor xml:id="__form1_8cs_source_1l00230"/>00230 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00231"/>00231 
+<anchor xml:id="__form1_8cs_source_1l00232"/>00232 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelNume_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00233"/>00233 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00234"/>00234 
+<anchor xml:id="__form1_8cs_source_1l00235"/>00235 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00236"/>00236 
+<anchor xml:id="__form1_8cs_source_1l00237"/>00237 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;labelDomeniu_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00238"/>00238 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00239"/>00239 
+<anchor xml:id="__form1_8cs_source_1l00240"/>00240 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00241"/>00241 
+<anchor xml:id="__form1_8cs_source_1l00242"/>00242 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;textBoxVarsta_TextChanged(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;EventArgs&#32;e)
+<anchor xml:id="__form1_8cs_source_1l00243"/>00243 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00244"/>00244 
+<anchor xml:id="__form1_8cs_source_1l00245"/>00245 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">try</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00246"/>00246 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00247"/>00247 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(textBoxVarsta.Text.Any(<emphasis role="keywordtype">char</emphasis>.IsLetter)&#32;==&#32;<emphasis role="keyword">true</emphasis>)
+<anchor xml:id="__form1_8cs_source_1l00248"/>00248 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;Exception(<emphasis role="stringliteral">&quot;Anul&#32;nasterii&#32;nu&#32;poate&#32;contine&#32;litere&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00249"/>00249 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00250"/>00250 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">catch</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00251"/>00251 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00252"/>00252 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(<emphasis role="stringliteral">&quot;Anul&#32;nasterii&#32;nu&#32;poate&#32;contine&#32;litere&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00253"/>00253 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxVarsta.Text&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00254"/>00254 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00255"/>00255 
+<anchor xml:id="__form1_8cs_source_1l00256"/>00256 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">try</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00257"/>00257 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00258"/>00258 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;-&apos;</emphasis>)&#32;||&#32;textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;+&apos;</emphasis>)&#32;||&#32;textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;`&apos;</emphasis>)&#32;||&#32;textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;~&apos;</emphasis>)&#32;||&#32;textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;%&apos;</emphasis>)&#32;||&#32;textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;#&apos;</emphasis>)&#32;||&#32;textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;&amp;&apos;</emphasis>)&#32;||&#32;textBoxVarsta.Text.Contains(<emphasis role="charliteral">&apos;^&apos;</emphasis>))
+<anchor xml:id="__form1_8cs_source_1l00259"/>00259 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;Exception(<emphasis role="stringliteral">&quot;Anul&#32;nasterii&#32;nu&#32;poate&#32;contine&#32;astfel&#32;de&#32;caractere&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00260"/>00260 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00261"/>00261 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">catch</emphasis>
+<anchor xml:id="__form1_8cs_source_1l00262"/>00262 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00263"/>00263 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MessageBox.Show(<emphasis role="stringliteral">&quot;Anul&#32;nasterii&#32;nu&#32;poate&#32;contine&#32;astfel&#32;de&#32;caractere&quot;</emphasis>);
+<anchor xml:id="__form1_8cs_source_1l00264"/>00264 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;textBoxVarsta.Text&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__form1_8cs_source_1l00265"/>00265 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00266"/>00266 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00267"/>00267 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00268"/>00268 
+<anchor xml:id="__form1_8cs_source_1l00269"/>00269 &#32;&#32;&#32;&#32;[Serializable]
+<anchor xml:id="__form1_8cs_source_1l00270"/><link linkend="_class_proiect_i_p_1_1_invalid_name_exception">00270</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_class_proiect_i_p_1_1_invalid_name_exception">InvalidNameException</link>&#32;:&#32;Exception
+<anchor xml:id="__form1_8cs_source_1l00271"/>00271 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00272"/><link linkend="_class_proiect_i_p_1_1_invalid_name_exception_1ab59d9cb7b1c7787befc05fe99f946e91">00272</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_invalid_name_exception_1ab59d9cb7b1c7787befc05fe99f946e91">InvalidNameException</link>()&#32;{&#32;}
+<anchor xml:id="__form1_8cs_source_1l00273"/>00273 
+<anchor xml:id="__form1_8cs_source_1l00274"/><link linkend="_class_proiect_i_p_1_1_invalid_name_exception_1a838f6ff07586060f002cad44ff877fce">00274</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_invalid_name_exception_1a838f6ff07586060f002cad44ff877fce">InvalidNameException</link>(<emphasis role="keywordtype">string</emphasis>&#32;name)
+<anchor xml:id="__form1_8cs_source_1l00275"/>00275 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:&#32;base(String.Format(<emphasis role="stringliteral">&quot;Nume&#32;invalid:&#32;{0}&quot;</emphasis>,&#32;name))
+<anchor xml:id="__form1_8cs_source_1l00276"/>00276 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__form1_8cs_source_1l00277"/>00277 
+<anchor xml:id="__form1_8cs_source_1l00278"/>00278 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00279"/>00279 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__form1_8cs_source_1l00280"/>00280 
+<anchor xml:id="__form1_8cs_source_1l00281"/>00281 }
+</programlisting></section>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_intrebare" xml:lang="en-US">
+<title>ProiectIP.Intrebare Class Reference</title>
+<indexterm><primary>ProiectIP.Intrebare</primary></indexterm>
+<para>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_intrebare">Intrebare</link> este folosita pentru a ne permite sa cream un obiect de tip <link linkend="_class_proiect_i_p_1_1_intrebare">Intrebare</link>, fiecare obiect avand un enunt, 4 variante si un int care va spune care varianta este cea corecta. /summary&gt; </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_intrebare_1a7243e54948c97ca8e9a5a792ce1dcaa8">Intrebare</link> (string enunt, string var1, string var2, string var3, string var4, int varCorecta)</para>
+
+<para>Constructorul clasei. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_proiect_i_p_1_1_intrebare_1a6072b0ca220ccf20a88631caab0cfb53">nr</link> = 0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_intrebare_1addb5f6ca2380ea18af98cf0e461bb463">Enunt</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza enuntul intrebarii. </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_intrebare_1a5408f871d0027d4a15eeaacff5ef4f0e">Varianta1</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza prima varianta. </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_intrebare_1a5f342122c38071e4754f6ad860aaff67">Varianta2</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza a doua varianta. </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_intrebare_1aa184363223011a9d1d3e45ca88200498">Varianta3</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza a treia varianta. </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_intrebare_1acc84eec267248111fbd88578983681c3">Varianta4</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza a patra varianta. </para>
+</listitem>
+            <listitem><para>int <link linkend="_class_proiect_i_p_1_1_intrebare_1a0270026f2868340f95767269cd6cf947">VariantaCorecta</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Returneaza care este varianta corecta. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_proiect_i_p_1_1_intrebare_1a986b53acc83a881cfe310929450ca6a3">VerificaFlag</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Verifica daca valoarea introdusa ca raspuns corect este valida. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_intrebare">Intrebare</link> este folosita pentru a ne permite sa cream un obiect de tip <link linkend="_class_proiect_i_p_1_1_intrebare">Intrebare</link>, fiecare obiect avand un enunt, 4 variante si un int care va spune care varianta este cea corecta. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00031">31</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1a7243e54948c97ca8e9a5a792ce1dcaa8"/><section>
+    <title>Intrebare()</title>
+<indexterm><primary>Intrebare</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>Intrebare</secondary></indexterm>
+<para><computeroutput>ProiectIP.Intrebare.Intrebare (string enunt, string var1, string var2, string var3, string var4, int varCorecta)</computeroutput></para><para>
+
+<para>Constructorul clasei. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00042">42</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1a6072b0ca220ccf20a88631caab0cfb53"/><section>
+    <title>nr</title>
+<indexterm><primary>nr</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>nr</secondary></indexterm>
+<para><computeroutput>int ProiectIP.Intrebare.nr = 0<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00039">39</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1addb5f6ca2380ea18af98cf0e461bb463"/><section>
+    <title>Enunt</title>
+<indexterm><primary>Enunt</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>Enunt</secondary></indexterm>
+<para><computeroutput>string ProiectIP.Intrebare.Enunt<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza enuntul intrebarii. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00058">58</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1a5408f871d0027d4a15eeaacff5ef4f0e"/><section>
+    <title>Varianta1</title>
+<indexterm><primary>Varianta1</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>Varianta1</secondary></indexterm>
+<para><computeroutput>string ProiectIP.Intrebare.Varianta1<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza prima varianta. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00066">66</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1a5f342122c38071e4754f6ad860aaff67"/><section>
+    <title>Varianta2</title>
+<indexterm><primary>Varianta2</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>Varianta2</secondary></indexterm>
+<para><computeroutput>string ProiectIP.Intrebare.Varianta2<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza a doua varianta. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00074">74</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1aa184363223011a9d1d3e45ca88200498"/><section>
+    <title>Varianta3</title>
+<indexterm><primary>Varianta3</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>Varianta3</secondary></indexterm>
+<para><computeroutput>string ProiectIP.Intrebare.Varianta3<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza a treia varianta. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00082">82</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1acc84eec267248111fbd88578983681c3"/><section>
+    <title>Varianta4</title>
+<indexterm><primary>Varianta4</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>Varianta4</secondary></indexterm>
+<para><computeroutput>string ProiectIP.Intrebare.Varianta4<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza a patra varianta. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00090">90</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1a0270026f2868340f95767269cd6cf947"/><section>
+    <title>VariantaCorecta</title>
+<indexterm><primary>VariantaCorecta</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>VariantaCorecta</secondary></indexterm>
+<para><computeroutput>int ProiectIP.Intrebare.VariantaCorecta<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Returneaza care este varianta corecta. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00098">98</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_intrebare_1a986b53acc83a881cfe310929450ca6a3"/><section>
+    <title>VerificaFlag</title>
+<indexterm><primary>VerificaFlag</primary><secondary>ProiectIP.Intrebare</secondary></indexterm>
+<indexterm><primary>ProiectIP.Intrebare</primary><secondary>VerificaFlag</secondary></indexterm>
+<para><computeroutput>bool ProiectIP.Intrebare.VerificaFlag<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Verifica daca valoarea introdusa ca raspuns corect este valida. </para>
+</para>
+<para>
+Definition at line <link linkend="__intrebare_8cs_source_1l00108">108</link> of file <link linkend="__intrebare_8cs_source">Intrebare.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__intrebare_8cs">Intrebare.cs</link></section>
+</section>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_scor" xml:lang="en-US">
+<title>ProiectIP.Scor Class Reference</title>
+<indexterm><primary>ProiectIP.Scor</primary></indexterm>
+<para>
+
+<para>Clasa abstracta ce urmeaza sa fie mostenita de cele 2 tipuri de scoruri ale jocului. /summary&gt; </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>abstract decimal <link linkend="_class_proiect_i_p_1_1_scor_1a2064bf3e1dd38a64d26350d8a57a868b">Rezultat</link> ()</para>
+
+<para>Scorul trebuie sa implementeze o metoda care sa returneze rezultatul calculat. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Clasa abstracta ce urmeaza sa fie mostenita de cele 2 tipuri de scoruri ale jocului. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__scor_8cs_source_1l00031">31</link> of file <link linkend="__scor_8cs_source">Scor.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_scor_1a2064bf3e1dd38a64d26350d8a57a868b"/><section>
+    <title>Rezultat()</title>
+<indexterm><primary>Rezultat</primary><secondary>ProiectIP.Scor</secondary></indexterm>
+<indexterm><primary>ProiectIP.Scor</primary><secondary>Rezultat</secondary></indexterm>
+<para><computeroutput>abstract decimal ProiectIP.Scor.Rezultat ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Scorul trebuie sa implementeze o metoda care sa returneze rezultatul calculat. /summary&gt; </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__scor_8cs">Scor.cs</link></section>
+</section>

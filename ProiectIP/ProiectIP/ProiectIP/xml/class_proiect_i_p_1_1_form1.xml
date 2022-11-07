@@ -1,0 +1,891 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_form1" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ProiectIP.Form1.domeniu</definition>
+        <argsstring></argsstring>
+        <name>domeniu</name>
+        <qualifiedname>ProiectIP.Form1.domeniu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="18" column="27" bodyfile="Form1.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string ProiectIP.Form1.nume</definition>
+        <argsstring></argsstring>
+        <name>nume</name>
+        <qualifiedname>ProiectIP.Form1.nume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="20" column="30" bodyfile="Form1.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ProiectIP.Form1.varsta</definition>
+        <argsstring></argsstring>
+        <name>varsta</name>
+        <qualifiedname>ProiectIP.Form1.varsta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="21" column="27" bodyfile="Form1.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a87b1f3f83b5fb17977a3c0a8978ebe66" prot="private" static="no" mutable="no">
+        <type>Lista</type>
+        <definition>Lista ProiectIP.Form1.l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <qualifiedname>ProiectIP.Form1.l</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="19" column="23" bodyfile="Form1.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1ae0e08465654edd7860cbd50f472e1c53" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ProiectIP.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>ProiectIP.Form1.components</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="9" column="48" bodyfile="Form1.Designer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a3a41641b89b2c0bbd10c01a5358fed90" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form1.LabelTitlu</definition>
+        <argsstring></argsstring>
+        <name>LabelTitlu</name>
+        <qualifiedname>ProiectIP.Form1.LabelTitlu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="318" column="41" bodyfile="Form1.Designer.cs" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a370688df4c13ffbecb1b7f9cace7ae9d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PictureBox</type>
+        <definition>System.Windows.Forms.PictureBox ProiectIP.Form1.pictureBoxQuizNight</definition>
+        <argsstring></argsstring>
+        <name>pictureBoxQuizNight</name>
+        <qualifiedname>ProiectIP.Form1.pictureBoxQuizNight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="319" column="46" bodyfile="Form1.Designer.cs" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a21362ce42aa803b8862842d0a0a71ca6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form1.labelDomeniu</definition>
+        <argsstring></argsstring>
+        <name>labelDomeniu</name>
+        <qualifiedname>ProiectIP.Form1.labelDomeniu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="320" column="41" bodyfile="Form1.Designer.cs" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1abbd3ff7362edcad75082a606375faeab" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonMatematica</definition>
+        <argsstring></argsstring>
+        <name>buttonMatematica</name>
+        <qualifiedname>ProiectIP.Form1.buttonMatematica</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="321" column="42" bodyfile="Form1.Designer.cs" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a532d6ed0e65db6c630a94bc8e5df54a8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonChimie</definition>
+        <argsstring></argsstring>
+        <name>buttonChimie</name>
+        <qualifiedname>ProiectIP.Form1.buttonChimie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="322" column="42" bodyfile="Form1.Designer.cs" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a53c3822457099be65fdb7173166c2f3d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonIstorie</definition>
+        <argsstring></argsstring>
+        <name>buttonIstorie</name>
+        <qualifiedname>ProiectIP.Form1.buttonIstorie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="323" column="42" bodyfile="Form1.Designer.cs" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1aa7798d434d676842f38a53579080abf9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonRomana</definition>
+        <argsstring></argsstring>
+        <name>buttonRomana</name>
+        <qualifiedname>ProiectIP.Form1.buttonRomana</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="324" column="42" bodyfile="Form1.Designer.cs" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a22f4906943c8786b3101768b8e8304d9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonSport</definition>
+        <argsstring></argsstring>
+        <name>buttonSport</name>
+        <qualifiedname>ProiectIP.Form1.buttonSport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="325" column="42" bodyfile="Form1.Designer.cs" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a65205d224a501308f5683a11fff3c2b6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonArta</definition>
+        <argsstring></argsstring>
+        <name>buttonArta</name>
+        <qualifiedname>ProiectIP.Form1.buttonArta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="326" column="42" bodyfile="Form1.Designer.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a5c5cb8841ae33743e3cfb864622b3291" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonMuzica</definition>
+        <argsstring></argsstring>
+        <name>buttonMuzica</name>
+        <qualifiedname>ProiectIP.Form1.buttonMuzica</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="327" column="42" bodyfile="Form1.Designer.cs" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1abdc44f78c37f03e35ec0a3346d0559b7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form1.labelWelcome</definition>
+        <argsstring></argsstring>
+        <name>labelWelcome</name>
+        <qualifiedname>ProiectIP.Form1.labelWelcome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="328" column="41" bodyfile="Form1.Designer.cs" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1ab4b77fe2dc49eaf16d255f1b80215f97" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form1.labelNume</definition>
+        <argsstring></argsstring>
+        <name>labelNume</name>
+        <qualifiedname>ProiectIP.Form1.labelNume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="329" column="41" bodyfile="Form1.Designer.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a9843b35b485ebceb929af473bae69258" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProiectIP.Form1.textBoxNume</definition>
+        <argsstring></argsstring>
+        <name>textBoxNume</name>
+        <qualifiedname>ProiectIP.Form1.textBoxNume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="330" column="43" bodyfile="Form1.Designer.cs" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a6fc80ea9a1cd13f9bfa5ffee09cef986" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonHelp</definition>
+        <argsstring></argsstring>
+        <name>buttonHelp</name>
+        <qualifiedname>ProiectIP.Form1.buttonHelp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="331" column="42" bodyfile="Form1.Designer.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a2a4323a5c6ca5a6fdc34628612e64e23" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonGeografie</definition>
+        <argsstring></argsstring>
+        <name>buttonGeografie</name>
+        <qualifiedname>ProiectIP.Form1.buttonGeografie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="332" column="42" bodyfile="Form1.Designer.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a7e136586e46b9d1a02ba84ec5352e0c3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProiectIP.Form1.buttonSeteaza</definition>
+        <argsstring></argsstring>
+        <name>buttonSeteaza</name>
+        <qualifiedname>ProiectIP.Form1.buttonSeteaza</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="333" column="42" bodyfile="Form1.Designer.cs" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a7e871824ad5d9db9f0c2d923b1332abf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProiectIP.Form1.labelVarsta</definition>
+        <argsstring></argsstring>
+        <name>labelVarsta</name>
+        <qualifiedname>ProiectIP.Form1.labelVarsta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="334" column="41" bodyfile="Form1.Designer.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_proiect_i_p_1_1_form1_1a6a95ec1e994785d2776a4cd4f25a084a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProiectIP.Form1.textBoxVarsta</definition>
+        <argsstring></argsstring>
+        <name>textBoxVarsta</name>
+        <qualifiedname>ProiectIP.Form1.textBoxVarsta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="335" column="43" bodyfile="Form1.Designer.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a19125e27616eec2f91360be55895bbe8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProiectIP.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <qualifiedname>ProiectIP.Form1.Form1</qualifiedname>
+        <briefdescription>
+<para>constructorul public al clasei </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="24" column="16" bodyfile="Form1.cs" bodystart="24" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a3e1a8c0507bd10dd17f6c2d585984bb1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.AlegeDomeniu</definition>
+        <argsstring>(int x)</argsstring>
+        <name>AlegeDomeniu</name>
+        <qualifiedname>ProiectIP.Form1.AlegeDomeniu</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>functia care ne lasa sa parcurgem un domeniu daca acesta nu a fost parcurs deja </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="49" column="22" bodyfile="Form1.cs" bodystart="49" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a7f46114da50efae960df5182453795ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.labelTitlu_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelTitlu_Click</name>
+        <qualifiedname>ProiectIP.Form1.labelTitlu_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="65" column="22" bodyfile="Form1.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1ace58a5a41c4ed98abec90b0f1aa01e34" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonGeografie_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonGeografie_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonGeografie_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>la apasarea fiecarui buton va fi lansata in executie functia de mai sus function(domeniu), iar ca parametru primeste domeniul ales de utilizator, pentru a stii ce chestionar sa fie lansat in executie </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="72" column="22" bodyfile="Form1.cs" bodystart="72" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a1b2e18f3816dac20c7df83906f2f1ccd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonMatematica_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonMatematica_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonMatematica_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="78" column="22" bodyfile="Form1.cs" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a3f71777841ad05f5182c5067c383473c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonChimie_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonChimie_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonChimie_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="84" column="22" bodyfile="Form1.cs" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a5fa05305b3d88d853ef81c7ca21e2b62" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonIstorie_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonIstorie_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonIstorie_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="90" column="22" bodyfile="Form1.cs" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a9bd99a17671b809d3a2c66af31080850" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonSport_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonSport_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonSport_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="95" column="22" bodyfile="Form1.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1af90176bbb33e013ff63ea4258261842e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonRomana_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonRomana_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonRomana_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="100" column="22" bodyfile="Form1.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1ac0d0a183ec194c34c2bd1f4a0d40e5e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonArta_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonArta_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonArta_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="105" column="22" bodyfile="Form1.cs" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a183b2afb45b0043ab3b3ec8a105f6c4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonMuzica_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonMuzica_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonMuzica_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="110" column="22" bodyfile="Form1.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1ad584694241feb311fa38ec1b4b258321" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.textBoxNume_TextChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>textBoxNume_TextChanged</name>
+        <qualifiedname>ProiectIP.Form1.textBoxNume_TextChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="115" column="22" bodyfile="Form1.cs" bodystart="115" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a67e24cd85bbafe54e2803f5619333c46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonHelp_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonHelp_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonHelp_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="158" column="22" bodyfile="Form1.cs" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1af22b965603b980d5e80a9e5b7c105149" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.buttonSeteaza_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonSeteaza_Click</name>
+        <qualifiedname>ProiectIP.Form1.buttonSeteaza_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="163" column="22" bodyfile="Form1.cs" bodystart="163" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1ab9e9835a888bd7774f95d2add883d398" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.pictureBoxQuizNight_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>pictureBoxQuizNight_Click</name>
+        <qualifiedname>ProiectIP.Form1.pictureBoxQuizNight_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="217" column="22" bodyfile="Form1.cs" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a9cd6f321bdb3d6d1fa8ece3c6634a613" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.Form1_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form1_Load</name>
+        <qualifiedname>ProiectIP.Form1.Form1_Load</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="222" column="22" bodyfile="Form1.cs" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a2ca9d013ee11b2e177fc16feda019021" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.labelWelcome_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelWelcome_Click</name>
+        <qualifiedname>ProiectIP.Form1.labelWelcome_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="227" column="22" bodyfile="Form1.cs" bodystart="227" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a66389f2853d899a6b54b8fbc8ccd00d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.labelNume_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelNume_Click</name>
+        <qualifiedname>ProiectIP.Form1.labelNume_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="232" column="22" bodyfile="Form1.cs" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a295422a9ba45655be5dbfe2f8d2a2e8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.labelDomeniu_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>labelDomeniu_Click</name>
+        <qualifiedname>ProiectIP.Form1.labelDomeniu_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="237" column="22" bodyfile="Form1.cs" bodystart="237" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a09ae84cd87fec1fc1a4c32c75ce258e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.textBoxVarsta_TextChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>textBoxVarsta_TextChanged</name>
+        <qualifiedname>ProiectIP.Form1.textBoxVarsta_TextChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="242" column="22" bodyfile="Form1.cs" bodystart="242" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1a9cc912cd677d701863debe4ee4f1f381" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProiectIP.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>ProiectIP.Form1.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="30" column="22" bodyfile="Form1.Designer.cs" bodystart="30" bodyend="315"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_form1_1ae6a64fdf66e0bbe81511f51eba33333c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ProiectIP.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>ProiectIP.Form1.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="15" column="33" bodyfile="Form1.Designer.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clasa ce va lansa in executie interfata pentru meniul chestionarului care permite utilizatorului sa aleaga ce modul sa parcurga. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.Form1</label>
+        <link refid="class_proiect_i_p_1_1_form1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>ProiectIP.Form1</label>
+        <link refid="class_proiect_i_p_1_1_form1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Form1.cs" line="16" column="19" bodyfile="Form1.cs" bodystart="17" bodyend="267"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_form1_1a3e1a8c0507bd10dd17f6c2d585984bb1" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>AlegeDomeniu</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a65205d224a501308f5683a11fff3c2b6" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonArta</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ac0d0a183ec194c34c2bd1f4a0d40e5e2" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonArta_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a532d6ed0e65db6c630a94bc8e5df54a8" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonChimie</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a3f71777841ad05f5182c5067c383473c" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonChimie_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a2a4323a5c6ca5a6fdc34628612e64e23" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonGeografie</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ace58a5a41c4ed98abec90b0f1aa01e34" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonGeografie_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a6fc80ea9a1cd13f9bfa5ffee09cef986" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonHelp</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a67e24cd85bbafe54e2803f5619333c46" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonHelp_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a53c3822457099be65fdb7173166c2f3d" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonIstorie</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a5fa05305b3d88d853ef81c7ca21e2b62" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonIstorie_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1abbd3ff7362edcad75082a606375faeab" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonMatematica</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a1b2e18f3816dac20c7df83906f2f1ccd" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonMatematica_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a5c5cb8841ae33743e3cfb864622b3291" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonMuzica</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a183b2afb45b0043ab3b3ec8a105f6c4d" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonMuzica_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1aa7798d434d676842f38a53579080abf9" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonRomana</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1af90176bbb33e013ff63ea4258261842e" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonRomana_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a7e136586e46b9d1a02ba84ec5352e0c3" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonSeteaza</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1af22b965603b980d5e80a9e5b7c105149" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonSeteaza_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a22f4906943c8786b3101768b8e8304d9" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonSport</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a9bd99a17671b809d3a2c66af31080850" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>buttonSport_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ae0e08465654edd7860cbd50f472e1c53" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>components</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ae6a64fdf66e0bbe81511f51eba33333c" prot="protected" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>Dispose</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1adf4ad640a9801ebb3d8f3f4e3f14cdb0" prot="public" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>domeniu</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a19125e27616eec2f91360be55895bbe8" prot="public" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>Form1</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a9cd6f321bdb3d6d1fa8ece3c6634a613" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>Form1_Load</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a9cc912cd677d701863debe4ee4f1f381" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a87b1f3f83b5fb17977a3c0a8978ebe66" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>l</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a21362ce42aa803b8862842d0a0a71ca6" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelDomeniu</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a295422a9ba45655be5dbfe2f8d2a2e8c" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelDomeniu_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ab4b77fe2dc49eaf16d255f1b80215f97" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelNume</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a66389f2853d899a6b54b8fbc8ccd00d3" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelNume_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a3a41641b89b2c0bbd10c01a5358fed90" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>LabelTitlu</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a7f46114da50efae960df5182453795ec" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelTitlu_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a7e871824ad5d9db9f0c2d923b1332abf" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelVarsta</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1abdc44f78c37f03e35ec0a3346d0559b7" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelWelcome</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a2ca9d013ee11b2e177fc16feda019021" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>labelWelcome_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a5f4ad8eacf691e668f9a5b092224bb17" prot="public" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>nume</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a370688df4c13ffbecb1b7f9cace7ae9d" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>pictureBoxQuizNight</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ab9e9835a888bd7774f95d2add883d398" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>pictureBoxQuizNight_Click</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a9843b35b485ebceb929af473bae69258" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>textBoxNume</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ad584694241feb311fa38ec1b4b258321" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>textBoxNume_TextChanged</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a6a95ec1e994785d2776a4cd4f25a084a" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>textBoxVarsta</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1a09ae84cd87fec1fc1a4c32c75ce258e8" prot="private" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>textBoxVarsta_TextChanged</name></member>
+      <member refid="class_proiect_i_p_1_1_form1_1ad410ba102b2661984f02241e909d21e2" prot="public" virt="non-virtual"><scope>ProiectIP::Form1</scope><name>varsta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__lista_8cs_source" xml:lang="en-US">
+<title>Lista.cs</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__lista_8cs_source_1l00001"/>00001 
+<anchor xml:id="__lista_8cs_source_1l00002"/>00002 <emphasis role="comment">/**************************************************************************</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00003"/>00003 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00004"/>00004 <emphasis role="comment">&#32;*&#32;&#32;File:&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Lista.cs&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00005"/>00005 <emphasis role="comment">&#32;*&#32;&#32;Copyright:&#32;&#32;&#32;(c)&#32;2008,&#32;Ingineria&#32;Programarii&#32;Proiect&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00006"/>00006 <emphasis role="comment">&#32;*&#32;&#32;Description:&#32;Proiect&#32;la&#32;materia&#32;&quot;Ingineria&#32;Programarii&quot;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00007"/>00007 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;ce&#32;contine&#32;chestionare&#32;de&#32;cultura&#32;generala&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00008"/>00008 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;din&#32;diverse&#32;domenii.&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00009"/>00009 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00010"/>00010 <emphasis role="comment">&#32;*&#32;&#32;This&#32;program&#32;is&#32;free&#32;software;&#32;you&#32;can&#32;redistribute&#32;it&#32;and/or&#32;modify&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00011"/>00011 <emphasis role="comment">&#32;*&#32;&#32;it&#32;under&#32;the&#32;terms&#32;of&#32;the&#32;GNU&#32;General&#32;Public&#32;License&#32;as&#32;published&#32;by&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00012"/>00012 <emphasis role="comment">&#32;*&#32;&#32;the&#32;Free&#32;Software&#32;Foundation.&#32;This&#32;program&#32;is&#32;distributed&#32;in&#32;the&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00013"/>00013 <emphasis role="comment">&#32;*&#32;&#32;hope&#32;that&#32;it&#32;will&#32;be&#32;useful,&#32;but&#32;WITHOUT&#32;ANY&#32;WARRANTY;&#32;without&#32;even&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00014"/>00014 <emphasis role="comment">&#32;*&#32;&#32;the&#32;implied&#32;warranty&#32;of&#32;MERCHANTABILITY&#32;or&#32;FITNESS&#32;FOR&#32;A&#32;PARTICULAR&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00015"/>00015 <emphasis role="comment">&#32;*&#32;&#32;PURPOSE.&#32;See&#32;the&#32;GNU&#32;General&#32;Public&#32;License&#32;for&#32;more&#32;details.&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00016"/>00016 <emphasis role="comment">&#32;*&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;*</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00017"/>00017 <emphasis role="comment">&#32;**************************************************************************/</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00018"/>00018 
+<anchor xml:id="__lista_8cs_source_1l00019"/>00019 <emphasis role="keyword">using</emphasis>&#32;System;
+<anchor xml:id="__lista_8cs_source_1l00020"/>00020 <emphasis role="keyword">using</emphasis>&#32;System.Collections.Generic;
+<anchor xml:id="__lista_8cs_source_1l00021"/>00021 <emphasis role="keyword">using</emphasis>&#32;System.Linq;
+<anchor xml:id="__lista_8cs_source_1l00022"/>00022 <emphasis role="keyword">using</emphasis>&#32;System.Text;
+<anchor xml:id="__lista_8cs_source_1l00023"/>00023 <emphasis role="keyword">using</emphasis>&#32;System.Threading.Tasks;
+<anchor xml:id="__lista_8cs_source_1l00024"/>00024 
+<anchor xml:id="__lista_8cs_source_1l00025"/><link linkend="_namespace_proiect_i_p">00025</link> <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_proiect_i_p">ProiectIP</link>
+<anchor xml:id="__lista_8cs_source_1l00026"/>00026 {
+<anchor xml:id="__lista_8cs_source_1l00030"/><link linkend="_class_proiect_i_p_1_1_lista">00030</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_class_proiect_i_p_1_1_lista">Lista</link>
+<anchor xml:id="__lista_8cs_source_1l00031"/>00031 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__lista_8cs_source_1l00032"/>00032 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;List&lt;int&gt;&#32;_lista;
+<anchor xml:id="__lista_8cs_source_1l00033"/>00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_lista">Lista</link>&#32;_instance;<emphasis role="comment">//instanta&#32;listei</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00034"/><link linkend="_class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba">00034</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba">moduleParcurse</link>&#32;=&#32;0;<emphasis role="comment">//o&#32;variabila&#32;ce&#32;retine&#32;cate&#32;module&#32;a&#32;parcurs&#32;utilizatorul</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00038"/>00038 <emphasis role="comment"></emphasis>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_lista">Lista</link>()
+<anchor xml:id="__lista_8cs_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__lista_8cs_source_1l00040"/>00040 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_lista&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;List&lt;int&gt;();
+<anchor xml:id="__lista_8cs_source_1l00041"/>00041 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__lista_8cs_source_1l00045"/><link linkend="_class_proiect_i_p_1_1_lista_1a7ef968945759a9a8fe3b7f3c8dab933b">00045</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_lista">Lista</link>&#32;<link linkend="_class_proiect_i_p_1_1_lista_1a7ef968945759a9a8fe3b7f3c8dab933b">Instance</link>
+<anchor xml:id="__lista_8cs_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__lista_8cs_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">get</emphasis>
+<anchor xml:id="__lista_8cs_source_1l00048"/>00048 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__lista_8cs_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(_instance&#32;==&#32;<emphasis role="keyword">null</emphasis>)
+<anchor xml:id="__lista_8cs_source_1l00050"/>00050 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_instance&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_lista">Lista</link>();
+<anchor xml:id="__lista_8cs_source_1l00051"/>00051 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;_instance;
+<anchor xml:id="__lista_8cs_source_1l00052"/>00052 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__lista_8cs_source_1l00053"/>00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__lista_8cs_source_1l00058"/><link linkend="_class_proiect_i_p_1_1_lista_1a45f0846579c692a60b9b981bdc1d4b4f">00058</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_lista_1a45f0846579c692a60b9b981bdc1d4b4f">Add</link>(<emphasis role="keywordtype">int</emphasis>&#32;x)
+<anchor xml:id="__lista_8cs_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__lista_8cs_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_lista.Add(x);
+<anchor xml:id="__lista_8cs_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_proiect_i_p_1_1_lista_1a1e3a2db49b41e988aef0562e5d5727ba">moduleParcurse</link>++;
+<anchor xml:id="__lista_8cs_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__lista_8cs_source_1l00066"/><link linkend="_class_proiect_i_p_1_1_lista_1a1cb68cc1aa564e712bb93d69524e3eb7">00066</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_proiect_i_p_1_1_lista_1a1cb68cc1aa564e712bb93d69524e3eb7">Contains</link>(<emphasis role="keywordtype">int</emphasis>&#32;x)
+<anchor xml:id="__lista_8cs_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__lista_8cs_source_1l00068"/>00068 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(_lista.Contains(x))
+<anchor xml:id="__lista_8cs_source_1l00069"/>00069 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__lista_8cs_source_1l00070"/>00070 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">false</emphasis>;
+<anchor xml:id="__lista_8cs_source_1l00071"/>00071 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__lista_8cs_source_1l00072"/>00072 
+<anchor xml:id="__lista_8cs_source_1l00073"/>00073 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__lista_8cs_source_1l00074"/>00074 }
+</programlisting></section>

@@ -1,0 +1,6 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Lista\bin\Debug\Lista.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Lista\bin\Debug\Lista.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Lista\obj\Debug\Lista.csproj.AssemblyReference.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Lista\obj\Debug\Lista.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Lista\obj\Debug\Lista.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\Lista\obj\Debug\Lista.pdb

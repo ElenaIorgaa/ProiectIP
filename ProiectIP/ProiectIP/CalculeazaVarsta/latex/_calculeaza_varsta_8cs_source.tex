@@ -1,0 +1,73 @@
+\doxysection{Calculeaza\+Varsta.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 }
+\DoxyCodeLine{00002 \textcolor{comment}{/**************************************************************************}}
+\DoxyCodeLine{00003 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00004 \textcolor{comment}{ *  File:        CalculeazaVarsta.cs                                      *}}
+\DoxyCodeLine{00005 \textcolor{comment}{ *  Copyright:   (c) 2008, Ingineria Programarii Proiect                  *}}
+\DoxyCodeLine{00006 \textcolor{comment}{ *  Description: Proiect la materia "{}Ingineria Programarii"{}               *}}
+\DoxyCodeLine{00007 \textcolor{comment}{ *               ce contine chestionare de cultura generala               *}}
+\DoxyCodeLine{00008 \textcolor{comment}{ *               din diverse domenii.                                     *}}
+\DoxyCodeLine{00009 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00010 \textcolor{comment}{ *  This program is free software; you can redistribute it and/or modify  *}}
+\DoxyCodeLine{00011 \textcolor{comment}{ *  it under the terms of the GNU General Public License as published by  *}}
+\DoxyCodeLine{00012 \textcolor{comment}{ *  the Free Software Foundation. This program is distributed in the      *}}
+\DoxyCodeLine{00013 \textcolor{comment}{ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *}}
+\DoxyCodeLine{00014 \textcolor{comment}{ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *}}
+\DoxyCodeLine{00015 \textcolor{comment}{ *  PURPOSE. See the GNU General Public License for more details.         *}}
+\DoxyCodeLine{00016 \textcolor{comment}{ *                                                                        *}}
+\DoxyCodeLine{00017 \textcolor{comment}{ **************************************************************************/}}
+\DoxyCodeLine{00018 }
+\DoxyCodeLine{00019 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00020 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00021 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00022 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00023 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00024 }
+\DoxyCodeLine{00025 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00026 \{}
+\DoxyCodeLine{00030     \textcolor{keyword}{public} \textcolor{keyword}{class }CalculeazaVarsta}
+\DoxyCodeLine{00031     \{}
+\DoxyCodeLine{00032         \textcolor{keyword}{private} \textcolor{keywordtype}{bool} \_valid \{ \textcolor{keyword}{set}; \textcolor{keyword}{get}; \}}
+\DoxyCodeLine{00033         \textcolor{keyword}{private} \textcolor{keywordtype}{int} \_x;}
+\DoxyCodeLine{00034         \textcolor{keyword}{private} \textcolor{keywordtype}{int} \_y;}
+\DoxyCodeLine{00035         \textcolor{keyword}{private} \textcolor{keywordtype}{int} \_rezultat;}
+\DoxyCodeLine{00040         \textcolor{keyword}{public} CalculeazaVarsta(\textcolor{keywordtype}{int} y)}
+\DoxyCodeLine{00041         \{}
+\DoxyCodeLine{00042 }
+\DoxyCodeLine{00043             \_x = DateTime.Now.Year;}
+\DoxyCodeLine{00044             \_y = y;}
+\DoxyCodeLine{00045             \_valid = \textcolor{keyword}{true};}
+\DoxyCodeLine{00046             \textcolor{keywordflow}{if} (y <= 0 || y > DateTime.Now.Year)}
+\DoxyCodeLine{00047                 \_valid = \textcolor{keyword}{false};}
+\DoxyCodeLine{00048             \textcolor{keywordflow}{if} (\_valid)}
+\DoxyCodeLine{00049                 Calcul();}
+\DoxyCodeLine{00050         \}}
+\DoxyCodeLine{00054         \textcolor{keyword}{public} \textcolor{keywordtype}{void} Calcul()}
+\DoxyCodeLine{00055         \{}
+\DoxyCodeLine{00056 }
+\DoxyCodeLine{00057             \_rezultat = \_x -\/ \_y;}
+\DoxyCodeLine{00058             \textcolor{keywordflow}{if} (\_rezultat < 16 || \_rezultat > 100)}
+\DoxyCodeLine{00059                 \_valid = \textcolor{keyword}{false};}
+\DoxyCodeLine{00060         \}}
+\DoxyCodeLine{00064         \textcolor{keyword}{public} \textcolor{keywordtype}{bool} Valid}
+\DoxyCodeLine{00065         \{}
+\DoxyCodeLine{00066             \textcolor{keyword}{get}}
+\DoxyCodeLine{00067             \{}
+\DoxyCodeLine{00068                 \textcolor{keywordflow}{return} \_valid;}
+\DoxyCodeLine{00069             \}}
+\DoxyCodeLine{00070         \}}
+\DoxyCodeLine{00074         \textcolor{keyword}{public} \textcolor{keywordtype}{int} Rezultat}
+\DoxyCodeLine{00075         \{}
+\DoxyCodeLine{00076             \textcolor{keyword}{get}}
+\DoxyCodeLine{00077             \{}
+\DoxyCodeLine{00078                 \textcolor{keywordflow}{return} \_rezultat;}
+\DoxyCodeLine{00079             \}}
+\DoxyCodeLine{00080         \}}
+\DoxyCodeLine{00081 }
+\DoxyCodeLine{00082     \}}
+\DoxyCodeLine{00083 \}}
+\DoxyCodeLine{00084 }
+
+\end{DoxyCode}

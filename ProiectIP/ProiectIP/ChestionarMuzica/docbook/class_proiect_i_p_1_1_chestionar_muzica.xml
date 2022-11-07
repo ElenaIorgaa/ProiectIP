@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_chestionar_muzica" xml:lang="en-US">
+<title>ProiectIP.ChestionarMuzica Class Reference</title>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary></indexterm>
+<para>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Muzica. /summary&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for ProiectIP.ChestionarMuzica:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_chestionar_muzica.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1a4387a7e1d86dadf8e399d61e3ad7f732">ChestionarMuzica</link> ()</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1adb80c7d7c5fde7e98b54144dd0bbe844">GetEnunt</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1a147afe82820f3fea6a168ddfcee16b4a">GetVar1</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1a6df1bc9047542ccef146da1e1e28dcf4">GetVar2</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1a13eb2ed397ec7e463f3bf11d435147c5">GetVar3</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1a07c258f7543c0bd8e434686c0c93b2e3">GetVar4</link> (int x)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1a309025de95404361aceab69341e50a7a">GetRaspuns</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1abe1ec7f315f986f07e1778564bc248f8">Picture</link> ()</para>
+</listitem>
+            <listitem><para>List&lt; Intrebare &gt; <link linkend="_class_proiect_i_p_1_1_chestionar_muzica_1abf0ca4dad1485b5fab9e3bfa44820889">ReturneazaLista</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Muzica. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00032">32</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1a4387a7e1d86dadf8e399d61e3ad7f732"/><section>
+    <title>ChestionarMuzica()</title>
+<indexterm><primary>ChestionarMuzica</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>ChestionarMuzica</secondary></indexterm>
+<para><computeroutput>ProiectIP.ChestionarMuzica.ChestionarMuzica ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00035">35</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1adb80c7d7c5fde7e98b54144dd0bbe844"/><section>
+    <title>GetEnunt()</title>
+<indexterm><primary>GetEnunt</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>GetEnunt</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMuzica.GetEnunt (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00062">62</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1a309025de95404361aceab69341e50a7a"/><section>
+    <title>GetRaspuns()</title>
+<indexterm><primary>GetRaspuns</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>GetRaspuns</secondary></indexterm>
+<para><computeroutput>int ProiectIP.ChestionarMuzica.GetRaspuns (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00092">92</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1a147afe82820f3fea6a168ddfcee16b4a"/><section>
+    <title>GetVar1()</title>
+<indexterm><primary>GetVar1</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>GetVar1</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMuzica.GetVar1 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00068">68</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1a6df1bc9047542ccef146da1e1e28dcf4"/><section>
+    <title>GetVar2()</title>
+<indexterm><primary>GetVar2</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>GetVar2</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMuzica.GetVar2 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00074">74</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1a13eb2ed397ec7e463f3bf11d435147c5"/><section>
+    <title>GetVar3()</title>
+<indexterm><primary>GetVar3</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>GetVar3</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMuzica.GetVar3 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00080">80</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1a07c258f7543c0bd8e434686c0c93b2e3"/><section>
+    <title>GetVar4()</title>
+<indexterm><primary>GetVar4</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>GetVar4</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMuzica.GetVar4 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00086">86</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1abe1ec7f315f986f07e1778564bc248f8"/><section>
+    <title>Picture()</title>
+<indexterm><primary>Picture</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>Picture</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarMuzica.Picture ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00098">98</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_muzica_1abf0ca4dad1485b5fab9e3bfa44820889"/><section>
+    <title>ReturneazaLista()</title>
+<indexterm><primary>ReturneazaLista</primary><secondary>ProiectIP.ChestionarMuzica</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarMuzica</primary><secondary>ReturneazaLista</secondary></indexterm>
+<para><computeroutput>List&lt; Intrebare &gt; ProiectIP.ChestionarMuzica.ReturneazaLista ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_muzica_8cs_source_1l00102">102</link> of file <link linkend="__chestionar_muzica_8cs_source">ChestionarMuzica.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__chestionar_muzica_8cs">ChestionarMuzica.cs</link></section>
+</section>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__calculeaza_varsta_8cs" xml:lang="en-US">
+<title>CalculeazaVarsta.cs File Reference</title>
+<indexterm><primary>CalculeazaVarsta.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_proiect_i_p_1_1_calculeaza_varsta">ProiectIP.CalculeazaVarsta</link></para>
+
+<para>Clasa <link linkend="_class_proiect_i_p_1_1_calculeaza_varsta">CalculeazaVarsta</link> se va folosi pentru a calcula varsta in functie de anul nasterii introdus de utilizator si de anul curent. Este nevoie de aceasta clasa pentru a sti daca persoana care se logheaza are intre 16 si 100 de ani sau daca a introdus o data valida. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_proiect_i_p">ProiectIP</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

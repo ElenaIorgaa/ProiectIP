@@ -1,0 +1,82 @@
+\doxysection{Form3.\+cs}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{00002 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{00003 \textcolor{keyword}{using} System.ComponentModel;}
+\DoxyCodeLine{00004 \textcolor{keyword}{using} System.Data;}
+\DoxyCodeLine{00005 \textcolor{keyword}{using} System.Drawing;}
+\DoxyCodeLine{00006 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{00007 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{00008 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{00009 \textcolor{keyword}{using} System.Windows.Forms;}
+\DoxyCodeLine{00010 }
+\DoxyCodeLine{00011 \textcolor{keyword}{namespace }ProiectIP}
+\DoxyCodeLine{00012 \{}
+\DoxyCodeLine{00017     \textcolor{keyword}{public} \textcolor{keyword}{partial class }Form3 : Form}
+\DoxyCodeLine{00018     \{}
+\DoxyCodeLine{00019         \textcolor{keyword}{private} \textcolor{keywordtype}{bool} \_flag=\textcolor{keyword}{false};}
+\DoxyCodeLine{00021         \textcolor{keyword}{public} Form3(\textcolor{keywordtype}{int} scor, \textcolor{keywordtype}{bool} flag)}
+\DoxyCodeLine{00022         \{}
+\DoxyCodeLine{00023             \textcolor{keywordflow}{if} (flag == \textcolor{keyword}{false})\textcolor{comment}{//daca s-\/a primit un flag care e pe false, inseamna ca testul inca nu s-\/a terminat, ci utilizatorul a completat un singur modul}}
+\DoxyCodeLine{00024             \{}
+\DoxyCodeLine{00025                 InitializeComponent();}
+\DoxyCodeLine{00026                 ScorPartial p = \textcolor{keyword}{new} ScorPartial(scor);}
+\DoxyCodeLine{00027                 labelPunctaj.Text = p.Rezultat().ToString();}
+\DoxyCodeLine{00028                 labelFelicitari.Text = \$\textcolor{stringliteral}{"{}FELICITARI, \{Form1.nume\}!"{}};}
+\DoxyCodeLine{00029             \}}
+\DoxyCodeLine{00030             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(flag==\textcolor{keyword}{true})\textcolor{comment}{//daca s-\/a primit un flag care e pe true, inseamna ca utilizatorul a completat toate modulele si trebuie afisat scorul final.}}
+\DoxyCodeLine{00031             \{}
+\DoxyCodeLine{00032                 InitializeComponent();}
+\DoxyCodeLine{00033                 ScorFinal p = ScorFinal.Instance;}
+\DoxyCodeLine{00034                 labelPunctaj.Text = p.Rezultat().ToString();}
+\DoxyCodeLine{00035                 labelFelicitari.Text = \$\textcolor{stringliteral}{"{}FELICITARI, \{Form1.nume\}! AI TERMINAT"{}};}
+\DoxyCodeLine{00036                 buttonAlegeDomeniu.Text = \textcolor{stringliteral}{"{}INCHIDE TESTUL"{}};}
+\DoxyCodeLine{00037                 \_flag = \textcolor{keyword}{true};\textcolor{comment}{//variabila \_flag devine true instiintand programul ca a terminat si se poate inchide}}
+\DoxyCodeLine{00038             \}}
+\DoxyCodeLine{00039         \}}
+\DoxyCodeLine{00040 }
+\DoxyCodeLine{00041 }
+\DoxyCodeLine{00042         \textcolor{keyword}{private} \textcolor{keywordtype}{void} buttonAlegeDomeniu\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00043         \{}
+\DoxyCodeLine{00044             \textcolor{keywordflow}{if} (\_flag == \textcolor{keyword}{false})\textcolor{comment}{//daca \_flag e false inseamna ca programul nu s-\/a terminat deci utilizatorul trebuie sa aiba optiunea de a alege un alt domeniu}}
+\DoxyCodeLine{00045             \{}
+\DoxyCodeLine{00046                 Form1 form = \textcolor{keyword}{new} Form1();}
+\DoxyCodeLine{00047                 this.Hide();}
+\DoxyCodeLine{00048                 form.ShowDialog();}
+\DoxyCodeLine{00049             \}}
+\DoxyCodeLine{00050             \textcolor{keywordflow}{else}\textcolor{comment}{//daca \_flag este true inseamna ca testul s-\/a terminat si programul poate fi inchis}}
+\DoxyCodeLine{00051             \{}
+\DoxyCodeLine{00052                 Application.Exit();}
+\DoxyCodeLine{00053             \}}
+\DoxyCodeLine{00054             }
+\DoxyCodeLine{00055         \}}
+\DoxyCodeLine{00056 }
+\DoxyCodeLine{00057         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelPunctaj\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00058         \{}
+\DoxyCodeLine{00059 }
+\DoxyCodeLine{00060         \}}
+\DoxyCodeLine{00061 }
+\DoxyCodeLine{00062         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelFelicitari\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00063         \{}
+\DoxyCodeLine{00064 }
+\DoxyCodeLine{00065         \}}
+\DoxyCodeLine{00066 }
+\DoxyCodeLine{00067         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelScorFinal\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00068         \{}
+\DoxyCodeLine{00069 }
+\DoxyCodeLine{00070         \}}
+\DoxyCodeLine{00071 }
+\DoxyCodeLine{00072         \textcolor{keyword}{private} \textcolor{keywordtype}{void} labelProcent\_Click(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00073         \{}
+\DoxyCodeLine{00074 }
+\DoxyCodeLine{00075         \}}
+\DoxyCodeLine{00076 }
+\DoxyCodeLine{00077         \textcolor{keyword}{private} \textcolor{keywordtype}{void} Form3\_Load(\textcolor{keywordtype}{object} sender, EventArgs e)}
+\DoxyCodeLine{00078         \{}
+\DoxyCodeLine{00079 }
+\DoxyCodeLine{00080         \}}
+\DoxyCodeLine{00081     \}}
+\DoxyCodeLine{00082 \}}
+
+\end{DoxyCode}

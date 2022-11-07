@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_proiect_i_p_1_1_chestionar_geografie" xml:lang="en-US">
+<title>ProiectIP.ChestionarGeografie Class Reference</title>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary></indexterm>
+<para>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Chimie. /summary&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for ProiectIP.ChestionarGeografie:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_proiect_i_p_1_1_chestionar_geografie.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1a109776f2c7d3dd81c184b458cb4adfb2">ChestionarGeografie</link> ()</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1aada5777e43c5b84672653a2687a6a630">GetEnunt</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1ab757142931e93a2e8f90f010b667e6c4">GetVar1</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1acfe607f6b98a2046c1ce3eed3355277f">GetVar2</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1a8ab3cdae261a92655fdb11e0e0250a0f">GetVar3</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1a323f44811035e76fc88b0c959758697b">GetVar4</link> (int x)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1af658d58db52b531b5319dfdd7f610fc2">GetRaspuns</link> (int x)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_proiect_i_p_1_1_chestionar_geografie_1a9e1a935bda52fdd63f7e9aeee36b8651">Picture</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Aceasta este clasa care poate fi folista pentru a instantia un obiect de tip chestionar cu intrebari din domeniul Chimie. /summary&gt; </para>
+<para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00032">32</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1a109776f2c7d3dd81c184b458cb4adfb2"/><section>
+    <title>ChestionarGeografie()</title>
+<indexterm><primary>ChestionarGeografie</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>ChestionarGeografie</secondary></indexterm>
+<para><computeroutput>ProiectIP.ChestionarGeografie.ChestionarGeografie ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00035">35</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1aada5777e43c5b84672653a2687a6a630"/><section>
+    <title>GetEnunt()</title>
+<indexterm><primary>GetEnunt</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>GetEnunt</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarGeografie.GetEnunt (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00061">61</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1af658d58db52b531b5319dfdd7f610fc2"/><section>
+    <title>GetRaspuns()</title>
+<indexterm><primary>GetRaspuns</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>GetRaspuns</secondary></indexterm>
+<para><computeroutput>int ProiectIP.ChestionarGeografie.GetRaspuns (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00091">91</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1ab757142931e93a2e8f90f010b667e6c4"/><section>
+    <title>GetVar1()</title>
+<indexterm><primary>GetVar1</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>GetVar1</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarGeografie.GetVar1 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00067">67</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1acfe607f6b98a2046c1ce3eed3355277f"/><section>
+    <title>GetVar2()</title>
+<indexterm><primary>GetVar2</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>GetVar2</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarGeografie.GetVar2 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00073">73</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1a8ab3cdae261a92655fdb11e0e0250a0f"/><section>
+    <title>GetVar3()</title>
+<indexterm><primary>GetVar3</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>GetVar3</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarGeografie.GetVar3 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00079">79</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1a323f44811035e76fc88b0c959758697b"/><section>
+    <title>GetVar4()</title>
+<indexterm><primary>GetVar4</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>GetVar4</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarGeografie.GetVar4 (int x)</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00085">85</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<anchor xml:id="_class_proiect_i_p_1_1_chestionar_geografie_1a9e1a935bda52fdd63f7e9aeee36b8651"/><section>
+    <title>Picture()</title>
+<indexterm><primary>Picture</primary><secondary>ProiectIP.ChestionarGeografie</secondary></indexterm>
+<indexterm><primary>ProiectIP.ChestionarGeografie</primary><secondary>Picture</secondary></indexterm>
+<para><computeroutput>string ProiectIP.ChestionarGeografie.Picture ( )</computeroutput></para><para>
+Definition at line <link linkend="__chestionar_geografie_8cs_source_1l00097">97</link> of file <link linkend="__chestionar_geografie_8cs_source">ChestionarGeografie.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__chestionar_geografie_8cs">ChestionarGeografie.cs</link></section>
+</section>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_proiect_i_p_1_1_verifica_nume" kind="class" language="C#" prot="public">
+    <compoundname>ProiectIP::VerificaNume</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_proiect_i_p_1_1_verifica_nume_1a03dee178b845333c9162e73dc0ce2f0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProiectIP.VerificaNume.AreDoarLitere</definition>
+        <argsstring>(string s)</argsstring>
+        <name>AreDoarLitere</name>
+        <qualifiedname>ProiectIP.VerificaNume.AreDoarLitere</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Functia care vrifica daca string-ul introdus are doar litere. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returneaza true daca incepe cu litera mare si false daca cu mica</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VerificaNume.cs" line="37" column="28" bodyfile="VerificaNume.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_verifica_nume_1a43b77f786cf0f980dc7533f62a3bd790" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProiectIP.VerificaNume.IncepeCuLiteraMare</definition>
+        <argsstring>(string s)</argsstring>
+        <name>IncepeCuLiteraMare</name>
+        <qualifiedname>ProiectIP.VerificaNume.IncepeCuLiteraMare</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Functia care verifica daca string-ul incepe cu litera mare. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returneaza true daca incepe cu litera mare si false daca cu mica</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VerificaNume.cs" line="46" column="28" bodyfile="VerificaNume.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proiect_i_p_1_1_verifica_nume_1a96518f78167096d85bcebbf33c09b9bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProiectIP.VerificaNume.ContineLitereDiferite</definition>
+        <argsstring>(string s)</argsstring>
+        <name>ContineLitereDiferite</name>
+        <qualifiedname>ProiectIP.VerificaNume.ContineLitereDiferite</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Functie ce primeste ca parametru un string si va verifica daca contine litere diferite sau aceeasi litera ex: Aaaa va returna false. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VerificaNume.cs" line="59" column="28" bodyfile="VerificaNume.cs" bodystart="59" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clasa care va verifica corectitudinea numelui introdus la logare. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="VerificaNume.cs" line="29" column="11" bodyfile="VerificaNume.cs" bodystart="30" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_proiect_i_p_1_1_verifica_nume_1a03dee178b845333c9162e73dc0ce2f0f" prot="public" virt="non-virtual"><scope>ProiectIP::VerificaNume</scope><name>AreDoarLitere</name></member>
+      <member refid="class_proiect_i_p_1_1_verifica_nume_1a96518f78167096d85bcebbf33c09b9bb" prot="public" virt="non-virtual"><scope>ProiectIP::VerificaNume</scope><name>ContineLitereDiferite</name></member>
+      <member refid="class_proiect_i_p_1_1_verifica_nume_1a43b77f786cf0f980dc7533f62a3bd790" prot="public" virt="non-virtual"><scope>ProiectIP::VerificaNume</scope><name>IncepeCuLiteraMare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\VerificaNume\bin\Debug\VerificaNume.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\VerificaNume\obj\Debug\VerificaNume.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\VerificaNume\obj\Debug\VerificaNume.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\VerificaNume\obj\Debug\VerificaNume.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\VerificaNume\obj\Debug\VerificaNume.csproj.AssemblyReference.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\VerificaNume\obj\Debug\VerificaNume.csproj.CopyComplete

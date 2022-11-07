@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "Care este cel mai lung fluviu din Europa?",
+        "var1": "Bucureşti",
+        "var2": "Volga",
+        "var3": "Dunărea",
+        "var4":"Oltul",
+        "varCorecta": 2
+    },
+  {
+    "enunt": "Ce țară din America de Sud are cea mai mare suprafață?",
+    "var1": "Franţa",
+    "var2": "Brazilia",
+    "var3": "Anglia",
+    "var4": "Argentina",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Câte continente există pe pământ?",
+    "var1": "2",
+    "var2": "5",
+    "var3": "1",
+    "var4": "7",
+    "varCorecta": 4
+  },
+  {
+    "enunt": "Care este capitala Letoniei?",
+    "var1": "Crypto",
+    "var2": "Riga",
+    "var3": "Paraguay",
+    "var4": "Vilnius",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Care este capitala Islandei?",
+    "var1": "Lisabona",
+    "var2": "Budapesta",
+    "var3": "Reykjavik",
+    "var4": "Bucureşti",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "Care este cel mai estic oraș al României?",
+    "var1": "Sulina",
+    "var2": "Galaţi",
+    "var3": "Bucureşti",
+    "var4": "Suceava",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Ce tip de lac este lacul Iezer?",
+    "var1": "mare",
+    "var2": "glaciar",
+    "var3": "vulcanic",
+    "var4": "de baraj natural",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Care este cel mai înalt munte de pe glob?",
+    "var1": "Moldoveanu",
+    "var2": "K2",
+    "var3": "Everest",
+    "var4": "Kangchenjunga",
+    "varCorecta": 3
+  }
+
+]

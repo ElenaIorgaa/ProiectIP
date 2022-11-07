@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_test_1_1_unit_test1" kind="class" language="C#" prot="public">
+    <compoundname>Test::UnitTest1</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a107d07e93cc94958f8c759fc24edcf17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestScor_0</definition>
+        <argsstring>()</argsstring>
+        <name>TestScor_0</name>
+        <qualifiedname>Test.UnitTest1.TestScor_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="28" column="21" bodyfile="UnitTest1.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a84437e306b29df020d8a87f8d197b3f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestScor_minus5</definition>
+        <argsstring>()</argsstring>
+        <name>TestScor_minus5</name>
+        <qualifiedname>Test.UnitTest1.TestScor_minus5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="36" column="21" bodyfile="UnitTest1.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1ab8d593862718ef092825889e144a20ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestScor_minusminus</definition>
+        <argsstring>()</argsstring>
+        <name>TestScor_minusminus</name>
+        <qualifiedname>Test.UnitTest1.TestScor_minusminus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="43" column="21" bodyfile="UnitTest1.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1af698b7bca0791c3b92529fcf178c54a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestScor_zero</definition>
+        <argsstring>()</argsstring>
+        <name>TestScor_zero</name>
+        <qualifiedname>Test.UnitTest1.TestScor_zero</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="50" column="21" bodyfile="UnitTest1.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a9f93926ea593229990514cb81452a514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestScor_calcul</definition>
+        <argsstring>()</argsstring>
+        <name>TestScor_calcul</name>
+        <qualifiedname>Test.UnitTest1.TestScor_calcul</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="56" column="21" bodyfile="UnitTest1.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a9722cd073ca4ae4d1ffa4e0bd23aa9b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestCalculVarsta_varsta</definition>
+        <argsstring>()</argsstring>
+        <name>TestCalculVarsta_varsta</name>
+        <qualifiedname>Test.UnitTest1.TestCalculVarsta_varsta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="64" column="21" bodyfile="UnitTest1.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a0959171b508197ab0e9174cb56dafe8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestCalculVarsta_minus</definition>
+        <argsstring>()</argsstring>
+        <name>TestCalculVarsta_minus</name>
+        <qualifiedname>Test.UnitTest1.TestCalculVarsta_minus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="71" column="21" bodyfile="UnitTest1.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a95dbfcdd2880d8abd4b34cede4bbf2b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestCalculVarsta_maiMicCa16</definition>
+        <argsstring>()</argsstring>
+        <name>TestCalculVarsta_maiMicCa16</name>
+        <qualifiedname>Test.UnitTest1.TestCalculVarsta_maiMicCa16</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="77" column="21" bodyfile="UnitTest1.cs" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a01917cd29ebffcc19130065d69eeeab5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestCalculVarsta_anViitor</definition>
+        <argsstring>()</argsstring>
+        <name>TestCalculVarsta_anViitor</name>
+        <qualifiedname>Test.UnitTest1.TestCalculVarsta_anViitor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="83" column="21" bodyfile="UnitTest1.cs" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a2ea3d1d16a9d992e3580923c265c23a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestCalculVarsta_1922</definition>
+        <argsstring>()</argsstring>
+        <name>TestCalculVarsta_1922</name>
+        <qualifiedname>Test.UnitTest1.TestCalculVarsta_1922</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="89" column="21" bodyfile="UnitTest1.cs" bodystart="89" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a7caf41a961eb849967d1b844be4fdeb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestCalculVarsta_1921</definition>
+        <argsstring>()</argsstring>
+        <name>TestCalculVarsta_1921</name>
+        <qualifiedname>Test.UnitTest1.TestCalculVarsta_1921</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="96" column="21" bodyfile="UnitTest1.cs" bodystart="96" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a1297a0efb4f0cc35498631bcf8e380da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestCalculVarsta_zero</definition>
+        <argsstring>()</argsstring>
+        <name>TestCalculVarsta_zero</name>
+        <qualifiedname>Test.UnitTest1.TestCalculVarsta_zero</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="102" column="21" bodyfile="UnitTest1.cs" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1aa2c68a24ae227dcbc4d12bf2dbbc00bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_litere</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_litere</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_litere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="109" column="21" bodyfile="UnitTest1.cs" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1ae959bd7c3fd45bc89941d39043942a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_litereCorect</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_litereCorect</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_litereCorect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="115" column="21" bodyfile="UnitTest1.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a715b3e53baa7e89c35753ddaa787b256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_semn</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_semn</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_semn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="120" column="21" bodyfile="UnitTest1.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a5e451944152d9d3f705e0a647f83d965" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_spatiu</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_spatiu</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_spatiu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="125" column="21" bodyfile="UnitTest1.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a0c48ea6b1e684aaa954269e45c0ea23a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_literaMare</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_literaMare</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_literaMare</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="130" column="21" bodyfile="UnitTest1.cs" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1adabda97a906ecc76b756608992051513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_1</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_AreLitereDiferite_1</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_AreLitereDiferite_1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="135" column="21" bodyfile="UnitTest1.cs" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a7e547b8aa51e5ac49eab1e77e5b3582d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_2</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_AreLitereDiferite_2</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_AreLitereDiferite_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="141" column="21" bodyfile="UnitTest1.cs" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a2f2af164e232d580f4be5bcda0c4a80a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_3</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_AreLitereDiferite_3</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_AreLitereDiferite_3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="146" column="21" bodyfile="UnitTest1.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a865dee21a16a1c417e7d2a37c2f635a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_4</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_AreLitereDiferite_4</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_AreLitereDiferite_4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="151" column="21" bodyfile="UnitTest1.cs" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1af6919b22ef0fe45868b2d27368b696f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_AreLitereDiferite_5</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_AreLitereDiferite_5</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_AreLitereDiferite_5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="156" column="21" bodyfile="UnitTest1.cs" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a91c011998b321409e3ee6c98fe6c560d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_literaMica</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_literaMica</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_literaMica</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="161" column="21" bodyfile="UnitTest1.cs" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a0b54754c3d7caf0437711fc76e0ca917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaNume_gol</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaNume_gol</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaNume_gol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="166" column="21" bodyfile="UnitTest1.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1ab3852f531bd8f943323c94c839f41863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaIntrebare</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaIntrebare</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaIntrebare</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="171" column="21" bodyfile="UnitTest1.cs" bodystart="171" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a6e897ef567ca06cb9a1bb1cb70561d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaVariantaCorecta</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaVariantaCorecta</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaVariantaCorecta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="177" column="21" bodyfile="UnitTest1.cs" bodystart="177" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a8160eaf7eba24253aad6538900fabd68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaFlagIntrebare</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaFlagIntrebare</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaFlagIntrebare</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="183" column="21" bodyfile="UnitTest1.cs" bodystart="183" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1_1_unit_test1_1a16971bd59f60dc78afe95f31a27e6ca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.UnitTest1.TestVerificaFlagIntrebareValoareMare</definition>
+        <argsstring>()</argsstring>
+        <name>TestVerificaFlagIntrebareValoareMare</name>
+        <qualifiedname>Test.UnitTest1.TestVerificaFlagIntrebareValoareMare</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitTest1.cs" line="189" column="21" bodyfile="UnitTest1.cs" bodystart="189" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="UnitTest1.cs" line="25" column="11" bodyfile="UnitTest1.cs" bodystart="26" bodyend="194"/>
+    <listofallmembers>
+      <member refid="class_test_1_1_unit_test1_1a7caf41a961eb849967d1b844be4fdeb2" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestCalculVarsta_1921</name></member>
+      <member refid="class_test_1_1_unit_test1_1a2ea3d1d16a9d992e3580923c265c23a3" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestCalculVarsta_1922</name></member>
+      <member refid="class_test_1_1_unit_test1_1a01917cd29ebffcc19130065d69eeeab5" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestCalculVarsta_anViitor</name></member>
+      <member refid="class_test_1_1_unit_test1_1a95dbfcdd2880d8abd4b34cede4bbf2b5" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestCalculVarsta_maiMicCa16</name></member>
+      <member refid="class_test_1_1_unit_test1_1a0959171b508197ab0e9174cb56dafe8c" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestCalculVarsta_minus</name></member>
+      <member refid="class_test_1_1_unit_test1_1a9722cd073ca4ae4d1ffa4e0bd23aa9b2" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestCalculVarsta_varsta</name></member>
+      <member refid="class_test_1_1_unit_test1_1a1297a0efb4f0cc35498631bcf8e380da" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestCalculVarsta_zero</name></member>
+      <member refid="class_test_1_1_unit_test1_1a107d07e93cc94958f8c759fc24edcf17" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestScor_0</name></member>
+      <member refid="class_test_1_1_unit_test1_1a9f93926ea593229990514cb81452a514" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestScor_calcul</name></member>
+      <member refid="class_test_1_1_unit_test1_1a84437e306b29df020d8a87f8d197b3f5" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestScor_minus5</name></member>
+      <member refid="class_test_1_1_unit_test1_1ab8d593862718ef092825889e144a20ed" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestScor_minusminus</name></member>
+      <member refid="class_test_1_1_unit_test1_1af698b7bca0791c3b92529fcf178c54a9" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestScor_zero</name></member>
+      <member refid="class_test_1_1_unit_test1_1a8160eaf7eba24253aad6538900fabd68" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaFlagIntrebare</name></member>
+      <member refid="class_test_1_1_unit_test1_1a16971bd59f60dc78afe95f31a27e6ca0" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaFlagIntrebareValoareMare</name></member>
+      <member refid="class_test_1_1_unit_test1_1ab3852f531bd8f943323c94c839f41863" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaIntrebare</name></member>
+      <member refid="class_test_1_1_unit_test1_1adabda97a906ecc76b756608992051513" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_AreLitereDiferite_1</name></member>
+      <member refid="class_test_1_1_unit_test1_1a7e547b8aa51e5ac49eab1e77e5b3582d" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_AreLitereDiferite_2</name></member>
+      <member refid="class_test_1_1_unit_test1_1a2f2af164e232d580f4be5bcda0c4a80a" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_AreLitereDiferite_3</name></member>
+      <member refid="class_test_1_1_unit_test1_1a865dee21a16a1c417e7d2a37c2f635a0" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_AreLitereDiferite_4</name></member>
+      <member refid="class_test_1_1_unit_test1_1af6919b22ef0fe45868b2d27368b696f9" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_AreLitereDiferite_5</name></member>
+      <member refid="class_test_1_1_unit_test1_1a0b54754c3d7caf0437711fc76e0ca917" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_gol</name></member>
+      <member refid="class_test_1_1_unit_test1_1a0c48ea6b1e684aaa954269e45c0ea23a" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_literaMare</name></member>
+      <member refid="class_test_1_1_unit_test1_1a91c011998b321409e3ee6c98fe6c560d" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_literaMica</name></member>
+      <member refid="class_test_1_1_unit_test1_1aa2c68a24ae227dcbc4d12bf2dbbc00bf" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_litere</name></member>
+      <member refid="class_test_1_1_unit_test1_1ae959bd7c3fd45bc89941d39043942a4b" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_litereCorect</name></member>
+      <member refid="class_test_1_1_unit_test1_1a715b3e53baa7e89c35753ddaa787b256" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_semn</name></member>
+      <member refid="class_test_1_1_unit_test1_1a5e451944152d9d3f705e0a647f83d965" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaNume_spatiu</name></member>
+      <member refid="class_test_1_1_unit_test1_1a6e897ef567ca06cb9a1bb1cb70561d2e" prot="public" virt="non-virtual"><scope>Test::UnitTest1</scope><name>TestVerificaVariantaCorecta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

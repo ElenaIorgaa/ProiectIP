@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_proiect_i_p_1_1_chestionar_muzica" kind="class"><name>ProiectIP::ChestionarMuzica</name>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a164dfefa91a1fd417d71d6960a310a04" kind="variable"><name>_intrebari</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a4387a7e1d86dadf8e399d61e3ad7f732" kind="function"><name>ChestionarMuzica</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1adb80c7d7c5fde7e98b54144dd0bbe844" kind="function"><name>GetEnunt</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a147afe82820f3fea6a168ddfcee16b4a" kind="function"><name>GetVar1</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a6df1bc9047542ccef146da1e1e28dcf4" kind="function"><name>GetVar2</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a13eb2ed397ec7e463f3bf11d435147c5" kind="function"><name>GetVar3</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a07c258f7543c0bd8e434686c0c93b2e3" kind="function"><name>GetVar4</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1a309025de95404361aceab69341e50a7a" kind="function"><name>GetRaspuns</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1abe1ec7f315f986f07e1778564bc248f8" kind="function"><name>Picture</name></member>
+    <member refid="class_proiect_i_p_1_1_chestionar_muzica_1abf0ca4dad1485b5fab9e3bfa44820889" kind="function"><name>ReturneazaLista</name></member>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_proiect_i_p" kind="namespace"><name>ProiectIP</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_chestionar_muzica_8cs" kind="file"><name>ChestionarMuzica.cs</name>
+  </compound>
+</doxygenindex>

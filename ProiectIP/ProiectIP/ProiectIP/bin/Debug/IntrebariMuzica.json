@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "Care este cealaltă limbă în care a cântat în mod regulat Celine Dion în anii 90?", 
+        "var1": "Franceză",
+        "var2": "Italiană",
+        "var3": "Română",
+        "var4": "Germană",
+        "varCorecta": 1
+    },
+  {
+    "enunt": "Tatăl cărui membru al Destiny's Child era managerul grupului?", 
+    "var1": "Beyonce",
+    "var2": "LeToya Luckett",
+    "var3": "LaTavia Roberson",
+    "var4": "Kelly Rowland",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Maroon 5 și-a lansat albumul solo în 2002, intitulat Cântece despre ... cine?", 
+    "var1": "Mary",
+    "var2": "Caroline",
+    "var3": "Jane",
+    "var4": "Helen",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "Ce cântăreț a avut Panou Nr. 1 în ultimele patru decenii?", 
+    "var1": "Mariah Carey",
+    "var2": "Justin Bieber",
+    "var3": "Taylor Swift",
+    "var4": "Michael Jackson",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Care compozitor clasic era surd?", 
+    "var1": "Johann Sebastian Bach",
+    "var2": "Wolfgang Amadeus Mozart",
+    "var3": "Richard Wagner",
+    "var4": "Ludwig Van Beethoven",
+    "varCorecta": 4
+  },
+  {
+    "enunt": "Care astronom este mentionat în Bohemian Rhapsody?", 
+    "var1": "Galileo",
+    "var2": "Charles Messier",
+    "var3": "Ptolemeu",
+    "var4": "Tycho Brahe",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Cine a fost primul chitarist principal al Metallica?", 
+    "var1": "Dave Mustaine",
+    "var2": "Duane Allman",
+    "var3": "Eddie Van Halen",
+    "var4": "Chuck Berry",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Cine a cântat “Spongebob pantaloni pătraţi theme” pentru film?",
+    "var1": "Avril Lavigne",
+    "var2": "Taylor Swift",
+    "var3": "Selena Gomez",
+    "var4": "Justin Bieber",
+    "varCorecta": 1
+  }
+
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "enunt": "În ce oraş s-a născt Michelangelo Bounarotti?",
+        "var1": "Roma",
+        "var2": "Bologna",
+        "var3": "Florenţa",
+        "var4": "Milano",
+        "varCorecta": 3
+    },
+  {
+    "enunt": "Cine a pictat „Primăvara”?", 
+    "var1": "Monet",
+    "var2": "Boticelli",
+    "var3": "Gaugain",
+    "var4": "Nu ştiu",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Cine a pictat „Jucătorii de cărţi”? ", 
+    "var1": "Cezanne",
+    "var2": "Manet",
+    "var3": "Matisse",
+    "var4": "Nu ştiu",
+    "varCorecta": 1
+  },
+  {
+    "enunt": "Cine a sculptat “Faun şi nimfa”?",
+    "var1": "Brâncuşi",
+    "var2": "Donatello",
+    "var3": "Rodin",
+    "var4": "Nu ştiu",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "Care este ţara de origine a pictorului Stanley Bleifeld?",
+    "var1": "Anglia",
+    "var2": "SUA",
+    "var3": "Italia",
+    "var4": "Spania",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "În ce ţară a murit Salvator Dali? ", 
+    "var1": "Italia",
+    "var2": "SUA",
+    "var3": "Spania",
+    "var4": "România",
+    "varCorecta": 3
+  },
+  {
+    "enunt": "Cine a pictat “Cina cea de taină”?", 
+    "var1": "George Călinescu",
+    "var2": "Leonardo da Vinci",
+    "var3": "Monet",
+    "var4": "Cezanne",
+    "varCorecta": 2
+  },
+  {
+    "enunt": "Cine a pictat “The Starry Night”?", 
+    "var1": "George Călinescu",
+    "var2": "Leonardo da Vinci",
+    "var3": "Monet",
+    "var4": "Vincent van Gogh",
+    "varCorecta": 4
+  }
+
+]

@@ -1,0 +1,11 @@
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\bin\Debug\ScorPartial.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\bin\Debug\ScorPartial.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\bin\Debug\Calculeaza.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\bin\Debug\Scor.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\bin\Debug\Calculeaza.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\bin\Debug\Scor.pdb
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\obj\Debug\ScorPartial.csproj.AssemblyReference.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\obj\Debug\ScorPartial.csproj.CoreCompileInputs.cache
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\obj\Debug\ScorPartial.csproj.CopyComplete
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\obj\Debug\ScorPartial.dll
+C:\Users\eiorg\Desktop\IP\ProiectIP\ProiectIP\ScorPartial\obj\Debug\ScorPartial.pdb
